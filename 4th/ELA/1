@@ -1,1 +1,155 @@
-
+{
+  "title": "Figurative Language: Impact and Experience",
+  "standard": "ELA.4.AOR.1.2",
+  "passingScore": 7,
+  "questions": [
+    {
+      "type": "Multiple-Choice",
+      "dok": 1,
+      "skill": "Identifying Figurative Language (Personification)",
+      "stimulus": "<p>(1) The old house stood on a lonely hill. (2) Its windows were dark eyes staring into the night, and the wind whispered secrets through the broken porch boards. (3) Inside, the dusty furniture slept under white sheets. (4) Suddenly, a floorboard screamed under the weight of a footstep. (5) My heart hammered like a drum against my ribs. (6) I was frozen in place, a statue of fear.</p>",
+      "stem": "In sentence 2, the phrase \"the wind whispered secrets\" is an example of which type of figurative language?",
+      "options": [
+        "Simile",
+        "Metaphor",
+        "Personification",
+        "Onomatopoeia"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "type": "Multiple-Choice",
+      "dok": 1,
+      "skill": "Identifying Figurative Language (Simile)",
+      "stimulus": "<p>(1) The old house stood on a lonely hill. (2) Its windows were dark eyes staring into the night, and the wind whispered secrets through the broken porch boards. (3) Inside, the dusty furniture slept under white sheets. (4) Suddenly, a floorboard screamed under the weight of a footstep. (5) My heart hammered like a drum against my ribs. (6) I was frozen in place, a statue of fear.</p>",
+      "stem": "In sentence 5, the phrase \"hammered like a drum\" is an example of which type of figurative language?",
+      "options": [
+        "Simile",
+        "Metaphor",
+        "Hyperbole",
+        "Idiom"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "type": "Multiple-Choice",
+      "dok": 2,
+      "skill": "Determining Meaning (Metaphor)",
+      "stimulus": "<p>(1) The town fair was a tornado of color and sound. (2) Banners snapped in the wind like giant, colorful birds. (3) The smell of popcorn and cotton candy hung in the air, a sweet, sugary blanket. (4) Kids laughed on the carousel, their voices ringing like bells. (5) \"This line for the Ferris wheel is a million miles long!\" complained my brother, Leo. (6) He was always a grumpy bear in the morning.</p>",
+      "stem": "In sentence 6, what does the author mean by calling Leo \"a grumpy bear\"?",
+      "options": [
+        "Leo is large and furry.",
+        "Leo is mean and angry.",
+        "Leo is tired and complains a lot.",
+        "Leo likes to sleep in caves."
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "type": "Multiple-Choice",
+      "dok": 2,
+      "skill": "Explaining Impact on Reader's Experience",
+      "stimulus": "<p>(1) The old house stood on a lonely hill. (2) Its windows were dark eyes staring into the night, and the wind whispered secrets through the broken porch boards. (3) Inside, the dusty furniture slept under white sheets. (4) Suddenly, a floorboard screamed under the weight of a footstep. (5) My heart hammered like a drum against my ribs. (6) I was frozen in place, a statue of fear.</p>",
+      "stem": "In sentence 4, why does the author use the word \"screamed\" to describe the floorboard?",
+      "options": [
+        "To show the house was very old.",
+        "To make the reader feel surprised and scared.",
+        "To explain that someone was actually screaming.",
+        "To describe the sound of a mouse."
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "type": "EBSR",
+      "dok": 2,
+      "skill": "Determining Meaning and Using Text Evidence",
+      "stimulus": "<p>(1) The old house stood on a lonely hill. (2) Its windows were dark eyes staring into the night, and the wind whispered secrets through the broken porch boards. (3) Inside, the dusty furniture slept under white sheets. (4) Suddenly, a floorboard screamed under the weight of a footstep. (5) My heart hammered like a drum against my ribs. (6) I was frozen in place, a statue of fear.</p>",
+      "part1": {
+        "stem": "In sentence 6, what does the metaphor \"I was frozen in place, a statue of fear\" mean?",
+        "options": [
+          "The narrator was very cold.",
+          "The narrator was making a new friend.",
+          "The narrator was too scared to move.",
+          "The narrator was looking at a statue."
+        ],
+        "correctAnswerIndex": 2
+      },
+      "part2": {
+        "stem": "Which detail from the text best supports the answer to Part A?",
+        "options": [
+          "...stood on a lonely hill. (Sentence 1)",
+          "...the dusty furniture slept... (Sentence 3)",
+          "...a floorboard screamed... (Sentence 4)",
+          "My heart hammered like a drum... (Sentence 5)"
+        ],
+        "correctAnswerIndex": 3
+      }
+    },
+    {
+      "type": "Multi-Select",
+      "dok": 3,
+      "skill": "Analyzing Contribution to Reader's Experience (Mood)",
+      "stimulus": "<p>(1) The old house stood on a lonely hill. (2) Its windows were dark eyes staring into the night, and the wind whispered secrets through the broken porch boards. (3) Inside, the dusty furniture slept under white sheets. (4) Suddenly, a floorboard screamed under the weight of a footstep. (5) My heart hammered like a drum against my ribs. (6) I was frozen in place, a statue of fear.</p>",
+      "stem": "Which <b>two</b> phrases from the passage best help the reader feel a sense of unease or fear?",
+      "options": [
+        "...stood on a lonely hill.",
+        "...dark eyes staring into the night...",
+        "...slept under white sheets.",
+        "...screamed under the weight...",
+        "...a statue of fear."
+      ],
+      "correctAnswerIndex": [
+        1,
+        3
+      ]
+    },
+    {
+      "type": "Hot-Text",
+      "dok": 2,
+      "skill": "Identifying Figurative Language (Hyperbole)",
+      "stimulus": "<p>(1) The town fair was a tornado of color and sound. (2) Banners snapped in the wind like giant, colorful birds. (3) The smell of popcorn and cotton candy hung in the air, a sweet, sugary blanket. (4) Kids laughed on the carousel, their voices ringing like bells. (5) \"This line for the Ferris wheel is a million miles long!\" complained my brother, Leo. (6) He was always a grumpy bear in the morning.</p>",
+      "stem": "Read sentence 5. Click on the group of words that is an example of hyperbole.",
+      "options": [
+        "\"This line for the Ferris wheel",
+        "is a million miles long!\"",
+        "complained my brother, Leo."
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "type": "Hot-Text",
+      "dok": 2,
+      "skill": "Identifying Figurative Language (Imagery)",
+      "stimulus": "<p>(1) The town fair was a tornado of color and sound. (2) Banners snapped in the wind like giant, colorful birds. (3) The smell of popcorn and cotton candy hung in the air, a sweet, sugary blanket. (4) Kids laughed on the carousel, their voices ringing like bells. (5) \"This line for the Ferris wheel is a million miles long!\" complained my brother, Leo. (6) He was always a grumpy bear in the morning.</p>",
+      "stem": "Click on the sentence from the passage that uses imagery to appeal to the reader's sense of smell.",
+      "options": [
+        "The town fair was a tornado of color and sound.",
+        "Banners snapped in the wind like giant, colorful birds.",
+        "The smell of popcorn and cotton candy hung in the air, a sweet, sugary blanket.",
+        "Kids laughed on the carousel, their voices ringing like bells."
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "type": "Constructed-Response",
+      "dok": 3,
+      "skill": "Explaining Impact on Meaning and Experience",
+      "stimulus": "<p>(1) The town fair was a tornado of color and sound. (2) Banners snapped in the wind like giant, colorful birds. (3) The smell of popcorn and cotton candy hung in the air, a sweet, sugary blanket. (4) Kids laughed on the carousel, their voices ringing like bells. (5) \"This line for the Ferris wheel is a million miles long!\" complained my brother, Leo. (6) He was always a grumpy bear in the morning.</p>",
+      "stem": "Read sentence 1: \"The town fair was a tornado of color and sound.\"\n\nExplain what this metaphor means and how it contributes to the reader's experience of the fair."
+    },
+    {
+      "type": "Multiple-Choice",
+      "dok": 2,
+      "skill": "Determining Meaning (Simile)",
+      "stimulus": "<p>(1) The town fair was a tornado of color and sound. (2) Banners snapped in the wind like giant, colorful birds. (3) The smell of popcorn and cotton candy hung in the air, a sweet, sugary blanket. (4) Kids laughed on the carousel, their voices ringing like bells. (5) \"This line for the Ferris wheel is a million miles long!\" complained my brother, Leo. (6) He was always a grumpy bear in the morning.</p>",
+      "stem": "In sentence 4, what does the simile \"their voices ringing like bells\" help the reader understand?",
+      "options": [
+        "The kids were holding bells.",
+        "The kids' laughter was loud and annoying.",
+        "The kids' laughter was clear and happy.",
+        "The kids were singing a song."
+      ],
+      "correctAnswerIndex": 2
+    }
+  ]
+}
