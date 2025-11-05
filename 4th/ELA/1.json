@@ -106,16 +106,25 @@
     },
     {
       "type": "Hot-Text",
-      "dok": 2,
-      "skill": "Identifying Figurative Language (Hyperbole)",
-      "stimulus": "<p>(1) The town fair was a tornado of color and sound. (2) Banners snapped in the wind like giant, colorful birds. (3) The smell of popcorn and cotton candy hung in the air, a sweet, sugary blanket. (4) Kids laughed on the carousel, their voices ringing like bells. (5) \"This line for the Ferris wheel is a million miles long!\" complained my brother, Leo. (6) He was always a grumpy bear in the morning.</p>",
-      "stem": "Read sentence 5. Click on the group of words that is an example of hyperbole.",
-      "options": [
-        "\"This line for the Ferris wheel",
-        "is a million miles long!\"",
-        "complained my brother, Leo."
-      ],
-      "correctAnswerIndex": 1
+  "dok": 2,
+  "skill": "Identifying Figurative Language (Hyperbole)",
+  "stimulus": "<p>(1) The town fair was a tornado of color and sound. (2) Banners snapped in the wind like giant, colorful birds. (3) The smell of popcorn and cotton candy hung in the air, a sweet, sugary blanket. (4) Kids laughed on the carousel, their voices ringing like bells. (5) \"This line for the Ferris wheel is a million miles long!\" complained my brother, Leo. (6) He was always a grumpy bear in the morning.</p>",
+  "stem": "Read sentence 5. Click on the group of words that is an example of hyperbole.",
+  
+  "maxSelections": 1,
+  
+  "sentences": [
+    { 
+      "text": "\"This line for the Ferris wheel", 
+      "isCorrect": false 
+    },
+    { 
+      "text": "is a million miles long!\"", 
+      "isCorrect": true 
+    },
+    { 
+      "text": "complained my brother, Leo.", 
+      "isCorrect": false
     },
     {
       "type": "Hot-Text",
