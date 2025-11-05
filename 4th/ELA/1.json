@@ -107,19 +107,69 @@
       "type": "Hot-Text",
       "dok": 2,
       "skill": "Identifying Figurative Language (Hyperbole)",
-      "stimulus": "<p>The town fair was a tornado of color and sound. Banners snapped in the wind like giant, colorful birds. The smell of popcorn and cotton candy hung in the air, a sweet, sugary blanket. Kids laughed on the carousel, their voices ringing like bells. <span data-is-correct=\"true\">\"This line for the Ferris wheel is a million miles long!\"</span> complained my brother, Leo. He was always a grumpy bear in the morning.</p>",
-      "stem": "Click on the group of words that is an example of hyperbole.",
-      "options": [],
-      "correctAnswerIndex": null
+      "stimulus": "<p>Read the paragraph below. Then, click on the sentence that contains an example of hyperbole.</p><p>(1) The town fair was a tornado of color and sound. (2) Banners snapped in the wind like giant, colorful birds. (3) The smell of popcorn and cotton candy hung in the air, a sweet, sugary blanket. (4) Kids laughed on the carousel, their voices ringing like bells. (5) \"This line for the Ferris wheel is a million miles long!\" complained my brother, Leo. (6) He was always a grumpy bear in the morning.</p>",
+      "stem": "Click on the sentence that contains an example of hyperbole.",
+      "maxSelections": 1,
+      "sentences": [
+        {
+          "text": "(1) The town fair was a tornado of color and sound.",
+          "isCorrect": false
+        },
+        {
+          "text": "(2) Banners snapped in the wind like giant, colorful birds.",
+          "isCorrect": false
+        },
+        {
+          "text": "(3) The smell of popcorn and cotton candy hung in the air, a sweet, sugary blanket.",
+          "isCorrect": false
+        },
+        {
+          "text": "(4) Kids laughed on the carousel, their voices ringing like bells.",
+          "isCorrect": false
+        },
+        {
+          "text": "(5) \"This line for the Ferris wheel is a million miles long!\" complained my brother, Leo.",
+          "isCorrect": true
+        },
+        {
+          "text": "(6) He was always a grumpy bear in the morning.",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "type": "Hot-Text",
       "dok": 2,
       "skill": "Identifying Figurative Language (Imagery)",
-      "stimulus": "<p>The town fair was a tornado of color and sound. Banners snapped in the wind like giant, colorful birds. <span data-is-correct=\"true\">The smell of popcorn and cotton candy hung in the air, a sweet, sugary blanket.</span> Kids laughed on the carousel, their voices ringing like bells. \"This line for the Ferris wheel is a million miles long!\" complained my brother, Leo. He was always a grumpy bear in the morning.</p>",
-      "stem": "Click on the sentence from the passage that uses imagery to appeal to the reader's sense of smell.",
-      "options": [],
-      "correctAnswerIndex": null
+      "stimulus": "<p>Read the paragraph below. Then, click on the sentence that uses imagery to appeal to the reader's sense of smell.</p><p>(1) The town fair was a tornado of color and sound. (2) Banners snapped in the wind like giant, colorful birds. (3) The smell of popcorn and cotton candy hung in the air, a sweet, sugary blanket. (4) Kids laughed on the carousel, their voices ringing like bells. (5) \"This line for the Ferris wheel is a million miles long!\" complained my brother,Leo. (6) He was always a grumpy bear in the morning.</p>",
+      "stem": "Click on the sentence that uses imagery to appeal to the reader's sense of smell.",
+      "maxSelections": 1,
+      "sentences": [
+        {
+          "text": "(1) The town fair was a tornado of color and sound.",
+          "isCorrect": false
+        },
+        {
+          "text": "(2) Banners snapped in the wind like giant, colorful birds.",
+          "isCorrect": false
+        },
+        {
+          "text": "(3) The smell of popcorn and cotton candy hung in the air, a sweet, sugary blanket.",
+          "isCorrect": true
+        },
+        {
+          "text": "(4) Kids laughed on the carousel, their voices ringing like bells.",
+          "isCorrect": false
+        },
+        {
+          "text": "(5) \"This line for the Ferris wheel is a million miles long!\" complained my brother, Leo.",
+          "isCorrect": false
+        },
+        {
+          "text": "(6) He was always a grumpy bear in the morning.",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "type": "Constructed-Response",
