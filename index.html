@@ -46,6 +46,59 @@
         .loader-gray {
             border-top-color: #4b5563; /* gray-600 */
         }
+
+        /* 5. Styles for Drag and Drop */
+        .drop-zone {
+            @apply bg-gray-100 border-2 border-dashed border-gray-400 rounded-xl p-4 min-h-[100px];
+            transition: background-color 0.2s;
+        }
+        .drop-zone.drag-over {
+            @apply bg-blue-100 border-blue-500;
+        }
+        .draggable-pool {
+            @apply bg-gray-100 border-2 border-dashed border-gray-400 rounded-xl p-4 min-h-[100px] mt-4 flex flex-wrap gap-2;
+        }
+        .draggable {
+            @apply bg-white border border-gray-300 rounded-lg px-4 py-2 cursor-grab text-slate-800 shadow-sm;
+            transition: opacity 0.2s;
+        }
+        .draggable.dragging {
+            @apply opacity-50 shadow-lg cursor-grabbing;
+        }
+
+        /* Styles for Scrollable Stimulus */
+        .stimulus-box {
+            @apply bg-white border border-gray-300 rounded-lg p-4 max-h-[300px] overflow-y-auto;
+        }
+        
+        /* ** FIX APPLIED HERE ** Styles for Hot-Text */
+        .hot-text-container {
+            @apply bg-white border border-gray-300 rounded-lg p-4 text-lg text-slate-800;
+        }
+        .hot-text-sentence {
+            /* This is the key fix: ensures padding and clickable area are respected */
+            @apply cursor-pointer transition-all rounded inline-block p-1; 
+        }
+        .hot-text-sentence:hover {
+            @apply bg-blue-100;
+        }
+        .hot-text-sentence.selected {
+            @apply bg-blue-200 border-blue-500 font-medium;
+        }
+
+        /* ** NEW ** Styles for AI Report */
+        .ai-report-content h3 {
+            @apply text-xl font-bold text-slate-800 mt-4;
+        }
+        .ai-report-content ul {
+            @apply list-disc list-inside space-y-2 mt-2;
+        }
+        .ai-report-content li {
+            @apply text-slate-700;
+        }
+        .ai-report-content a {
+            @apply text-blue-600 hover:underline;
+        }
     </style>
 </head>
 <body class="bg-gray-100">
@@ -62,7 +115,6 @@
                 Please sign in with your account to continue.
             </p>
             
-            <!-- New Email/Password Form -->
             <form id="login-form" class="mt-8 space-y-4">
                 <div>
                     <input id="login-email" type="email" placeholder="Email" required class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500">
@@ -76,7 +128,6 @@
                 </button>
             </form>
             
-            <!-- Error messages will appear here -->
             <p id="login-message" class="text-red-500 mt-4 h-6"></p>
         </div>
     </div>
@@ -87,11 +138,9 @@
     <!-- ====================================================== -->
     <div id="main-content" class="min-h-screen flex items-center justify-center p-4 md:p-8 hidden">
 
-        <!-- Main Content Card (Softer corners and shadow) -->
         <div class="w-full max-w-5xl bg-white rounded-2xl shadow-xl p-6 md:p-10 relative overflow-hidden">
 
-            <!-- New Sign Out Button -->
-            <button id="logout-btn" class="absolute top-4 right-4 md:top-6 md:right-6 bg-slate-200 text-slate-700 font-semibold py-2 px-4 rounded-xl transition-all hover:bg-slate-300">
+            <button id="logout-btn" class="absolute z-10 top-4 right-4 md:top-6 md:right-6 bg-slate-200 text-slate-700 font-semibold py-2 px-4 rounded-xl transition-all hover:bg-slate-300">
                 Sign Out
             </button>
 
@@ -110,7 +159,6 @@
 
                 <div class="mt-10 md:mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
                     
-                    <!-- Create Student Section -->
                     <div class="bg-gray-50 p-6 rounded-2xl shadow-inner">
                         <h2 class="text-2xl font-bold text-slate-700">Create Student Account</h2>
                         <form id="create-student-form" class="mt-4 space-y-4">
@@ -129,7 +177,6 @@
                         <p id="create-student-message" class="text-sm mt-3 h-4"></p>
                     </div>
 
-                    <!-- ** NEW ** View Scores Section (Now Dynamic) -->
                     <div class="bg-gray-50 p-6 rounded-2xl shadow-inner">
                         <div class="flex justify-between items-center">
                             <h2 class="text-2xl font-bold text-slate-700">Student Scores</h2>
@@ -138,8 +185,8 @@
                             </button>
                         </div>
                         
+                        <!-- ** MODIFIED ** Scores list now uses grouping structure -->
                         <div id="scores-list-container" class="mt-4 space-y-3 max-h-60 overflow-y-auto">
-                            <!-- Scores will be loaded here by JavaScript -->
                             <p id="scores-message" class="text-slate-500">Click "Refresh" to load scores.</p>
                         </div>
                         
@@ -161,18 +208,15 @@
                     </I>
                 </header>
 
-                <!-- Grade Selection Grid -->
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mt-10 md:mt-12 animatable">
                     
-                    <!-- Box 1: 3rd Grade (Button) - New Color, Corners, Emoji -->
                     <button 
                         data-grade="3rd Grade" 
                         data-path="3rd"
                         class="grade-btn text-white p-8 md:p-10 rounded-2xl shadow-md font-bold text-2xl md:text-3xl transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg bg-blue-500 hover:bg-blue-600">
-                        3rd Grade 🥉
+                        3rd Grade 🥉 
                     </button>
 
-                    <!-- Box 2: 4th Grade (Button) - New Color, Corners, Emoji -->
                     <button 
                         data-grade="4th Grade" 
                         data-path="4th"
@@ -180,7 +224,6 @@
                         4th Grade 🥈
                     </button>
 
-                    <!-- Box 3: 5th Grade (Button) - New Color, Corners, Emoji -->
                     <button 
                         data-grade="5th Grade" 
                         data-path="5th"
@@ -188,7 +231,6 @@
                         5th Grade 🥇
                     </button>
 
-                    <!-- Box 4: 6th Grade (Button) - New Color, Corners, Emoji -->
                     <button 
                         data-grade="6th Grade" 
                         data-path="6th"
@@ -196,12 +238,11 @@
                         6th Grade 🎓
                     </button>
 
-                    <!-- Box 5: 4th Grade Science (Direct Link) - New Color, Corners, Emoji -->
                     <button 
                         data-grade="4th Grade Science"
                         data-path="4th Grade Science"
                         class="grade-btn text-white p-8 md:p-10 rounded-2xl shadow-md font-bold text-2xl md:text-3xl transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg bg-purple-500 hover:bg-purple-600 sm:col-span-1">
-                        4Vth Grade Science 🧪
+                        4th Grade Science 🧪
                     </button>
                 </div>
             </div>
@@ -211,7 +252,7 @@
             <!-- ====================================================== -->
             <div id="subject-screen" class="hidden">
                 
-                <button id="back-to-grades-btn" class="absolute top-4 left-4 md:top-6 md:left-6 bg-slate-200 text-slate-700 font-semibold py-2 px-4 rounded-xl transition-all hover:bg-slate-300">
+                <button id="back-to-grades-btn" class="absolute z-10 top-4 left-4 md:top-6 md:left-6 bg-slate-200 text-slate-700 font-semibold py-2 px-4 rounded-xl transition-all hover:bg-slate-300">
                     &larr; Back
                 </button>
 
@@ -245,7 +286,7 @@
             <!-- ====================================================== -->
             <div id="test-selection-screen" class="hidden">
                 
-                <button id="back-to-subjects-btn" class="absolute top-4 left-4 md:top-6 md:left-6 bg-slate-200 text-slate-700 font-semibold py-2 px-4 rounded-xl transition-all hover:bg-slate-300">
+                <button id="back-to-subjects-btn" class="absolute z-10 top-4 left-4 md:top-6 md:left-6 bg-slate-200 text-slate-700 font-semibold py-2 px-4 rounded-xl transition-all hover:bg-slate-300">
                     &larr; Back
                 </button>
 
@@ -271,7 +312,7 @@
             <!-- == NEW SCREEN 4: TEST TAKER == -->
             <!-- ====================================================== -->
             <div id="test-taker-screen" class="hidden">
-                <button id="back-to-tests-btn" class="absolute top-4 left-4 md:top-6 md:left-6 bg-slate-200 text-slate-700 font-semibold py-2 px-4 rounded-xl transition-all hover:bg-slate-300">
+                <button id="back-to-tests-btn" class="absolute z-10 top-4 left-4 md:top-6 md:left-6 bg-slate-200 text-slate-700 font-semibold py-2 px-4 rounded-xl transition-all hover:bg-slate-300">
                     &larr; Back to Tests
                 </button>
 
@@ -280,12 +321,10 @@
                     <p id="quiz-standard" class="text-lg md:text-xl text-slate-500 mt-3"></p>
                 </header>
 
-                <!-- ** MODIFIED ** Form is now just a container for questions -->
-                <form id="quiz-form" class="mt-10 md:mt-12 space-y-8 animatable min-h-[200px]">
+                <form id="quiz-form" class="mt-10 md:mt-12 animatable min-h-[200px]">
                     <!-- Quiz questions will be generated by JavaScript and inserted here -->
                 </form>
 
-                <!-- ** NEW ** Navigation Buttons -->
                 <div id="quiz-navigation" class="mt-8 flex justify-between items-center">
                     <button id="prev-question-btn" class="bg-slate-500 hover:bg-slate-600 text-white font-bold py-3 px-6 rounded-xl shadow-md transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed">
                         &larr; Previous
@@ -297,7 +336,6 @@
                         Next &rarr;
                     </button>
                     
-                    <!-- This button is now hidden by default and shown on the last question -->
                     <button id="submit-test-btn" class="w-auto hidden flex items-center justify-center gap-3 bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-xl shadow-md transition-all duration-300 transform hover:scale-105">
                         Submit Test for Grading
                     </button>
@@ -321,18 +359,20 @@
                     </p>
                 </header>
 
-                <!-- NEW AI Report Section -->
+                <!-- ** MODIFIED ** AI Report Section -->
                 <div id="ai-report-section" class="mt-12 animatable hidden">
                     <div class="bg-gray-50 p-6 rounded-2xl shadow-inner">
-                        <h2 class="text-2xl font-bold text-slate-700">Your Personal Practice Plan 🤖</h2>
+                        <h2 class="text-2xl font-bold text-slate-700">What to do now? 🤖</h2>
                         <p class="text-slate-600 mt-2">You missed a few questions on these skills. Here are some resources to help you master them!</p>
                         
-                        <div id="ai-report-content" class="mt-6 space-y-4">
+                        <!-- ** MODIFIED ** This is where the AI content will be injected -->
+                        <div id="ai-report-content" class="mt-6 space-y-4 ai-report-content">
                             <!-- AI-generated content will go here -->
                         </div>
                         
+                        <!-- ** MODIFIED ** Changed button text -->
                         <button id="get-ai-report-btn" class="w-full mt-6 flex items-center justify-center gap-3 bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-xl shadow-md transition-all duration-300 transform hover:scale-105">
-                            Generate My Practice Plan
+                            Get My Practice Plan
                         </button>
                         <p id="ai-report-message" class="text-center text-slate-600 mt-4 h-6"></p>
                     </div>
@@ -350,26 +390,29 @@
 
     <!-- 3. JavaScript for Navigation AND AUTHENTICATION -->
     
-    <!-- Import Firebase SDKs -->
     <script type="module">
         // Import functions from the Firebase SDKs
         import { initializeApp } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js";
         import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-analytics.js";
         import { getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-auth.js";
         
-        // *** MODIFIED *** Import more Firestore functions
+        // ** MODIFIED ** Import more Firestore functions
         import { 
             getFirestore, 
             doc, 
             getDoc,
-            setDoc,
             addDoc,
             collection,
             serverTimestamp,
             query,
+            where, // ** NEW ** Added for test locking
             getDocs,
             deleteDoc
         } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore.js";
+        
+        // ** NEW ** Import Firebase Functions
+        import { getFunctions, httpsCallable } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-functions.js";
+
 
         // --- 1. FIREBASE CONFIGURATION ---
         const firebaseConfig = {
@@ -408,6 +451,7 @@
         const analytics = getAnalytics(app);
         const auth = getAuth(app);
         const db = getFirestore(app);
+        const functions = getFunctions(app); // ** NEW ** Initialize Functions
 
         
         // --- Get UI Elements ---
@@ -461,7 +505,6 @@
         const quizForm = document.getElementById('quiz-form');
         const submitTestBtn = document.getElementById('submit-test-btn');
         const testSubmitMessage = document.getElementById('test-submit-message');
-        // ** NEW ** Test Navigation Elements
         const quizNavigation = document.getElementById('quiz-navigation');
         const prevQuestionBtn = document.getElementById('prev-question-btn');
         const nextQuestionBtn = document.getElementById('next-question-btn');
@@ -495,7 +538,14 @@
         let currentSubject = '';
         let currentQuizData = null; 
         let currentUserId = null; 
-        let currentQuestionIndex = 0; // ** NEW ** For test navigation
+        let currentQuestionIndex = 0;
+        let currentFailedSkills = []; // ** NEW ** For AI report
+        
+        // ** NEW ** Holds a map of test titles the student has completed
+        let studentSubmissions = {}; 
+        
+        let draggedItem = null;
+
 
         
         // --- 4. AUTHENTICATION LOGIC ---
@@ -655,21 +705,78 @@
              }
         });
         backToTestsBtn.addEventListener('click', () => {
-            // ** MODIFIED ** Reset button visibility when going back
             submitTestBtn.classList.add('hidden');
             nextQuestionBtn.classList.remove('hidden');
+            // ** NEW ** Re-fetch tests to show locked status
+            fetchTestsFromGitHub(`${currentGradePath}/${currentSubject}`);
             animateScreenTransition(testTakerScreen, testSelectionScreen);
         });
-        backToHomeBtn.addEventListener('click', () => animateScreenTransition(scoreScreen, homeScreen));
+        backToHomeBtn.addEventListener('click', () => {
+            // ** NEW ** Go to test selection, not home, to see locked status
+            fetchTestsFromGitHub(`${currentGradePath}/${currentSubject}`);
+            animateScreenTransition(scoreScreen, testSelectionScreen);
+        });
         
 
+        /**
+         * ** MODIFIED **
+         * Now fetches student's completed tests to "lock" them.
+         */
         async function fetchTestsFromGitHub(dataPath) {
             errorMessage.textContent = ""; 
             testGrid.innerHTML = ''; 
-            loadingSpinner.classList.remove('hidden'); 
+            loadingSpinner.classList.remove('hidden');
+            
+            // ** NEW ** Step 1: Get all submissions for the current student
+            studentSubmissions = {}; // Clear previous
+            if (currentUserId) {
+                try {
+                    const submissionsRef = collection(db, "submissions");
+                    const q = query(submissionsRef, where("studentId", "==", currentUserId));
+                    const querySnapshot = await getDocs(q);
+                    
+                    querySnapshot.forEach((doc) => {
+                        studentSubmissions[doc.data().testTitle] = true;
+                    });
+                } catch (e) {
+                    console.error("Could not fetch student submissions:", e);
+                    errorMessage.textContent = "Error checking your completed tests.";
 
+                    // ** START FIX **
+                    // Add specific error help for permissions
+                    if (e.code === 'permission-denied') {
+                        errorMessage.innerHTML = `<span class="font-bold text-red-600">Error: Permission Denied.</span><br>Your app can't check for completed tests. You must update your Firestore Rules.`;
+                        console.log("--- FIX FOR STUDENT PERMISSION DENIED ---");
+                        console.log("Go to your Firebase Project -> Firestore Database -> Rules tab.");
+                        console.log("You need to allow students to read their OWN submissions.");
+                        console.log("Your 'submissions' rule block should look like this:");
+                        console.log(`
+    match /submissions/{submissionId} {
+      // Students can create their own submissions
+      allow create: if request.auth != null && request.resource.data.studentId == request.auth.uid;
+      
+      // Teachers can read, list (query), and delete
+      allow read, list, delete: if request.auth != null 
+                              && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'teacher';
+      
+      // Students can read their own documents
+      allow read: if request.auth != null && request.auth.uid == resource.data.studentId;
+
+      // Students can list (query) their own documents
+      allow list: if request.auth != null && request.query.where.studentId == request.auth.uid;
+      
+      // No one can update
+      allow update: if false;
+    }
+                        `);
+                        console.log("--- END OF FIX ---");
+                    }
+                    // ** END FIX **
+                }
+            }
+            
+            // Step 2: Fetch tests from GitHub
             const apiUrl = `${GITHUB_API_URL}/${dataPath}?ref=${GITHUB_BRANCH}`;
-
             try {
                 const response = await fetch(apiUrl);
                 if (!response.ok) {
@@ -683,16 +790,24 @@
                     testSubtitle.textContent = "No tests found in this folder.";
                 } else {
                     testSubtitle.textContent = "Please select a test.";
+                    
+                    // ** NEW ** Step 3: Build buttons, checking against submissions
                     tests.forEach(item => {
                         const testButton = document.createElement('button');
                         testButton.dataset.downloadUrl = item.download_url;
                         
                         const displayName = item.name.replace(/_/g, ' ').replace(/\.json$/i, '');
                         
-                        testButton.textContent = displayName;
-                        testButton.className = "test-btn flex items-center justify-center text-center text-white p-8 rounded-2xl shadow-md font-bold text-xl transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg bg-slate-600 hover:bg-slate-700";
-                        
-                        testButton.addEventListener('click', () => startTest(item.download_url));
+                        // ** NEW ** Check if test is completed
+                        if (studentSubmissions[displayName]) {
+                            testButton.innerHTML = `${displayName} <span class="ml-2">✅</span>`;
+                            testButton.className = "test-btn flex items-center justify-center text-center text-white p-8 rounded-2xl shadow-md font-bold text-xl transition-all bg-green-600 opacity-70 cursor-not-allowed";
+                            testButton.disabled = true;
+                        } else {
+                            testButton.textContent = displayName;
+                            testButton.className = "test-btn flex items-center justify-center text-center text-white p-8 rounded-2xl shadow-md font-bold text-xl transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg bg-slate-600 hover:bg-slate-700";
+                            testButton.addEventListener('click', () => startTest(item.download_url));
+                        }
                         
                         testGrid.appendChild(testButton);
                     });
@@ -714,7 +829,6 @@
             quizStandard.textContent = "";
             testSubmitMessage.textContent = "";
             
-            // ** NEW ** Reset button visibility
             submitTestBtn.classList.add('hidden');
             nextQuestionBtn.classList.remove('hidden');
             
@@ -731,29 +845,32 @@
             } catch (error) {
                 console.error("Error starting test:", error);
                 quizForm.innerHTML = `<p class="text-red-500 text-center">Error: Could not load this test. Please go back and try again.</p>`;
-                quizNavigation.classList.add('hidden'); // Hide nav buttons on error
+                quizNavigation.classList.add('hidden');
             }
         }
 
         /**
          * ** MODIFIED **
-         * Renders all questions but only shows the first one.
+         * Renders all question types including Hot-Text and Constructed-Response
          */
         function renderTest(quizData) {
             quizForm.innerHTML = ''; 
-            quizNavigation.classList.remove('hidden'); // Show nav buttons
+            quizNavigation.classList.remove('hidden');
             quizTitle.textContent = quizData.title;
             quizStandard.textContent = `Standard: ${quizData.standard}`;
-            currentQuestionIndex = 0; // Reset index
+            currentQuestionIndex = 0; 
 
             quizData.questions.forEach((question, index) => {
                 const questionDiv = document.createElement('div');
                 questionDiv.id = `question-${index}`;
-                // ** MODIFIED ** Add 'question-slide' class and 'hidden'
                 questionDiv.className = "question-slide bg-gray-50 p-6 rounded-2xl shadow-inner hidden";
                 
-                let optionsHtml = '';
-                // TODO: Add support for other question types (EBSR, etc.)
+                let questionHTML = '';
+                
+                const stimulusHTML = question.stimulus 
+                    ? `<div class="stimulus-box text-lg text-slate-800 mt-4">${question.stimulus}</div>` 
+                    : '';
+
                 if (question.type === "Multiple-Choice") {
                     const optionsArray = question.options.map((option, i) => `
                         <label class="flex items-center p-4 border rounded-xl has-[:checked]:bg-blue-100 has-[:checked]:border-blue-500 cursor-pointer">
@@ -762,58 +879,271 @@
                         </label>
                     `).join('');
                     
-                    optionsHtml = `<div class="space-y-3 mt-4">${optionsArray}</div>`;
+                    questionHTML = `
+                        ${stimulusHTML}
+                        <p class="text-xl text-slate-900 mt-4">${question.stem}</p>
+                        <div class="space-y-3 mt-4">${optionsArray}</div>
+                    `;
+                } 
+                else if (question.type === "EBSR") {
+                    const part1Options = question.part1.options.map((option, i) => `
+                        <label class="flex items-center p-4 border rounded-xl has-[:checked]:bg-blue-100 has-[:checked]:border-blue-500 cursor-pointer">
+                            <input type="radio" name="question-${index}-part1" value="${i}" class="h-5 w-5 text-blue-600" required>
+                            <span class="ml-4 text-lg text-slate-700">${option}</span>
+                        </label>
+                    `).join('');
+                    
+                    const part2Options = question.part2.options.map((option, i) => `
+                        <label class="flex items-center p-4 border rounded-xl has-[:checked]:bg-blue-100 has-[:checked]:border-blue-500 cursor-pointer">
+                            <input type="radio" name="question-${index}-part2" value="${i}" class="h-5 w-5 text-blue-600" required>
+                            <span class="ml-4 text-lg text-slate-700">${option}</span>
+                        </label>
+                    `).join('');
+
+                    questionHTML = `
+                        ${stimulusHTML}
+                        <p class="text-xl text-slate-900 mt-4 font-semibold">Part A:</p>
+                        <p class="text-lg text-slate-800 mt-2">${question.part1.stem}</p>
+                        <div class="space-y-3 mt-4">${part1Options}</div>
+                        
+                        <p class="text-xl text-slate-900 mt-8 font-semibold">Part B:</p>
+                        <p class="text-lg text-slate-800 mt-2">${question.part2.stem}</p>
+                        <div class="space-y-3 mt-4">${part2Options}</div>
+                    `;
+                }
+                else if (question.type === "Multi-Select") {
+                    const optionsArray = question.options.map((option, i) => `
+                        <label class="flex items-center p-4 border rounded-xl has-[:checked]:bg-blue-100 has-[:checked]:border-blue-500 cursor-pointer">
+                            <input type="checkbox" name="question-${index}" value="${i}" class="h-5 w-5 text-blue-600 rounded">
+                            <span class="ml-4 text-lg text-slate-700">${option}</span>
+                        </label>
+                    `).join('');
+                    
+                    questionHTML = `
+                        ${stimulusHTML}
+                        <p class="text-xl text-slate-900 mt-4">${question.stem}</p>
+                        <div class="space-y-3 mt-4">${optionsArray}</div>
+                    `;
+                }
+                else if (question.type === "Drag-and-Drop") {
+                    const categoriesHTML = question.categories.map((category, i) => `
+                        <div class="flex-1">
+                            <h3 class="text-lg font-semibold text-center text-slate-700">${category}</h3>
+                            <div class="drop-zone mt-2" data-category-index="${i}"></div>
+                        </div>
+                    `).join('');
+
+                    const draggablesHTML = question.draggables.map((item, i) => `
+                        <div class="draggable" draggable="true" id="q${index}-drag${i}" data-correct-category="${item.correctCategory}">
+                            ${item.text}
+                        </div>
+                    `).join('');
+
+                    questionHTML = `
+                        ${stimulusHTML}
+                        <p class="text-xl text-slate-900 mt-4">${question.stem}</p>
+                        <div class="flex gap-4 mt-4">${categoriesHTML}</div>
+                        <p class="text-center text-slate-500 mt-4">Drag items from this box:</p>
+                        <div class="draggable-pool mt-2">${draggablesHTML}</div>
+                    `;
+                }
+                // ** START MODIFIED HOT-TEXT RENDER **
+                else if (question.type === "Hot-Text") {
+                    
+                    // --- Check for Hot-Text Type 1: Clickable Paragraph (needs 'text' field) ---
+                    if (question.text) {
+                        
+                        // ** FIX: Use a safer split that preserves sentence markers and spaces **
+                        const parts = question.text.split(/(\(\d+\)|\[\d+\])/g).filter(s => s.length > 0);
+                        let sentenceIndex = 0;
+                        
+                        const clickableSentences = parts.map((part) => {
+                            const trimmedPart = part.trim();
+                            // If it's a sentence marker (like (1) or [1])
+                            if (trimmedPart.match(/^(\(\d+\)|\[\d+\])$/)) {
+                                return `<span class="font-bold text-blue-600">${trimmedPart}</span>`;
+                            } 
+                            // If it's a piece of text (a sentence or part of one)
+                            else if (trimmedPart.length > 0) {
+                                const currentIndex = sentenceIndex;
+                                sentenceIndex++;
+                                // Wrap the text with necessary white space for readability/separation
+                                return `<span class="hot-text-sentence" data-qindex="${index}" data-sentence-index="${currentIndex}">${part}</span>`;
+                            }
+                            return ''; // Ignore pure whitespace between elements
+                        }).join(''); // ** FIX: Join without extra space, let the inline-block CSS handle spacing
+
+                        // If sentenceIndex is 0, it means the JSON structure was likely wrong.
+                        if (sentenceIndex === 0) {
+                            console.error(`Hot-Text (Paragraph) JSON Error for Q${index}: 'text' field is present but has no content to split. Structure may be wrong.`);
+                            questionHTML = `<p class="text-red-500">Error: This Hot-Text question (Paragraph Type) is incorrectly formatted in the JSON. (Missing sentences)</p>`;
+                        } else {
+                            questionHTML = `
+                                ${stimulusHTML}
+                                <p class="text-xl text-slate-900 mt-4">${question.stem}</p>
+                                <div class="hot-text-container mt-4">${clickableSentences}</div>
+                                <input type="hidden" name="question-${index}" value="">
+                            `;
+                        }
+                    } 
+                    // --- Check for Hot-Text Type 2: Clickable Options (needs 'options' field) ---
+                    else if (question.options && Array.isArray(question.options)) {
+                        
+                        // ** FIX APPLIED HERE: We are adding space-y-2 and removing the hot-text-container's padding/border 
+                        // to ensure the inner clickable DIVs control the appearance and click registration. **
+                        
+                        const optionsArray = question.options.map((option, i) => `
+                            <div 
+                                class="hot-text-sentence text-lg text-slate-700 border rounded-xl shadow-sm hover:shadow-md transition-shadow duration-100 block w-full p-3 mb-2" 
+                                data-qindex="${index}" 
+                                data-option-index="${i}">
+                                ${option}
+                            </div>
+                        `).join('');
+
+                        questionHTML = `
+                            ${stimulusHTML}
+                            <p class="text-xl text-slate-900 mt-4">${question.stem}</p>
+                            <div class="mt-4 space-y-2">${optionsArray}</div>
+                            <input type="hidden" name="question-${index}" value="">
+                        `;
+                    }
+                    else {
+                        // This fallback is only for truly malformed JSON
+                        console.error("Hot-Text question is invalid (missing 'text' or 'options' field):", question);
+                        questionHTML = `<p class="text-red-500">Error: This Hot-Text question is invalid. (Missing 'text' or 'options' field in JSON)</p>`;
+                    }
+                }
+                // ** END MODIFIED HOT-TEXT RENDER **
+
+                // ** START NEW CONSTRUCTED-RESPONSE RENDER **
+                else if (question.type === "Constructed-Response") {
+                    questionHTML = `
+                        ${stimulusHTML}
+                        <p class="text-xl text-slate-900 mt-4">${question.stem}</p>
+                        <textarea name="question-${index}" 
+                                  rows="${question.lines || 4}" 
+                                  class="w-full mt-4 p-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                  placeholder="Type your answer here..."></textarea>
+                    `;
+                }
+                // ** END NEW CONSTRUCTED-RESPONSE RENDER **
+                else {
+                    questionHTML = `<p class="text-red-500">Error: This question type (${question.type}) is not supported yet.</p>`;
                 }
                 
                 questionDiv.innerHTML = `
                     <p class="text-lg font-semibold text-slate-700">Question ${index + 1} of ${quizData.questions.length}</p>
-                    ${question.stimulus ? `<div class="text-lg text-slate-800 mt-4 p-4 border-l-4 border-gray-300">${question.stimulus}</div>` : ''}
-                    <p class="text-xl text-slate-900 mt-4">${question.stem}</p>
-                    ${optionsHtml}
+                    ${questionHTML}
                 `;
                 quizForm.appendChild(questionDiv);
             });
             
-            // ** NEW ** Show the first question
+            // --- EVENT LISTENERS ---
+            
+            // ** START FIX: MODIFIED HOT-TEXT CLICK LISTENER to use closest() for robustness **
+            quizForm.addEventListener('click', e => {
+                const targetElement = e.target.closest('.hot-text-sentence'); // Find the closest clickable parent
+                
+                if (targetElement) { // If a clickable sentence was found
+                    const qIndex = targetElement.dataset.qindex;
+                    const container = targetElement.closest('.hot-text-container, .space-y-2'); // Check both types of wrappers
+                    const hiddenInput = document.querySelector(`input[name="question-${qIndex}"]`);
+
+                    // Check if this is an "options" based hot-text (only one selection)
+                    if (targetElement.dataset.optionIndex !== undefined) {
+                        // This is a "select one" hot-text
+                        container.querySelectorAll('.hot-text-sentence').forEach(el => {
+                            el.classList.remove('selected');
+                            // Ensure only the selected option gets the full border/shadow effect if needed
+                            el.classList.add('border', 'shadow-sm');
+                        });
+                        targetElement.classList.add('selected');
+                        targetElement.classList.remove('border', 'shadow-sm'); // Remove shadow from selected for "pressed" look
+
+                        // Store the single selected index
+                        hiddenInput.value = targetElement.dataset.optionIndex;
+
+                    } else {
+                        // This is a "select multiple" (from paragraph) hot-text
+                        targetElement.classList.toggle('selected');
+                        
+                        const selected = container.querySelectorAll('.selected');
+                        const selectedIndexes = Array.from(selected).map(el => parseInt(el.dataset.sentenceIndex, 10)); // Ensure int for reliable comparison
+                        hiddenInput.value = JSON.stringify(selectedIndexes);
+                    }
+                }
+            });
+            // ** END FIX: MODIFIED HOT-TEXT CLICK LISTENER **
+            
+            quizForm.addEventListener('dragstart', e => {
+                if (e.target.classList.contains('draggable')) {
+                    draggedItem = e.target;
+                    e.dataTransfer.setData('text/plain', e.target.id);
+                    setTimeout(() => e.target.classList.add('dragging'), 0);
+                }
+            });
+
+            quizForm.addEventListener('dragend', e => {
+                if (draggedItem) {
+                    draggedItem.classList.remove('dragging');
+                    draggedItem = null;
+                }
+            });
+
+            quizForm.addEventListener('dragover', e => {
+                const dropZone = e.target.closest('.drop-zone, .draggable-pool');
+                if (dropZone) {
+                    e.preventDefault();
+                    dropZone.classList.add('drag-over');
+                }
+            });
+            
+            quizForm.addEventListener('dragleave', e => {
+                 const dropZone = e.target.closest('.drop-zone, .draggable-pool');
+                 if (dropZone) {
+                    dropZone.classList.remove('drag-over');
+                 }
+            });
+
+            quizForm.addEventListener('drop', e => {
+                const dropZone = e.target.closest('.drop-zone, .draggable-pool');
+                if (dropZone) {
+                    e.preventDefault();
+                    dropZone.classList.remove('drag-over');
+                    if(draggedItem) {
+                        dropZone.appendChild(draggedItem);
+                        draggedItem.dataset.selectedCategory = dropZone.dataset.categoryIndex ?? 'pool';
+                    }
+                }
+            });
+            
             showQuestion(0);
         }
         
-        /**
-         * ** NEW **
-         * Shows a specific question by index and updates nav buttons.
-         */
         function showQuestion(index) {
-            // Hide all questions
             document.querySelectorAll('.question-slide').forEach(slide => {
                 slide.classList.add('hidden');
             });
             
-            // Show the target question
             const targetQuestion = document.getElementById(`question-${index}`);
             if (targetQuestion) {
                 targetQuestion.classList.remove('hidden');
             }
 
             currentQuestionIndex = index;
-
-            // Update counter
             questionCounter.textContent = `Question ${index + 1} of ${currentQuizData.questions.length}`;
-
-            // Update button visibility
             prevQuestionBtn.disabled = (index === 0);
 
             if (index === currentQuizData.questions.length - 1) {
-                // Last question
                 nextQuestionBtn.classList.add('hidden');
                 submitTestBtn.classList.remove('hidden');
             } else {
-                // Not the last question
                 nextQuestionBtn.classList.remove('hidden');
                 submitTestBtn.classList.add('hidden');
             }
         }
         
-        // ** NEW ** Add listeners for Next/Prev buttons
         nextQuestionBtn.addEventListener('click', () => {
             showQuestion(currentQuestionIndex + 1);
         });
@@ -822,55 +1152,210 @@
             showQuestion(currentQuestionIndex - 1);
         });
         
-        // ---
-        
         quizForm.addEventListener('submit', (e) => {
             e.preventDefault();
             handleSubmitTest();
         });
         
         submitTestBtn.addEventListener('click', () => {
-            // Check validity before submitting.
-            // This is simple and checks all questions at once.
-            if (quizForm.checkValidity()) {
-                quizForm.requestSubmit();
-            } else {
-                testSubmitMessage.textContent = "Please answer all questions before submitting.";
-                // Find first invalid question and show it
-                let firstInvalid = -1;
-                for(let i = 0; i < currentQuizData.questions.length; i++) {
-                    const inputs = document.getElementsByName(`question-${i}`);
-                    let oneChecked = false;
-                    inputs.forEach(input => {
-                        if(input.checked) oneChecked = true;
-                    });
-                    if(!oneChecked) {
+            let allValid = true;
+            let firstInvalid = -1;
+            testSubmitMessage.textContent = "";
+
+            for(let i = 0; i < currentQuizData.questions.length; i++) {
+                const q = currentQuizData.questions[i];
+                if (q.type === "Multiple-Choice" || q.type === "EBSR") {
+                     const inputs = quizForm.querySelectorAll(`input[name="question-${i}"]`);
+                     if (inputs.length > 0 && !quizForm.querySelector(`input[name="question-${i}"]:checked`)) {
+                        allValid = false;
                         firstInvalid = i;
+                        break;
+                     }
+                    if (q.type === "EBSR") {
+                        const inputs2 = quizForm.querySelectorAll(`input[name="question-${i}-part2"]`);
+                         if (inputs2.length > 0 && !quizForm.querySelector(`input[name="question-${i}-part2"]:checked`)) {
+                            allValid = false;
+                            firstInvalid = i;
+                            break;
+                         }
+                    }
+                }
+                else if (q.type === "Multi-Select") {
+                    const inputs = quizForm.querySelectorAll(`input[name="question-${i}"]:checked`);
+                    if (inputs.length === 0) {
+                        allValid = false;
+                        firstInvalid = i;
+                        testSubmitMessage.textContent = `Please select at least one option for Question ${i + 1}.`;
                         break;
                     }
                 }
+                else if (q.type === "Drag-and-Drop") {
+                    const itemsInPool = quizForm.querySelectorAll(`#question-${i} .draggable-pool .draggable`);
+                    if (itemsInPool.length > 0) {
+                        allValid = false;
+                        firstInvalid = i;
+                        testSubmitMessage.textContent = `Please drag all items to a category for Question ${i + 1}.`;
+                        break;
+                    }
+                }
+                // ** START MODIFIED HOT-TEXT VALIDATION **
+                else if (q.type === "Hot-Text") {
+                    const hiddenInput = quizForm.querySelector(`input[name="question-${i}"]`);
+                    let isValid = false;
+                    
+                    if (q.correctAnswerIndexes) { // "select multiple" type (paragraph splitting)
+                        if (hiddenInput.value && hiddenInput.value !== "[]") {
+                            isValid = true;
+                        }
+                    } else if (q.correctAnswerIndex !== undefined) { // "select one" type (options array)
+                        if (hiddenInput.value !== "") {
+                            isValid = true;
+                        }
+                    }
+
+                    if (!isValid) {
+                        allValid = false;
+                        firstInvalid = i;
+                        testSubmitMessage.textContent = `Please select an answer for Question ${i + 1}.`;
+                        break;
+                    }
+                }
+                // ** END MODIFIED HOT-TEXT VALIDATION **
+                
+                // ** NEW ** Validation for Constructed-Response
+                else if (q.type === "Constructed-Response") {
+                    const textarea = quizForm.querySelector(`textarea[name="question-${i}"]`);
+                    if (!textarea.value.trim()) {
+                        allValid = false;
+                        firstInvalid = i;
+                        testSubmitMessage.textContent = `Please write an answer for Question ${i + 1}.`;
+                        break;
+                    }
+                }
+            }
+            
+            if (allValid) {
+                quizForm.requestSubmit();
+            } else {
                 if(firstInvalid !== -1) {
                     showQuestion(firstInvalid);
-                    testSubmitMessage.textContent = `Please answer Question ${firstInvalid + 1}.`;
+                    if (!testSubmitMessage.textContent) {
+                         testSubmitMessage.textContent = `Please answer Question ${firstInvalid + 1}.`;
+                    }
                 }
             }
         });
 
+        function arraysEqual(a, b) {
+            // ** FIX: Added Array.isArray checks to prevent 'Cannot read properties of undefined (reading 'length')' **
+            if (!Array.isArray(a) || !Array.isArray(b) || a.length !== b.length) return false;
+            
+            const sortedA = [...a].sort();
+            const sortedB = [...b].sort();
+            for (let i = 0; i < sortedA.length; i++) {
+                if (sortedA[i] !== sortedB[i]) return false;
+            }
+            return true;
+        }
+
+        /**
+         * ** MODIFIED **
+         * Now grades both types of Hot-Text and saves Constructed-Response
+         */
         async function handleSubmitTest() {
             if (!currentQuizData || !currentUserId) return;
             
             testSubmitMessage.textContent = "Submitting...";
 
             let score = 0;
+            let totalAutoGraded = 0; // Total questions that can be auto-graded
             const failedSkills = new Set();
             const formData = new FormData(quizForm);
+            const constructedResponses = []; // ** NEW ** To store written answers
 
             currentQuizData.questions.forEach((question, index) => {
-                const selectedAnswer = formData.get(`question-${index}`); 
+                let isCorrect = false;
                 
-                if (selectedAnswer == question.correctAnswerIndex) {
+                if (question.type === "Multiple-Choice") {
+                    totalAutoGraded++;
+                    const selectedAnswer = formData.get(`question-${index}`); 
+                    if (selectedAnswer == question.correctAnswerIndex) {
+                        isCorrect = true;
+                    }
+                } 
+                else if (question.type === "EBSR") {
+                    totalAutoGraded++;
+                    const part1Answer = formData.get(`question-${index}-part1`);
+                    const part2Answer = formData.get(`question-${index}-part2`);
+                    if (part1Answer == question.part1.correctAnswerIndex && part2Answer == question.part2.correctAnswerIndex) {
+                        isCorrect = true;
+                    }
+                }
+                else if (question.type === "Multi-Select") {
+                    totalAutoGraded++;
+                    const selectedAnswers = formData.getAll(`question-${index}`).map(val => parseInt(val, 10));
+                    const correctAnswers = question.correctAnswerIndexes;
+                    
+                    if (arraysEqual(selectedAnswers, correctAnswers)) {
+                        isCorrect = true;
+                    }
+                }
+                else if (question.type === "Drag-and-Drop") {
+                    totalAutoGraded++;
+                    const draggables = quizForm.querySelectorAll(`#question-${index} .draggable`);
+                    let allCorrect = true;
+                    
+                    draggables.forEach(item => {
+                        const selectedCat = item.dataset.selectedCategory;
+                        const correctCat = item.dataset.correctCategory;
+                        if (selectedCat !== correctCat) {
+                            allCorrect = false;
+                        }
+                    });
+                    
+                    isCorrect = allCorrect;
+                }
+                // ** START MODIFIED HOT-TEXT GRADING **
+                else if (question.type === "Hot-Text") {
+                    totalAutoGraded++;
+                    const hiddenInput = quizForm.querySelector(`input[name="question-${index}"]`);
+                    
+                    // Check which type of Hot-Text it is
+                    if (question.correctAnswerIndexes) {
+                        // This is the "select multiple from paragraph" type
+                        let selectedIndexes = [];
+                        if (hiddenInput.value) {
+                            selectedIndexes = JSON.parse(hiddenInput.value).map(val => parseInt(val, 10));
+                        }
+                        const correctIndexes = question.correctAnswerIndexes;
+                        if (arraysEqual(selectedIndexes, correctIndexes)) {
+                            isCorrect = true;
+                        }
+                    } else if (question.correctAnswerIndex !== undefined) {
+                        // This is the "select one from options" type
+                        if (hiddenInput.value == question.correctAnswerIndex) {
+                            isCorrect = true;
+                        }
+                    }
+                }
+                // ** END MODIFIED HOT-TEXT GRADING **
+
+                // ** START NEW CONSTRUCTED-RESPONSE SAVING **
+                else if (question.type === "Constructed-Response") {
+                    const textarea = quizForm.querySelector(`textarea[name="question-${index}"]`);
+                    constructedResponses.push({
+                        questionStem: question.stem,
+                        answer: textarea.value
+                    });
+                    // This question is not auto-graded, so isCorrect remains false
+                    // and it doesn't count towards totalAutoGraded
+                }
+                // ** END NEW CONSTRUCTED-RESPONSE SAVING **
+
+                
+                if(isCorrect) {
                     score++;
-                } else {
+                } else if (question.type !== "Constructed-Response") { // Don't count CR as "failed"
                     if(question.skill) {
                         failedSkills.add(question.skill);
                     }
@@ -878,53 +1363,122 @@
             });
 
             const total = currentQuizData.questions.length;
-            const percentage = Math.round((score / total) * 100);
+            const percentage = (totalAutoGraded > 0) ? Math.round((score / totalAutoGraded) * 100) : 0;
+            const passingScore = currentQuizData.passingScore || (totalAutoGraded * 0.7);
+            
+            currentFailedSkills = Array.from(failedSkills); // ** NEW ** Save failed skills
 
-            finalScore.textContent = `${score} / ${total}`;
-            if (percentage >= currentQuizData.passingScore) {
-                scoreMessage.textContent = `Congratulations, you passed! (${percentage}%)`;
+            // ** MODIFIED ** Show auto-graded score
+            finalScore.textContent = `${score} / ${totalAutoGraded}`;
+            let scoreMessageText = '';
+            if (totalAutoGraded < total) {
+                scoreMessageText = `(Your written answer will be reviewed by your teacher.)<br>`;
+            }
+
+            if (score >= passingScore) {
+                scoreMessageText += `Congratulations, you passed! (${percentage}%)`;
                 aiReportSection.classList.add('hidden'); 
             } else {
-                scoreMessage.textContent = `Don't give up, you'll get it next time! (${percentage}%)`;
+                scoreMessageText += `Don't give up, you'll get it next time! (${percentage}%)`;
                 aiReportSection.classList.remove('hidden'); 
+                aiReportContent.innerHTML = ''; // Clear old report
+                aiReportMessage.textContent = ''; // Clear old message
             }
+            scoreMessage.innerHTML = scoreMessageText;
+            
             animateScreenTransition(testTakerScreen, scoreScreen);
             
-            testSubmitMessage.textContent = ""; // Clear message
+            testSubmitMessage.textContent = "";
 
             try {
+                // ** NEW ** Check if submission already exists (idempotency)
                 const submissionsRef = collection(db, "submissions");
-                await addDoc(submissionsRef, {
-                    studentId: currentUserId,
-                    studentEmail: auth.currentUser.email, 
-                    testTitle: currentQuizData.title,
-                    testStandard: currentQuizData.standard,
-                    score: score,
-                    totalQuestions: total,
-                    percentage: percentage,
-                    failedSkills: Array.from(failedSkills),
-                    submittedAt: serverTimestamp()
-                });
+                const q = query(submissionsRef, 
+                    where("studentId", "==", currentUserId),
+                    where("testTitle", "==", currentQuizData.title)
+                );
+                const existingSub = await getDocs(q);
+
+                if (existingSub.empty) {
+                    await addDoc(submissionsRef, {
+                        studentId: currentUserId,
+                        studentEmail: auth.currentUser.email, 
+                        testTitle: currentQuizData.title,
+                        testStandard: currentQuizData.standard,
+                        score: score,
+                        totalQuestions: total,
+                        totalAutoGraded: totalAutoGraded, // ** NEW **
+                        percentage: percentage,
+                        failedSkills: currentFailedSkills,
+                        constructedResponses: constructedResponses, // ** NEW **
+                        submittedAt: serverTimestamp()
+                    });
+                }
             } catch (error) {
                 console.error("Error saving submission:", error);
             }
         }
         
-        getAiReportBtn.addEventListener('click', () => {
-            aiReportMessage.textContent = "Generating your report... (AI feature coming soon!)";
+        // ** NEW ** AI Report Function
+        const getAiRemediation = httpsCallable(functions, 'getAiRemediation');
+
+        getAiReportBtn.addEventListener('click', async () => {
+            if (currentFailedSkills.length === 0) {
+                aiReportMessage.textContent = "No failed skills recorded.";
+                return;
+            }
+            
+            aiReportMessage.textContent = "🤖 Generating your personal practice plan...";
+            getAiReportBtn.disabled = true;
+
+            try {
+                // ** MODIFIED ** Call the Firebase Function
+                const result = await getAiRemediation({ skills: currentFailedSkills });
+                
+                // The backend function returns HTML, so we set it directly
+                aiReportContent.innerHTML = result.data.html;
+                aiReportMessage.textContent = ""; // Clear loading message
+
+            } catch (error) {
+                console.error("Error calling getAiRemediation function:", error);
+                aiReportMessage.textContent = "Error: Could not generate report. Please try again later.";
+                aiReportContent.innerHTML = `<p class="text-red-500">There was an error connecting to the AI. Please check the console for details.</p>`;
+            } finally {
+                getAiReportBtn.disabled = false;
+            }
         });
 
 
         // --- 8. TEACHER DASHBOARD LOGIC ---
         
-        createStudentForm.addEventListener('submit', (e) => {
+        // ** NEW ** Create Student Function
+        const createStudent = httpsCallable(functions, 'createStudent');
+
+        createStudentForm.addEventListener('submit', async (e) => {
             e.preventDefault();
-            createStudentMessage.textContent = "Connecting to backend...";
-            
-            setTimeout(() => {
-                // This is a placeholder. We will build the function next.
-                createStudentMessage.innerHTML = "Error: Backend function not deployed. <br> This requires a paid Firebase plan.";
-            }, 1000);
+            createStudentMessage.textContent = "Creating student...";
+            createStudentBtn.disabled = true;
+
+            const email = studentEmail.value;
+            const password = studentPassword.value;
+
+            try {
+                const result = await createStudent({ email: email, password: password });
+                
+                createStudentMessage.textContent = result.data.message;
+                createStudentMessage.classList.remove('text-red-500');
+                createStudentMessage.classList.add('text-green-600');
+                
+                createStudentForm.reset();
+
+            } catch (error) {
+                console.error("Error calling createStudent function:", error);
+                createStudentMessage.textContent = `Error: ${error.message}`;
+                createStudentMessage.classList.add('text-red-500');
+                createStudentMessage.classList.remove('text-green-600');
+            } finally {
+                createStudentBtn.disabled = false;
+            }
         });
 
         refreshScoresBtn.addEventListener('click', fetchStudentScores);
@@ -933,6 +1487,7 @@
             scoresMessage.textContent = "Loading scores...";
             scoresListContainer.innerHTML = ''; 
             resetMessage.textContent = "";
+            let testGroups = new Map(); // Map to hold scores grouped by test title
 
             try {
                 const q = query(collection(db, "submissions"));
@@ -943,28 +1498,68 @@
                     return;
                 }
 
+                // 1. Group submissions by test title
                 querySnapshot.forEach((doc) => {
                     const submission = doc.data();
                     const submissionId = doc.id; 
+                    const title = submission.testTitle;
 
-                    const scoreElement = document.createElement('div');
-                    scoreElement.className = "flex justify-between items-center bg-white p-3 rounded-lg shadow-sm";
-                    
-                    scoreElement.innerHTML = `
-                        <div>
-                            <p class="font-semibold text-slate-700">${submission.testTitle}</p>
-                            <p class="text-sm text-slate-500">${submission.studentEmail || 'Unknown Student'}</p>
-                        </div>
-                        <div class="text-right">
-                            <p class="font-bold text-blue-600">${submission.score} / ${submission.totalQuestions} (${submission.percentage}%)</p>
-                            <button data-id="${submissionId}" class="reset-btn text-xs text-red-500 hover:underline">
-                                Reset
-                            </button>
-                        </div>
+                    if (!testGroups.has(title)) {
+                        testGroups.set(title, []);
+                    }
+                    testGroups.get(title).push({...submission, id: submissionId});
+                });
+                
+                // 2. Render grouped results
+                let renderedHTML = '';
+                testGroups.forEach((submissions, title) => {
+                    let submissionsHTML = submissions.map(submission => {
+                        let writtenResponseHTML = '';
+                        if (submission.constructedResponses && submission.constructedResponses.length > 0) {
+                            const responses = submission.constructedResponses.map(r => 
+                                `<div class="mt-2 text-xs text-gray-600 p-2 border-t border-gray-200">
+                                    <strong class="text-gray-700 block">${r.questionStem}</strong>
+                                    <em class="block ml-1 mt-1">${submission.studentEmail || 'Unknown Student'} wrote: ${r.answer}</em>
+                                </div>`
+                            ).join('');
+                            writtenResponseHTML = `<details class="mt-2"><summary class="text-xs text-blue-600 cursor-pointer hover:underline">View Written Answers</summary><div class="bg-white p-2 rounded-md">${responses}</div></details>`;
+                        }
+                        
+                        return `
+                            <div class="flex justify-between items-center bg-white p-3 rounded-lg shadow-sm border border-gray-200 mb-2">
+                                <div>
+                                    <p class="font-semibold text-slate-700">${submission.studentEmail || 'Unknown Student'}</p>
+                                    <p class="text-xs text-slate-500">Submitted: ${submission.submittedAt ? new Date(submission.submittedAt.seconds * 1000).toLocaleString() : 'N/A'}</p>
+                                    ${writtenResponseHTML}
+                                </div>
+                                <div class="text-right flex-shrink-0 ml-4">
+                                    <p class="font-bold text-blue-600">${submission.score} / ${submission.totalAutoGraded}</p>
+                                    <p class="text-xs text-gray-500">${submission.percentage}%</p>
+                                    <button data-id="${submission.id}" class="reset-btn text-xs text-red-500 hover:underline">
+                                        Reset
+                                    </button>
+                                </div>
+                            </div>
+                        `;
+                    }).join('');
+
+                    // Wrap each test group in a <details> tag
+                    renderedHTML += `
+                        <details class="bg-white p-4 rounded-xl shadow-md border border-gray-200">
+                            <summary class="font-bold text-lg text-slate-800 cursor-pointer">
+                                ${title} (${submissions.length} Submissions)
+                            </summary>
+                            <div class="mt-3 space-y-3">
+                                ${submissionsHTML}
+                            </div>
+                        </details>
                     `;
-                    scoresListContainer.appendChild(scoreElement);
                 });
 
+                scoresListContainer.innerHTML = renderedHTML;
+                scoresMessage.textContent = "";
+
+                // 3. Attach click handlers to the new Reset buttons
                 document.querySelectorAll('.reset-btn').forEach(button => {
                     button.addEventListener('click', (e) => {
                         const subId = e.currentTarget.dataset.id;
@@ -994,7 +1589,12 @@ service cloud.firestore {
 
     match /submissions/{submissionId} {
       allow create: if request.auth != null && request.resource.data.studentId == request.auth.uid;
-      allow read, delete: if request.auth != null && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'teacher';
+      // ** MODIFIED ** Allow teachers to list (query)
+      allow list, read, delete: if request.auth != null && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'teacher';
+      
+      // ** NEW ** Allow students to read/list their OWN submissions for test locking
+      allow read: if request.auth != null && request.auth.uid == resource.data.studentId;
+      allow list: if request.auth != null && request.query.where.length > 0 && request.query.where[0][0] == 'studentId' && request.query.where[0][2] == request.auth.uid;
     }
   }
 }
@@ -1016,6 +1616,7 @@ service cloud.firestore {
                 
                 resetMessage.textContent = "Score reset successfully.";
                 
+                // Refresh the scores list
                 await fetchStudentScores();
 
             } catch (error) {
