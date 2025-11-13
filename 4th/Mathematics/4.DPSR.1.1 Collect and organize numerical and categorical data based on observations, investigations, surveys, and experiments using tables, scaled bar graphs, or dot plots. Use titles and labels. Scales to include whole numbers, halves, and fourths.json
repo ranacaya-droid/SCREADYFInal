@@ -1,0 +1,114 @@
+{
+  "title": "4th Grade Data & Graphing Assessment",
+  "standard": "4.DPSR.1.1 Collect and organize numerical and categorical data based on observations, investigations, surveys, and experiments using tables, scaled bar graphs, or dot plots. Use titles and labels. Scales to include whole numbers, halves, and fourths. Students need to be aware of which graph is the best fit for the given data. Represent numerical data using dot plots and bar graphs. Represent categorical data using bar graphs.",
+  "passingScore": 4,
+  "questions": [
+    {
+      "type": "Multiple-Choice",
+      "dok": 2,
+      "skill": "Interpreting a scaled bar graph (categorical data)",
+      "stimulus": "Imagine a bar graph titled 'Favorite Pets in Ms. B's Class'. The vertical y-axis is the 'Number of Students' and is scaled by 2s (0, 2, 4, 6, 8, 10, 12, 14, 16). The horizontal x-axis shows pet names. The bar for 'Dogs' goes up to 16. The bar for 'Cats' goes up to 12. The bar for 'Fish' goes up to 4. The bar for 'Birds' goes up to 6.",
+      "stem": "Based on the bar graph, how many more students chose 'Dogs' than 'Fish'?",
+      "options": [
+        "A. 12",
+        "B. 8",
+        "C. 4",
+        "D. 20"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "type": "Multiple-Choice",
+      "dok": 2,
+      "skill": "Interpreting a dot plot (numerical data with fractions)",
+      "stimulus": "A dot plot titled 'Plant Growth in Inches' shows plant heights over one week. The x-axis is a number line labeled with fourths: 0, 1/4, 2/4, 3/4, 1, 1 1/4. There are 2 dots above 1/4, 3 dots above 2/4, 1 dot above 3/4, 1 dot above 1 (which is 4/4), and 1 dot above 1 1/4.",
+      "stem": "How many plants grew to be 3/4 of an inch or taller?",
+      "options": [
+        "A. 2",
+        "B. 3",
+        "C. 5",
+        "D. 8"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "type": "EBSR",
+      "dok": 3,
+      "skill": "Determining the best graph type for numerical data",
+      "part1": {
+        "stimulus": "Mr. Chen's class recorded the *number of siblings* each student has. The data they collected was: 0, 1, 1, 1, 2, 2, 3, 4, 1, 2, 0, 1.",
+        "stem": "Which graph is the *best* way to organize this *numerical* data to quickly see how many times each number appears?",
+        "options": [
+          "A. A bar graph with categories '0 siblings', '1 sibling', etc.",
+          "B. A dot plot",
+          "C. A pie chart",
+          "D. A simple table"
+        ],
+        "correctAnswerIndex": 1
+      },
+      "part2": {
+        "stem": "Which sentence best explains why this is the best choice for this data?",
+        "options": [
+          "A. Because it shows the data in categories, like 'boys' and 'girls'.",
+          "B. Because it shows what fraction of the whole class has 1 sibling.",
+          "C. Because it clearly and quickly shows the frequency (how many times) each specific number appears on a number line.",
+          "D. Because it is the only graph that can show numbers."
+        ],
+        "correctAnswerIndex": 2
+      }
+    },
+    {
+      "type": "Drag-and-Drop",
+      "dok": 2,
+      "skill": "Organizing categorical data into a frequency table",
+      "stimulus": "Students in a science class voted on their favorite simple machine. Here are their raw votes: \nLever, Wheel, Lever, Pulley, Wedge, Lever, Wheel, Lever, Wedge, Pulley, Lever, Wheel",
+      "stem": "Organize the data. Drag the correct total count (number) from the 'Counts' box to match each simple machine in the table.",
+      "categories": [
+        "Lever",
+        "Wheel",
+        "Pulley",
+        "Wedge"
+      ],
+      "draggables": [
+        {
+          "text": "5",
+          "correctCategory": 0
+        },
+        {
+          "text": "3",
+          "correctCategory": 1
+        },
+        {
+          "text": "2",
+          "correctCategory": 2
+        },
+        {
+          "text": "2",
+          "correctCategory": 3
+        },
+        {
+          "text": "4",
+          "correctCategory": -1
+        },
+        {
+          "text": "1",
+          "correctCategory": -1
+        }
+      ]
+    },
+    {
+      "type": "Multiple-Choice",
+      "dok": 2,
+      "skill": "Interpreting a dot plot (numerical data with fractions)",
+      "stimulus": "A dot plot titled 'Hours Spent Reading' shows data for 11 students. The x-axis is a number line labeled with halves: 0, 1/2, 1, 1 1/2, 2. There is 1 dot above 0, 3 dots above 1/2, 4 dots above 1, 2 dots above 1 1/2, and 1 dot above 2.",
+      "stem": "What is the total number of hours all 11 students spent reading?",
+      "options": [
+        "A. 5 hours",
+        "B. 11 hours",
+        "C. 10.5 hours",
+        "D. 9.5 hours"
+      ],
+      "correctAnswerIndex": 2
+    }
+  ]
+}
