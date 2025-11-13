@@ -101,23 +101,19 @@
     {
       "type": "Drag-and-Drop",
       "dok": 3,
-      "skill": "Solving subtraction with missing digits (algebraic readiness)",
+      "skill": "Comparing sums and differences",
       "stimulus": null,
-      "stem": "Solve the subtraction problem by dragging the correct digits into the empty boxes (A, B, C, D).\n\n    9  [A] , 0  4  [B]\n-   [C] 8 , 1  [D]  7\n--------------------\n    4  3 , 8  9  6",
+      "stem": "Compute the value of each expression and drag it into the correct category.",
       "categories": [
-        "Box A (Ten Thousands)",
-        "Box B (Ones)",
-        "Box C (Ten Thousands)",
-        "Box D (Tens)"
+        "Value is GREATER than 50,000",
+        "Value is LESS than 50,000"
       ],
       "draggables": [
-        { "text": "2", "correctCategory": 0 },
-        { "text": "3", "correctCategory": 1 },
-        { "text": "4", "correctCategory": 2 },
-        { "text": "4", "correctCategory": 3 },
-        { "text": "9", "correctCategory": -1 },
-        { "text": "7", "correctCategory": -1 }
-      ]
+        { "text": "80,000 - 29,995", "correctCategory": 0 },
+        { "text": "42,500 + 7,499", "correctCategory": 1 },
+        { "text": "16,820 + 33,200", "correctCategory": 0 },
+        { "text": "100,000 - 50,001", "correctCategory": 1 },
+        { "text": "90,005 - 39,999", "correctCategory": 0 }
     },
     {
       "type": "Multiple-Choice",
