@@ -1,0 +1,164 @@
+{
+  "title": "Advanced Assessment: Sums and Differences to 100,000",
+  "standard": "4.PAFR.1.1 Use a strategy to accurately compute sums and differences of whole numbers up to 100,000 and justify the sum or difference.",
+  "passingScore": 7,
+  "questions": [
+    {
+      "type": "Multiple-Choice",
+      "dok": 1,
+      "skill": "Addition within 100,000",
+      "stimulus": null,
+      "stem": "What is the sum of 68,471 and 29,328?",
+      "options": [
+        "A. 97,799",
+        "B. 87,789",
+        "C. 97,699",
+        "D. 88,799"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "type": "Multiple-Choice",
+      "dok": 2,
+      "skill": "Subtraction with regrouping across zeros",
+      "stimulus": null,
+      "stem": "Find the difference: 80,004 - 36,575",
+      "options": [
+        "A. 54,571",
+        "B. 43,429",
+        "C. 53,429",
+        "D. 44,539"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "type": "Multiple-Choice",
+      "dok": 3,
+      "skill": "Error analysis in addition",
+      "stimulus": null,
+      "stem": "A student added 45,829 + 37,193 and got 72,912. What was their mistake?",
+      "options": [
+        "A. They incorrectly added 9 + 3 in the ones place.",
+        "B. They did not regroup the sum of the tens (20 + 90) to the hundreds place.",
+        "C. They correctly added the thousands (5,000 + 7,000 = 12,000) but failed to regroup the 10,000 to the ten thousands place.",
+        "D. They should have subtracted the two numbers instead of adding."
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "type": "Multiple-Choice",
+      "dok": 2,
+      "skill": "Solving for an unknown in an equation (algebraic readiness)",
+      "stimulus": null,
+      "stem": "Find the missing number (n) that makes the equation true: 38,450 + n = 82,000",
+      "options": [
+        "A. 120,450",
+        "B. 44,650",
+        "C. 43,550",
+        "D. 43,650"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "type": "Multiple-Choice",
+      "dok": 3,
+      "skill": "Solving multi-step word problems",
+      "stimulus": null,
+      "stem": "A stadium has 65,000 seats. On Friday, 42,819 people attended. On Saturday, 51,090 people attended. What is the combined number of *empty* seats from both nights?",
+      "options": [
+        "A. 36,091",
+        "B. 93,909",
+        "C. 22,181",
+        "D. 13,910"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "type": "EBSR",
+      "dok": 3,
+      "skill": "Justifying a computation using inverse operations",
+      "part1": {
+        "stem": "A student solves 70,000 - 28,491 and gets 41,509. Which statement *best* explains how the student can justify their answer is correct?",
+        "options": [
+          "A. They can round 28,491 to 30,000 and see that 70,000 - 30,000 is 40,000, which is close.",
+          "B. They can add their answer (41,509) to the number they subtracted (28,491) to see if it equals 70,000.",
+          "C. They can subtract their answer (41,509) from 70,000 to see if it equals 28,491.",
+          "D. They can re-do the standard algorithm a second time to check for regrouping errors."
+        ],
+        "correctAnswerIndex": 1
+      },
+      "part2": {
+        "stem": "Which equation shows the correct justification described in Part 1?",
+        "options": [
+          "A. 70,000 + 28,491 = 98,491",
+          "B. 70,000 - 41,509 = 28,491",
+          "C. 41,509 + 28,491 = 70,000",
+          "D. 41,509 - 28,491 = 13,018"
+        ],
+        "correctAnswerIndex": 2
+      }
+    },
+    {
+      "type": "Drag-and-Drop",
+      "dok": 3,
+      "skill": "Solving subtraction with missing digits (algebraic readiness)",
+      "stimulus": null,
+      "stem": "Solve the subtraction problem by dragging the correct digits into the empty boxes (A, B, C, D).\n\n    9  [A] , 0  4  [B]\n-   [C] 8 , 1  [D]  7\n--------------------\n    4  3 , 8  9  6",
+      "categories": [
+        "Box A (Ten Thousands)",
+        "Box B (Ones)",
+        "Box C (Ten Thousands)",
+        "Box D (Tens)"
+      ],
+      "draggables": [
+        { "text": "2", "correctCategory": 0 },
+        { "text": "3", "correctCategory": 1 },
+        { "text": "4", "correctCategory": 2 },
+        { "text": "4", "correctCategory": 3 },
+        { "text": "9", "correctCategory": -1 },
+        { "text": "7", "correctCategory": -1 }
+      ]
+    },
+    {
+      "type": "Multiple-Choice",
+      "dok": 3,
+      "skill": "Error analysis in justifying steps",
+      "stimulus": "A student wrote an explanation for solving 24,500 + 17,800.\n(1) First, I lined up the numbers by place value.\n(2) I added the ones and tens: 0 + 0 = 0 in both places.\n(3) Next, I added the hundreds: 500 + 800 = 1,300.\n(4) I wrote the 3 in the hundreds place and regrouped the 1 to the thousands place.\n(5) Then, I added 1,000 + 4,000 + 7,000, which equals 12,000.\n(6) I wrote the 2 in the thousands place and regrouped the 1 to the ten-thousands place.\n(7) Finally, I added 20,000 + 10,000, which equals 30,000.\n(8) My final answer is 32,300.",
+      "stem": "Click on the one step that contains the student's mathematical *error*.",
+      "options": [
+        "A. Step (3)",
+        "B. Step (5)",
+        "C. Step (7)",
+        "D. Step (8)"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "type": "Multiple-Choice",
+      "dok": 2,
+      "skill": "Using estimation to check reasonableness",
+      "stimulus": null,
+      "stem": "A total of 84,912 people visited a theme park in July. In August, 72,088 people visited. Which statement is the *most reasonable* conclusion?",
+      "options": [
+        "A. The total visitors for both months was about 157,000.",
+        "B. The park had about 10,000 more visitors in July than in August.",
+        "C. The park had about 13,000 more visitors in July than in August.",
+        "D. The total visitors for both months was exactly 156,990."
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "type": "Constructed-Response",
+      "dok": 3,
+      "skill": "Solving and justifying a multi-step problem with a claim",
+      "stimulus": null,
+      "stem": "A company has $80,000 in its budget. They purchased a new machine for $45,890 and new computers for $22,975. They *claim* they have enough money left to buy a printer that costs $11,200. Are they correct? Justify your answer with calculations.",
+      "rubric": [
+        { "points": 1, "criteria": "Correctly calculates the total amount spent: $45,890 + $22,975 = $68,865." },
+        { "points": 1, "criteria": "Correctly calculates the amount of money remaining: $80,000 - $68,865 = $11,135." },
+        { "points": 1, "criteria": "Provides the correct conclusion: 'No, they are not correct.'" },
+        { "points": 1, "criteria": "Provides a clear justification comparing the remaining money to the cost of the printer (e.g., '$11,135 is less than $11,200,' or 'They are short by $65.')" }
+      ]
+    }
+  ]
+}
