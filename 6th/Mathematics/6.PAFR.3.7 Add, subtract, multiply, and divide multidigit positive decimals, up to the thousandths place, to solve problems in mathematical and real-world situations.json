@@ -1,0 +1,157 @@
+{
+  "title": "6th Grade Math - Decimal Operations Assessment",
+  "standard": "6.PAFR.3.7 Add, subtract, multiply, and divide multidigit positive decimals, up to the thousandths place, to solve problems in mathematical and real-world situations. Strategies should make the connection from models in fifth grade to a standard algorithm.",
+  "passingScore": 7,
+  "questions": [
+    {
+      "type": "Multiple-Choice",
+      "dok": 2,
+      "skill": "Multiply multidigit decimals in a real-world situation.",
+      "stimulus": "The 6th-grade team at Maplewood Middle School is planning a field trip to the science museum. The team has collected money from 85 students.\n\n* Museum admission costs $8.75 per student.\n* The school is renting two buses, and the total rental cost is $545.50.\n* The school is also providing a boxed lunch for each student, costing $4.90 per lunch.\n* To help cover costs, the school's PTA has donated $250.00.",
+      "stem": "What is the total cost for all 85 students to get museum admission?",
+      "options": [
+        "A. $743.75",
+        "B. $74.38",
+        "C. $875.00",
+        "D. $7437.50"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "type": "Multiple-Choice",
+      "dok": 2,
+      "skill": "Subtract decimals in a real-world situation.",
+      "stimulus": "The 6th-grade team at Maplewood Middle School is planning a field trip to the science museum. The team has collected money from 85 students.\n\n* Museum admission costs $8.75 per student.\n* The school is renting two buses, and the total rental cost is $545.50.\n* The school is also providing a boxed lunch for each student, costing $4.90 per lunch.\n* To help cover costs, the school's PTA has donated $250.00.",
+      "stem": "The total cost for buses is $545.50. After the PTA's $250.00 donation is applied *only* to the bus cost, how much money does the school still need to pay for the buses?",
+      "options": [
+        "A. $795.50",
+        "B. $305.50",
+        "C. $295.50",
+        "D. $295.00"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "type": "Multi-Select",
+      "dok": 3,
+      "skill": "Solve multi-step problems with decimal operations.",
+      "stimulus": "The 6th-grade team at Maplewood Middle School is planning a field trip to the science museum. The team has collected money from 85 students.\n\n* Museum admission costs $8.75 per student.\n* The school is renting two buses, and the total rental cost is $545.50.\n* The school is also providing a boxed lunch for each student, costing $4.90 per lunch.\n* To help cover costs, the school's PTA has donated $250.00.",
+      "stem": "The total cost for the field trip includes admission, buses, and lunches. The PTA donation of $250.00 will be subtracted from this total. Which of the following statements are true? Select *two* correct answers.",
+      "options": [
+        "A. The total cost for all student lunches is $416.50.",
+        "B. The total cost for admission and buses combined is $1288.25.",
+        "C. The final cost the school must cover, after the PTA donation, is $1455.75.",
+        "D. The total cost for the field trip, before the donation, is $1700.75.",
+        "E. The total cost for admission is $100 more than the total cost for buses."
+      ],
+      "correctAnswerIndices": [
+        0,
+        2
+      ]
+    },
+    {
+      "type": "Matching",
+      "dok": 2,
+      "skill": "Calculate costs with decimal operations.",
+      "stimulus": "The 6th-grade team at Maplewood Middle School is planning a field trip to the science museum. The team has collected money from 85 students.\n\n* Museum admission costs $8.75 per student.\n* The school is renting two buses, and the total rental cost is $545.50.\n* The school is also providing a boxed lunch for each student, costing $4.90 per lunch.\n* To help cover costs, the school's PTA has donated $250.00.",
+      "stem": "Drag the correct total cost to match the expense it represents.",
+      "prompts": [
+        "Total Admission Cost for 85 students",
+        "Total Lunch Cost for 85 students",
+        "Bus Cost (after PTA donation)"
+      ],
+      "options": [
+        "$743.75",
+        "$416.50",
+        "$295.50",
+        "$1289.25"
+      ],
+      "correctMapping": [
+        {
+          "promptIndex": 0,
+          "optionIndex": 0
+        },
+        {
+          "promptIndex": 1,
+          "optionIndex": 1
+        },
+        {
+          "promptIndex": 2,
+          "optionIndex": 2
+        }
+      ]
+    },
+    {
+      "type": "Constructed-Response",
+      "dok": 3,
+      "skill": "Solving multi-step decimal problems (all operations) and division with rounding.",
+      "stimulus": "The 6th-grade team at Maplewood Middle School is planning a field trip to the science museum. The team has collected money from 85 students.\n\n* Museum admission costs $8.75 per student.\n* The school is renting two buses, and the total rental cost is $545.50.\n* The school is also providing a boxed lunch for each student, costing $4.90 per lunch.\n* To help cover costs, the school's PTA has donated $250.00.",
+      "stem": "The school decides to split the *total cost* of the field trip (admission, buses, and lunches) evenly among all 85 students *after* applying the $250.00 PTA donation. What is the final cost per student? Round your answer to the nearest cent.",
+      "sampleAnswer": "Step 1: Find total admission cost: 85 * $8.75 = $743.75. \nStep 2: Find total lunch cost: 85 * $4.90 = $416.50. \nStep 3: Find total cost of all items: $743.75 (admission) + $545.50 (buses) + $416.50 (lunches) = $1705.75. \nStep 4: Subtract the PTA donation: $1705.75 - $250.00 = $1455.75. \nStep 5: Divide the final cost by the number of students: $1455.75 / 85 = $17.1264... \nStep 6: Round to the nearest cent: $17.13. \nThe final cost per student is $17.13."
+    },
+    {
+      "type": "Multiple-Choice",
+      "dok": 2,
+      "skill": "Add decimals in a real-world situation.",
+      "stimulus": "The 6th-grade team at Maplewood Middle School is planning a field trip to the science museum. The team has collected money from 85 students.\n\n* Museum admission costs $8.75 per student.\n* The school is renting two buses, and the total rental cost is $545.50.\n* The school is also providing a boxed lunch for each student, costing $4.90 per lunch.\n* To help cover costs, the school's PTA has donated $250.00.",
+      "stem": "What is the combined cost for *one* student's museum admission and *one* boxed lunch?",
+      "options": [
+        "A. $12.65",
+        "B. $13.65",
+        "C. $3.85",
+        "D. $13.55"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "type": "Multiple-Choice",
+      "dok": 2,
+      "skill": "Divide decimals in a real-world situation.",
+      "stimulus": "The 6th-grade team at Maplewood Middle School is planning a field trip to the science museum. The team has collected money from 85 students.\n\n* Museum admission costs $8.75 per student.\n* The school is renting two buses, and the total rental cost is $545.50.\n* The school is also providing a boxed lunch for each student, costing $4.90 per lunch.\n* To help cover costs, the school's PTA has donated $250.00.",
+      "stem": "The total rental cost for *two* buses is $545.50. What is the cost per bus?",
+      "options": [
+        "A. $272.75",
+        "B. $272.25",
+        "C. $1091.00",
+        "D. $270.50"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "type": "Multiple-Choice",
+      "dok": 3,
+      "skill": "Solve multi-step problems (multiplication and addition).",
+      "stimulus": "The 6th-grade team at Maplewood Middle School is planning a field trip to the science museum. The team has collected money from 85 students.\n\n* Museum admission costs $8.75 per student.\n* The school is renting two buses, and the total rental cost is $545.50.\n* The school is also providing a boxed lunch for each student, costing $4.90 per lunch.\n* To help cover costs, the school's PTA has donated $250.00.",
+      "stem": "What is the total combined cost for *all* 85 student admissions and *all* 85 student lunches?",
+      "options": [
+        "A. $1160.25",
+        "B. $13.65",
+        "C. $1150.75",
+        "D. $1160.00"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "type": "Constructed-Response",
+      "dok": 2,
+      "skill": "Multiply decimals in a real-world situation.",
+      "stimulus": "The 6th-grade team at Maplewood Middle School is planning a field trip to the science museum. The team has collected money from 85 students.\n\n* Museum admission costs $8.75 per student.\n* The school is renting two buses, and the total rental cost is $545.50.\n* The school is also providing a boxed lunch for each student, costing $4.90 per lunch.\n* To help cover costs, the school's PTA has donated $250.00.",
+      "stem": "The school collected $25.50 from each of the 85 students to pay for the trip. How much money did the school collect in total?",
+      "sampleAnswer": "To find the total amount collected, you multiply the amount per student by the number of students: $25.50 * 85 = $2167.50. The school collected $2,167.50."
+    },
+    {
+      "type": "Multiple-Choice",
+      "dok": 3,
+      "skill": "Solve multi-step problems (subtraction).",
+      "stimulus": "The 6th-grade team at Maplewood Middle School is planning a field trip to the science museum. The team has collected money from 85 students.\n\n* Museum admission costs $8.75 per student.\n* The school is renting two buses, and the total rental cost is $545.50.\n* The school is also providing a boxed lunch for each student, costing $4.90 per lunch.\n* To help cover costs, the school's PTA has donated $250.00.\n\n(Assume the school collected a total of $2,167.50 from the students.)",
+      "stem": "The school collected a total of $2,167.50 from the students. This money is used to pay for the total admission cost ($743.75) and the total lunch cost ($416.50). How much of the collected money is left after paying for both of these expenses?",
+      "options": [
+        "A. $1160.25",
+        "B. $1007.25",
+        "C. $1423.75",
+        "D. $1751.00"
+      ],
+      "correctAnswerIndex": 1
+    }
+  ]
+}
