@@ -49,37 +49,19 @@
         2
       ]
     },
-    {
-      "type": "Matching",
+   {
+      "type": "Multiple-Choice",
       "dok": 2,
-      "skill": "Calculate costs with decimal operations.",
+      "skill": "Calculate costs with decimal operations (multi-step).",
       "stimulus": "The 6th-grade team at Maplewood Middle School is planning a field trip to the science museum. The team has collected money from 85 students.\n\n* Museum admission costs $8.75 per student.\n* The school is renting two buses, and the total rental cost is $545.50.\n* The school is also providing a boxed lunch for each student, costing $4.90 per lunch.\n* To help cover costs, the school's PTA has donated $250.00.",
-      "stem": "Drag the correct total cost to match the expense it represents.",
-      "prompts": [
-        "Total Admission Cost for 85 students",
-        "Total Lunch Cost for 85 students",
-        "Bus Cost (after PTA donation)"
-      ],
+      "stem": "What is the combined total cost for all 85 student admissions AND the bus rental (after the $250.00 PTA donation is applied to the bus cost)?",
       "options": [
-        "$743.75",
-        "$416.50",
-        "$295.50",
-        "$1289.25"
+        "A. $712.00",
+        "B. $962.00",
+        "C. $1039.25",
+        "D. $1289.25"
       ],
-      "correctMapping": [
-        {
-          "promptIndex": 0,
-          "optionIndex": 0
-        },
-        {
-          "promptIndex": 1,
-          "optionIndex": 1
-        },
-        {
-          "promptIndex": 2,
-          "optionIndex": 2
-        }
-      ]
+      "correctAnswerIndex": 2
     },
     {
       "type": "Constructed-Response",
