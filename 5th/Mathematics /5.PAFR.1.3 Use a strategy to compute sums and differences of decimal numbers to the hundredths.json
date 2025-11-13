@@ -1,164 +1,154 @@
 {
-  "title": "Advanced Assessment: Decimal Sums and Differences",
+  "title": "5th Grade Math (Advanced): Decimal Operations",
   "standard": "5.PAFR.1.3 Use a strategy to compute sums and differences of decimal numbers to the hundredths.",
-  "passingScore": 7,
+  "passingScore": 8,
   "questions": [
     {
       "type": "Multiple-Choice",
-      "dok": 1,
-      "skill": "Addition of decimals to the hundredths",
+      "dok": 2,
+      "skill": "Solving multi-step decimal computations",
       "stimulus": null,
-      "stem": "What is the sum of 47.82 and 39.59?",
+      "stem": "What is the value of the expression (45.1 - 12.83) + 7.09?",
       "options": [
-        "A. 86.31",
-        "B. 87.31",
-        "C. 87.41",
-        "D. 76.41"
+        "A. 32.27",
+        "B. 39.36",
+        "C. 25.18",
+        "D. 40.16"
       ],
-      "correctAnswerIndex": 2
+      "correctAnswerIndex": 1
     },
     {
       "type": "Multiple-Choice",
       "dok": 2,
-      "skill": "Subtraction of decimals with regrouping",
+      "skill": "Solving multi-step decimal word problems",
       "stimulus": null,
-      "stem": "Find the difference: 60.05 - 28.47",
+      "stem": "Jada is running a 10-kilometer race. She ran 3.45 km, took a water break, and then ran another 4.8 km. How many kilometers does she have left to run?",
       "options": [
-        "A. 31.58",
-        "B. 32.58",
-        "C. 42.42",
-        "D. 31.48"
+        "A. 8.25 km",
+        "B. 1.75 km",
+        "C. 2.75 km",
+        "D. 1.85 km"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "type": "Multi-Select",
+      "dok": 3,
+      "skill": "Comparing decimal sums and differences",
+      "stimulus": null,
+      "stem": "Which of the following expressions have a value that is *between* 15.5 and 16.0? Select all that apply.",
+      "options": [
+        "A. 8.92 + 6.59",
+        "B. 24.00 - 8.45",
+        "C. 7.75 + 7.70",
+        "D. 30.25 - 14.26",
+        "E. 16.05 - 0.04"
+      ],
+      "correctAnswerIndices": [0, 1, 3]
+    },
+    {
+      "type": "Multiple-Choice",
+      "dok": 3,
+      "skill": "Solving complex multi-step decimal word problems",
+      "stimulus": null,
+      "stem": "A baker has 50 kg of flour. He uses 12.75 kg for bread and 8.5 kg for cakes. He then receives a new shipment of 25.25 kg of flour. How much flour does the baker have now?",
+      "options": [
+        "A. 54.00 kg",
+        "B. 28.75 kg",
+        "C. 46.00 kg",
+        "D. 96.50 kg"
       ],
       "correctAnswerIndex": 0
     },
     {
-      "type": "Multiple-Choice",
-      "dok": 3,
-      "skill": "Error analysis in decimal subtraction",
-      "stimulus": "A student attempted to solve 52.8 - 14.36.\n\n    52.8\n-   14.36\n--------\n    38.56\n\nWhat was the student's error?",
-      "stem": "What was the student's error?",
-      "options": [
-        "A. The student did not regroup correctly in the tenths place.",
-        "B. The student subtracted 0 from 6 in the hundredths place instead of regrouping.",
-        "C. The student incorrectly aligned the decimal points before subtracting.",
-        "D. The student should have added an extra zero to 14.36 to make it 14.360."
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "type": "Multiple-Choice",
-      "dok": 2,
-      "skill": "Solving for an unknown in a decimal equation",
-      "stimulus": null,
-      "stem": "Find the missing number (n) that makes the equation true: n + 18.45 = 42.10",
-      "options": [
-        "A. 60.55",
-        "B. 23.65",
-        "C. 24.75",
-        "D. 23.55"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "type": "Multiple-Choice",
-      "dok": 3,
-      "skill": "Solving multi-step decimal word problems",
-      "stimulus": null,
-      "stem": "A rectangular garden has a perimeter of 80.50 meters. The length of the garden is 25.75 meters. What is the width of the garden?",
-      "options": [
-        "A. 54.75 meters",
-        "B. 51.50 meters",
-        "C. 27.50 meters",
-        "D. 14.50 meters"
-      ],
-      "correctAnswerIndex": 3
-    },
-    {
       "type": "EBSR",
       "dok": 3,
-      "skill": "Using estimation to justify reasonableness",
+      "skill": "Analyzing errors in decimal subtraction strategy (alignment)",
+      "stimulus": null,
       "part1": {
-        "stem": "A student calculates 48.92 + 19.15 and gets 68.07. Which estimation strategy *best* justifies that this answer is reasonable?",
+        "stem": "What is the correct value of 40.05 - 13.6?",
         "options": [
-          "A. Rounding to the nearest whole number (49 + 19) gives 68, which is close to 68.07.",
-          "B. Rounding to the nearest ten (50 + 20) gives 70, which is close to 68.07.",
-          "C. Rounding only one number (48.92 + 20) gives 68.92, which is close to 68.07.",
-          "D. Using compatible numbers (48.75 + 19.25) gives 68, which is close to 68.07."
+          "A. 26.45",
+          "B. 38.69",
+          "C. 27.45",
+          "D. 39.914"
         ],
         "correctAnswerIndex": 0
       },
       "part2": {
-        "stem": "A student calculates 72.03 - 29.88 and gets 42.15. Which statement *best* explains why this answer is reasonable?",
+        "stem": "A student solved the problem and got 38.69. What was the student's most likely strategic error?",
         "options": [
-          "A. The answer is close to 50.",
-          "B. Rounding to the nearest whole number (72 - 30) gives 42, which is very close to 42.15.",
-          "C. Rounding to the nearest ten (70 - 30) gives 40, which is close to 42.15.",
-          "D. The last digit is 5, which makes sense because 13 - 8 = 5."
+          "A. The student added the numbers instead of subtracting.",
+          "B. The student did not align the decimal points correctly before subtracting.",
+          "C. The student borrowed from the 4, but forgot to regroup the 0 in the ones place.",
+          "D. The student dropped the 0 in the tenths place of 40.05."
         ],
         "correctAnswerIndex": 1
       }
     },
     {
-      "type": "Drag-and-Drop",
+      "type": "Constructed-Response",
       "dok": 3,
-      "skill": "Solving addition with missing digits (algebraic readiness)",
+      "skill": "Finding unknown decimals based on sum and difference (algebraic reasoning)",
       "stimulus": null,
-      "stem": "Solve the addition problem by dragging the correct digits into the empty boxes (A, B, C, D).\n\n      4 [A] . 7  8\n+   [B] 9 . [C] 4\n------------------\n      8  3 . 4 [D]",
+      "stem": "Find a pair of numbers, each with digits in the hundredths place, that have a sum of 20.00 and a difference of 5.50.",
+      "correctAnswer": "The two numbers are 12.75 and 7.25. (Check: 12.75 + 7.25 = 20.00; 12.75 - 7.25 = 5.50)"
+    },
+    {
+      "type": "Drag-and-Drop",
+      "dok": 2,
+      "skill": "Categorizing decimal expressions by value",
+      "stimulus": null,
+      "stem": "Drag each expression to the correct category based on its value.",
       "categories": [
-        "Box A (Ones)",
-        "Box B (Tens)",
-        "Box C (Tenths)",
-        "Box D (Hundredths)"
+        "Value is 9.5",
+        "Value is 10.5"
       ],
       "draggables": [
-        { "text": "3", "correctCategory": 0 },
-        { "text": "3", "correctCategory": 1 },
-        { "text": "6", "correctCategory": 2 },
-        { "text": "2", "correctCategory": 3 },
-        { "text": "7", "correctCategory": -1 },
-        { "text": "1", "correctCategory": -1 }
+        { "text": "4.75 + 4.75", "correctCategory": 0 },
+        { "text": "12.00 - 2.50", "correctCategory": 0 },
+        { "text": "5.25 + 5.25", "correctCategory": 1 },
+        { "text": "15.00 - 4.50", "correctCategory": 1 },
+        { "text": "6.20 + 3.30", "correctCategory": 0 },
+        { "text": "8.10 + 2.40", "correctCategory": 1 }
       ]
     },
     {
-      "type": "Multiple-Choice",
+      "type": "Hot-Text",
       "dok": 3,
-      "skill": "Solving multi-step financial literacy problems",
-      "stimulus": null,
-      "stem": "Maria had $100.00. She bought a shirt for $24.95 and a pair of pants for $38.50. She then found $5.25 in her pocket. How much money does Maria have *now*?",
+      "skill": "Identifying extraneous information in a word problem",
+      "stimulus": "Miguel is buying items for a school project. He buys poster board for $4.50, markers for $7.95, and a bottle of glue for $2.30. The poster board is 22 inches wide. He gives the cashier $20.00. How much change will he get back?",
+      "stem": "Click on the sentence in the story that contains information *not* needed to calculate the change Miguel will receive.",
       "options": [
-        "A. $36.55",
-        "B. $31.30",
-        "C. $41.80",
-        "D. $63.45"
+        "Miguel is buying items for a school project.",
+        "He buys poster board for $4.50, markers for $7.95, and a bottle of glue for $2.30.",
+        "The poster board is 22 inches wide.",
+        "He gives the cashier $20.00.",
+        "How much change will he get back?"
       ],
       "correctAnswerIndex": 2
     },
     {
       "type": "Multiple-Choice",
-      "dok": 2,
-      "skill": "Comparing sums and differences",
+      "dok": 3,
+      "skill": "Analyzing mental math strategies for decimal subtraction",
       "stimulus": null,
-      "stem": "Which expression has a value of 25.18?",
+      "stem": "A student wants to solve 15.00 - 8.98. Which of the following describes a correct mental math strategy?",
       "options": [
-        "A. 12.09 + 13.19",
-        "B. 40.00 - 14.82",
-        "C. 9.87 + 15.21",
-        "D. 31.08 - 6.90"
+        "A. Strategy 1: Add 0.02 to 8.98 to get 9.00. Then subtract 15.00 - 9.00 = 6.00. Finally, add 0.02 to the answer, so the result is 6.02.",
+        "B. Strategy 2: Add 0.02 to *both* numbers. Solve the new problem: 15.02 - 9.00. The result is 6.02.",
+        "C. Strategy 3: Subtract 8 from 15 to get 7. Then subtract 0.00 - 0.98 to get -0.98. Then combine 7 and -0.98 to get 6.02.",
+        "D. All of the above are correct strategies."
       ],
-      "correctAnswerIndex": 1
+      "correctAnswerIndex": 3
     },
     {
       "type": "Constructed-Response",
       "dok": 3,
-      "skill": "Solving and justifying a multi-step problem with a claim",
+      "skill": "Justifying a conclusion using decimal addition",
       "stimulus": null,
-      "stem": "A scientist is tracking the growth of two plants. Plant A is 18.45 cm tall. Plant B is 24.20 cm tall. The scientist claims that after one week, Plant A (which grew 7.8 cm) is now taller than Plant B (which grew 2.02 cm).\n\nIs the scientist's claim correct? Justify your answer with calculations.",
-      "rubric": [
-        { "points": 1, "criteria": "Correctly calculates Plant A's new height: 18.45 + 7.80 = 26.25 cm." },
-        { "points": 1, "criteria": "Correctly calculates Plant B's new height: 24.20 + 2.02 = 26.22 cm." },
-        { "points": 1, "criteria": "Provides the correct conclusion: 'Yes, the scientist's claim is correct.'" },
-        { "points": 1, "criteria": "Provides a clear justification by comparing the two new heights (e.g., '26.25 cm is greater than 26.22 cm.')" }
-      ]
+      "stem": "Keisha wants to buy a game that costs $44.50. She has two gift cards. One has a balance of $18.95 and the other has a balance of $25.75. Does Keisha have enough money to buy the game? Show your work and explain your answer.",
+      "correctAnswer": "Yes, she has enough money. Work: $18.95 + $25.75 = $44.70. Explanation: Keisha has a total of $44.70 on her gift cards. Since $44.70 is greater than the game's cost of $44.50, she has enough money."
     }
   ]
 }
