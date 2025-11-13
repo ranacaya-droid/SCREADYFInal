@@ -1,159 +1,181 @@
 {
-  "title": "Advanced Assessment: Sums and Differences to 100,000",
+  "title": "4th Grade Math - Addition and Subtraction Assessment",
   "standard": "4.PAFR.1.1 Use a strategy to accurately compute sums and differences of whole numbers up to 100,000 and justify the sum or difference.",
   "passingScore": 7,
   "questions": [
     {
       "type": "Multiple-Choice",
       "dok": 1,
-      "skill": "Addition within 100,000",
-      "stimulus": null,
-      "stem": "What is the sum of 68,471 and 29,328?",
+      "skill": "Subtract whole numbers up to 100,000.",
+      "stimulus": "The Palmetto City Zoo tracks its visitor attendance every year. The table below shows the total number of visitors for the last four years. The zoo also has a goal to reach 100,000 visitors in a single year.\n\n| Year | Total Visitors |\n| :--- | :--- |\n| Year 1 | 45,820 |\n| Year 2 | 51,065 |\n| Year 3 | 49,118 |\n| Year 4 | 53,709 |",
+      "stem": "How many more visitors did the zoo have in Year 2 than in Year 1?",
       "options": [
-        "A. 97,799",
-        "B. 87,789",
-        "C. 97,699",
-        "D. 88,799"
+        "A. 5,245",
+        "B. 5,240",
+        "C. 6,245",
+        "D. 96,885"
       ],
       "correctAnswerIndex": 0
     },
     {
       "type": "Multiple-Choice",
       "dok": 2,
-      "skill": "Subtraction with regrouping across zeros",
-      "stimulus": null,
-      "stem": "Find the difference: 80,004 - 36,575",
+      "skill": "Add whole numbers up to 100,000.",
+      "stimulus": "The Palmetto City Zoo tracks its visitor attendance every year. The table below shows the total number of visitors for the last four years. The zoo also has a goal to reach 100,000 visitors in a single year.\n\n| Year | Total Visitors |\n| :--- | :--- |\n| Year 1 | 45,820 |\n| Year 2 | 51,065 |\n| Year 3 | 49,118 |\n| Year 4 | 53,709 |",
+      "stem": "What was the total number of visitors combined in Year 3 and Year 4?",
       "options": [
-        "A. 54,571",
-        "B. 43,429",
-        "C. 53,429",
-        "D. 44,539"
+        "A. 92,827",
+        "B. 102,827",
+        "C. 102,817",
+        "D. 4,591"
       ],
       "correctAnswerIndex": 1
     },
     {
-      "type": "Multiple-Choice",
-      "dok": 3,
-      "skill": "Error analysis in addition",
-      "stimulus": null,
-      "stem": "A student added 45,829 + 37,193 and got 72,912. What was their mistake?",
-      "options": [
-        "A. They incorrectly added 9 + 3 in the ones place.",
-        "B. They did not regroup the sum of the tens (20 + 90) to the hundreds place.",
-        "C. They correctly added the thousands (5,000 + 7,000 = 12,000) but failed to regroup the 10,000 to the ten thousands place.",
-        "D. They should have subtracted the two numbers instead of adding."
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "type": "Multiple-Choice",
+      "type": "Constructed-Response",
       "dok": 2,
-      "skill": "Solving for an unknown in an equation (algebraic readiness)",
-      "stimulus": null,
-      "stem": "Find the missing number (n) that makes the equation true: 38,450 + n = 82,000",
-      "options": [
-        "A. 120,450",
-        "B. 44,650",
-        "C. 43,550",
-        "D. 43,650"
-      ],
-      "correctAnswerIndex": 2
+      "skill": "Subtract from a benchmark number (100,000).",
+      "stimulus": "The Palmetto City Zoo tracks its visitor attendance every year. The table below shows the total number of visitors for the last four years. The zoo also has a goal to reach 100,000 visitors in a single year.\n\n| Year | Total Visitors |\n| :--- | :--- |\n| Year 1 | 45,820 |\n| Year 2 | 51,065 |\n| Year 3 | 49,118 |\n| Year 4 | 53,709 |",
+      "stem": "In Year 4, how many more visitors were needed to reach the zoo's goal of 100,000 visitors? Show your work.",
+      "sampleAnswer": "46,291 visitors. (100,000 - 53,709 = 46,291)"
     },
     {
       "type": "Multiple-Choice",
-      "dok": 3,
-      "skill": "Solving multi-step word problems",
-      "stimulus": null,
-      "stem": "A stadium has 65,000 seats. On Friday, 42,819 people attended. On Saturday, 51,090 people attended. What is the combined number of *empty* seats from both nights?",
+      "dok": 1,
+      "skill": "Justify a sum using expanded form strategy.",
+      "stimulus": "The Palmetto City Zoo tracks its visitor attendance every year. The table below shows the total number of visitors for the last four years. The zoo also has a goal to reach 100,000 visitors in a single year.\n\n| Year | Total Visitors |\n| :--- | :--- |\n| Year 1 | 45,820 |\n| Year 2 | 51,065 |\n| Year 3 | 49,118 |\n| Year 4 | 53,709 |",
+      "stem": "Which equation uses expanded form to correctly show the total visitors for Year 1?",
       "options": [
-        "A. 36,091",
-        "B. 93,909",
-        "C. 22,181",
-        "D. 13,910"
+        "A. 40,000 + 5,000 + 800 + 2 = 45,802",
+        "B. 40,000 + 5,000 + 800 + 20 = 45,820",
+        "C. 40,000 + 500 + 80 + 2 = 40,582",
+        "D. 4,000 + 5,000 + 800 + 20 = 9,820"
       ],
-      "correctAnswerIndex": 0
+      "correctAnswerIndex": 1
+    },
+    {
+      "type": "Multi-Select",
+      "dok": 3,
+      "skill": "Analyze and compare sums and differences.",
+      "stimulus": "The Palmetto City Zoo tracks its visitor attendance every year. The table below shows the total number of visitors for the last four years. The zoo also has a goal to reach 100,000 visitors in a single year.\n\n| Year | Total Visitors |\n| :--- | :--- |\n| Year 1 | 45,820 |\n| Year 2 | 51,065 |\n| Year 3 | 49,118 |\n| Year 4 | 53,709 |",
+      "stem": "Which two statements about the visitor numbers are true?",
+      "options": [
+        "A. The total visitors in Year 1 and Year 2 is less than 95,000.",
+        "B. The difference between the highest year (Year 4) and the lowest year (Year 1) is 7,889.",
+        "C. The total visitors for all four years is 199,712.",
+        "D. Year 3 had 1,947 more visitors than Year 2.",
+        "E. The combined total of Year 1 and Year 3 is 95,938."
+      ],
+      "correctAnswerIndices": [
+        1,
+        2
+      ]
     },
     {
       "type": "EBSR",
       "dok": 3,
-      "skill": "Justifying a computation using inverse operations",
+      "skill": "Compute a sum and justify the answer.",
+      "stimulus": "The Palmetto City Zoo tracks its visitor attendance every year. The table below shows the total number of visitors for the last four years. The zoo also has a goal to reach 100,000 visitors in a single year.\n\n| Year | Total Visitors |\n| :--- | :--- |\n| Year 1 | 45,820 |\n| Year 2 | 51,065 |\n| Year 3 | 49,118 |\n| Year 4 | 53,709 |",
       "part1": {
-        "stem": "A student solves 70,000 - 28,491 and gets 41,509. Which statement *best* explains how the student can justify their answer is correct?",
+        "stem": "A student claims the total number of visitors in Year 1 and Year 2 combined is 96,885. Is the student's claim correct?",
         "options": [
-          "A. They can round 28,491 to 30,000 and see that 70,000 - 30,000 is 40,000, which is close.",
-          "B. They can add their answer (41,509) to the number they subtracted (28,491) to see if it equals 70,000.",
-          "C. They can subtract their answer (41,509) from 70,000 to see if it equals 28,491.",
-          "D. They can re-do the standard algorithm a second time to check for regrouping errors."
+          "A. Yes, the claim is correct.",
+          "B. No, the claim is incorrect."
         ],
-        "correctAnswerIndex": 1
+        "correctAnswerIndex": 0
       },
       "part2": {
-        "stem": "Which equation shows the correct justification described in Part 1?",
+        "stem": "Which equation justifies the answer in Part 1?",
         "options": [
-          "A. 70,000 + 28,491 = 98,491",
-          "B. 70,000 - 41,509 = 28,491",
-          "C. 41,509 + 28,491 = 70,000",
-          "D. 41,509 - 28,491 = 13,018"
+          "A. 51,065 - 45,820 = 5,245",
+          "B. 45,000 + 51,000 = 96,000",
+          "C. 45,820 + 51,065 = 96,885",
+          "D. 49,118 + 53,709 = 102,827"
         ],
         "correctAnswerIndex": 2
       }
     },
     {
       "type": "Drag-and-Drop",
-      "dok": 3,
-      "skill": "Comparing sums and differences",
-      "stimulus": null,
-      "stem": "Compute the value of each expression and drag it into the correct category.",
+      "dok": 2,
+      "skill": "Compute sums and differences.",
+      "stimulus": "The Palmetto City Zoo tracks its visitor attendance every year. The table below shows the total number of visitors for the last four years. The zoo also has a goal to reach 100,000 visitors in a single year.\n\n| Year | Total Visitors |\n| :--- | :--- |\n| Year 1 | 45,820 |\n| Year 2 | 51,065 |\n| Year 3 | 49,118 |\n| Year 4 | 53,709 |",
+      "stem": "Calculate the answers and drag them to the correct expression.",
       "categories": [
-        "Value is GREATER than 50,000",
-        "Value is LESS than 50,000"
+        "Year 2 + Year 3",
+        "Year 4 - Year 2",
+        "100,000 - Year 3"
       ],
       "draggables": [
-        { "text": "80,000 - 29,995", "correctCategory": 0 },
-        { "text": "42,500 + 7,499", "correctCategory": 1 },
-        { "text": "16,820 + 33,200", "correctCategory": 0 },
-        { "text": "100,000 - 50,001", "correctCategory": 1 },
-        { "text": "90,005 - 39,999", "correctCategory": 0 }
-    },
-    {
-      "type": "Multiple-Choice",
-      "dok": 3,
-      "skill": "Error analysis in justifying steps",
-      "stimulus": "A student wrote an explanation for solving 24,500 + 17,800.\n(1) First, I lined up the numbers by place value.\n(2) I added the ones and tens: 0 + 0 = 0 in both places.\n(3) Next, I added the hundreds: 500 + 800 = 1,300.\n(4) I wrote the 3 in the hundreds place and regrouped the 1 to the thousands place.\n(5) Then, I added 1,000 + 4,000 + 7,000, which equals 12,000.\n(6) I wrote the 2 in the thousands place and regrouped the 1 to the ten-thousands place.\n(7) Finally, I added 20,000 + 10,000, which equals 30,000.\n(8) My final answer is 32,300.",
-      "stem": "Click on the one step that contains the student's mathematical *error*.",
-      "options": [
-        "A. Step (3)",
-        "B. Step (5)",
-        "C. Step (7)",
-        "D. Step (8)"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "type": "Multiple-Choice",
-      "dok": 2,
-      "skill": "Using estimation to check reasonableness",
-      "stimulus": null,
-      "stem": "A total of 84,912 people visited a theme park in July. In August, 72,088 people visited. Which statement is the *most reasonable* conclusion?",
-      "options": [
-        "A. The total visitors for both months was about 157,000.",
-        "B. The park had about 10,000 more visitors in July than in August.",
-        "C. The park had about 13,000 more visitors in July than in August.",
-        "D. The total visitors for both months was exactly 156,990."
-      ],
-      "correctAnswerIndex": 2
+        {
+          "text": "100,183",
+          "correctCategory": 0
+        },
+        {
+          "text": "2,644",
+          "correctCategory": 1
+        },
+        {
+          "text": "50,882",
+          "correctCategory": 2
+        },
+        {
+          "text": "5,245"
+        }
+      ]
     },
     {
       "type": "Constructed-Response",
       "dok": 3,
-      "skill": "Solving and justifying a multi-step problem with a claim",
-      "stimulus": null,
-      "stem": "A company has $80,000 in its budget. They purchased a new machine for $45,890 and new computers for $22,975. They *claim* they have enough money left to buy a printer that costs $11,200. Are they correct? Justify your answer with calculations.",
-      "rubric": [
-        { "points": 1, "criteria": "Correctly calculates the total amount spent: $45,890 + $22,975 = $68,865." },
-        { "points": 1, "criteria": "Correctly calculates the amount of money remaining: $80,000 - $68,865 = $11,135." },
-        { "points": 1, "criteria": "Provides the correct conclusion: 'No, they are not correct.'" },
-        { "points": 1, "criteria": "Provides a clear justification comparing the remaining money to the cost of the printer (e.g., '$11,135 is less than $11,200,' or 'They are short by $65.')" }
+      "skill": "Solve a multi-step problem and justify the answer.",
+      "stimulus": "The Palmetto City Zoo tracks its visitor attendance every year. The table below shows the total number of visitors for the last four years. The zoo also has a goal to reach 100,000 visitors in a single year.\n\n| Year | Total Visitors |\n| :--- | :--- |\n| Year 1 | 45,820 |\n| Year 2 | 51,065 |\n| Year 3 | 49,118 |\n| Year 4 | 53,709 |",
+      "stem": "The zoo's goal was to have a combined total of at least 95,000 visitors for Year 1 and Year 3. Did they meet this goal? Show your work and justify your answer.",
+      "sampleAnswer": "No, they did not meet the goal. 45,820 + 49,118 = 94,938. The number 94,938 is less than 95,000. They were 62 visitors short of the goal (95,000 - 94,938 = 62)."
+    },
+    {
+      "type": "Multiple-Choice",
+      "dok": 2,
+      "skill": "Use estimation as a strategy to check a sum.",
+      "stimulus": "The Palmetto City Zoo tracks its visitor attendance every year. The table below shows the total number of visitors for the last four years. The zoo also has a goal to reach 100,000 visitors in a single year.\n\n| Year | Total Visitors |\n| :--- | :--- |\n| Year 1 | 45,820 |\n| Year 2 | 51,065 |\n| Year 3 | 49,118 |\n| Year 4 | 53,709 |",
+      "stem": "A manager estimated the total visitors for Year 1 and Year 4 by rounding each number to the nearest thousand. What was the manager's estimated total?",
+      "options": [
+        "A. 98,000",
+        "B. 99,000",
+        "C. 100,000",
+        "D. 99,500"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "type": "Matching",
+      "dok": 2,
+      "skill": "Compute differences between whole numbers.",
+      "stimulus": "The Palmetto City Zoo tracks its visitor attendance every year. The table below shows the total number of visitors for the last four years. The zoo also has a goal to reach 100,000 visitors in a single year.\n\n| Year | Total Visitors |\n| :--- | :--- |\n| Year 1 | 45,820 |\n| Year 2 | 51,065 |\n| Year 3 | 49,118 |\n| Year 4 | 53,709 |",
+      "stem": "Match the pair of years to the correct difference in their visitor numbers.",
+      "prompts": [
+        "Difference between Year 4 and Year 1",
+        "Difference between Year 2 and Year 3",
+        "Difference between Year 4 and Year 3"
+      ],
+      "options": [
+        "7,889",
+        "1,947",
+        "4,591",
+        "5,245"
+      ],
+      "correctMapping": [
+        {
+          "promptIndex": 0,
+          "optionIndex": 0
+        },
+        {
+          "promptIndex": 1,
+          "optionIndex": 1
+        },
+        {
+          "promptIndex": 2,
+          "optionIndex": 2
+        }
       ]
     }
   ]
