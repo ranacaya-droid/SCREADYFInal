@@ -1,233 +1,194 @@
 {
-  "learningPackage": {
-    "lessonModule": {
-      "title": "Lesson: How Stories Change: Setting, Conflict, and Characters",
-      "standard": "ELA.4.AOR.1.1: Explain how setting and conflict cause characters to change and how conflict(s) contributes to plot development.",
-      "objective": "By the end of this lesson, students will be able to explain how a story's setting and conflict work together to change a character and move the plot forward.",
-      "keyConcepts": [
-        {
-          "term": "Setting",
-          "definition": "Where and when a story takes place. It's the world of the story, and it can affect how characters feel and act."
-        },
-        {
-          "term": "Conflict",
-          "definition": "The main problem or challenge that a character must face. This is what makes the story interesting!"
-        },
-        {
-          "term": "Plot",
-          "definition": "The main events of the story, in order. The conflict is what makes the plot happen."
-        },
-        {
-          "term": "Character Change",
-          "definition": "How a character's feelings, actions, or ideas are different at the end of a story than they were at the beginning."
-        }
+  "title": "Figurative Language: Impact and Experience",
+  "standard": "ELA.4.AOR.1.2",
+  "passingScore": 7,
+  "questions": [
+    {
+      "type": "Multiple-Choice",
+      "dok": 1,
+      "skill": "Identifying Figurative Language (Personification)",
+      "stimulus": "<p>(1) The old house stood on a lonely hill. (2) Its windows were dark eyes staring into the night, and the wind whispered secrets through the broken porch boards. (3) Inside, the dusty furniture slept under white sheets. (4) Suddenly, a floorboard screamed under the weight of a footstep. (5) My heart hammered like a drum against my ribs. (6) I was frozen in place, a statue of fear.</p>",
+      "stem": "In sentence 2, the phrase \"the wind whispered secrets\" is an example of which type of figurative language?",
+      "options": [
+        "Simile",
+        "Metaphor",
+        "Personification",
+        "Onomatopoeia"
       ],
-      "lessonSteps": [
+      "correctAnswerIndex": 2
+    },
+    {
+      "type": "Multiple-Choice",
+      "dok": 1,
+      "skill": "Identifying Figurative Language (Simile)",
+      "stimulus": "<p>(1) The old house stood on a lonely hill. (2) Its windows were dark eyes staring into the night, and the wind whispered secrets through the broken porch boards. (3) Inside, the dusty furniture slept under white sheets. (4) Suddenly, a floorboard screamed under the weight of a footstep. (5) My heart hammered like a drum against my ribs. (6) I was frozen in place, a statue of fear.</p>",
+      "stem": "In sentence 5, the phrase \"hammered like a drum\" is an example of which type of figurative language?",
+      "options": [
+        "Simile",
+        "Metaphor",
+        "Hyperbole",
+        "Idiom"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "type": "Multiple-Choice",
+      "dok": 2,
+      "skill": "Determining Meaning (Metaphor)",
+      "stimulus": "<p>(1) The town fair was a tornado of color and sound. (2) Banners snapped in the wind like giant, colorful birds. (3) The smell of popcorn and cotton candy hung in the air, a sweet, sugary blanket. (4) Kids laughed on the carousel, their voices ringing like bells. (5) \"This line for the Ferris wheel is a million miles long!\" complained my brother, Leo. (6) He was always a grumpy bear in the morning.</p>",
+      "stem": "In sentence 6, what does the author mean by calling Leo \"a grumpy bear\"?",
+      "options": [
+        "Leo is large and furry.",
+        "Leo is mean and angry.",
+        "Leo is tired and complains a lot.",
+        "Leo likes to sleep in caves."
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "type": "Multiple-Choice",
+      "dok": 2,
+      "skill": "Explaining Impact on Reader's Experience",
+      "stimulus": "<p>(1) The old house stood on a lonely hill. (2) Its windows were dark eyes staring into the night, and the wind whispered secrets through the broken porch boards. (3) Inside, the dusty furniture slept under white sheets. (4) Suddenly, a floorboard screamed under the weight of a footstep. (5) My heart hammered like a drum against my ribs. (6) I was frozen in place, a statue of fear.</p>",
+      "stem": "In sentence 4, why does the author use the word \"screamed\" to describe the floorboard?",
+      "options": [
+        "To show the house was very old.",
+        "To make the reader feel surprised and scared.",
+        "To explain that someone was actually screaming.",
+        "To describe the sound of a mouse."
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "type": "EBSR",
+      "dok": 2,
+      "skill": "Determining Meaning and Using Text Evidence",
+      "stimulus": "<p>(1) The old house stood on a lonely hill. (2) Its windows were dark eyes staring into the night, and the wind whispered secrets through the broken porch boards. (3) Inside, the dusty furniture slept under white sheets. (4) Suddenly, a floorboard screamed under the weight of a footstep. (5) My heart hammered like a drum against my ribs. (6) I was frozen in place, a statue of fear.</p>",
+      "part1": {
+        "stem": "In sentence 6, what does the metaphor \"I was frozen in place, a statue of fear\" mean?",
+        "options": [
+          "The narrator was very cold.",
+          "The narrator was making a new friend.",
+          "The narrator was too scared to move.",
+          "The narrator was looking at a statue."
+        ],
+        "correctAnswerIndex": 2
+      },
+      "part2": {
+        "stem": "Which detail from the text best supports the answer to Part A?",
+        "options": [
+          "...stood on a lonely hill. (Sentence 1)",
+          "...the dusty furniture slept... (Sentence 3)",
+          "...a floorboard screamed... (Sentence 4)",
+          "My heart hammered like a drum... (Sentence 5)"
+        ],
+        "correctAnswerIndex": 3
+      }
+    },
+    {
+      "type": "Multi-Select",
+      "dok": 3,
+      "skill": "Analyzing Contribution to Reader's Experience (Mood)",
+      "stimulus": "<p>(1) The old house stood on a lonely hill. (2) Its windows were dark eyes staring into the night, and the wind whispered secrets through the broken porch boards. (3) Inside, the dusty furniture slept under white sheets. (4) Suddenly, a floorboard screamed under the weight of a footstep. (5) My heart hammered like a drum against my ribs. (6) I was frozen in place, a statue of fear.</p>",
+      "stem": "Which <b>two</b> phrases from the passage best help the reader feel a sense of unease or fear?",
+      "options": [
+        "...stood on a lonely hill.",
+        "...dark eyes staring into the night...",
+        "...slept under white sheets.",
+        "...screamed under the weight...",
+        "...a statue of fear."
+      ],
+      "correctAnswerIndex": [
+        1,
+        3
+      ]
+    },
+    {
+      "type": "Hot-Text",
+      "dok": 2,
+      "skill": "Identifying Figurative Language (Hyperbole)",
+      "stem": "Read the paragraph below. Then, click on the sentence that contains an example of hyperbole.",
+      "maxSelections": 1,
+      "sentences": [
         {
-          "step": 1,
-          "title": "Introduction: What Makes a Story?",
-          "content": "Have you ever been in a new place that made you feel different? Or had a big problem that made you change your mind? Stories are just like that! We're going to learn how the 'where' (setting) and the 'problem' (conflict) can change a character."
+          "text": "(1) The town fair was a tornado of color and sound.",
+          "isCorrect": false
         },
         {
-          "step": 2,
-          "title": "Guided Instruction: How to Be a Story Detective",
-          "content": "To find out how characters change, ask these questions: \n1. **Setting:** Where is the character? Is the place hard or easy to live in? (e.g., a scary forest vs. a cozy home). \n2. **Conflict:** What is the big problem? (e.g., they are lost, or they disagree with a friend). \n3. **Change:** How does the setting or conflict make the character act or feel? Did they start sad and become brave? Did they start selfish and become kind?"
+          "text": "(2) Banners snapped in the wind like giant, colorful birds.",
+          "isCorrect": false
         },
         {
-          "step": 3,
-          "title": "Modeled Example (Using a Short Example)",
-          "content": "Let's look at this simple story: 'Leo lived in a city full of noisy, honking cars. He was always nervous and jumpy. One week, he visited his grandpa's quiet farm. His grandpa's old dog was sick and needed help. Leo had to learn to be calm and quiet to help the dog get better. When he returned to the city, he wasn't jumpy anymore. He felt calm and capable.' \n\n**Let's analyze:** The **setting** changed from a nervous city to a quiet farm. The **conflict** was the sick dog. This made Leo **change** from a 'nervous and jumpy' person to a 'calm and capable' person."
+          "text": "(3) The smell of popcorn and cotton candy hung in the air, a sweet, sugary blanket.",
+          "isCorrect": false
         },
         {
-          "step": 4,
-          "title": "Check for Understanding",
-          "content": "Remember, the setting and conflict aren't just background details! They are the *engine* of the story that pushes the character to change and makes the plot exciting. Now you're ready to practice on a new story!"
+          "text": "(4) Kids laughed on the carousel, their voices ringing like bells.",
+          "isCorrect": false
+        },
+        {
+          "text": "(5) \"This line for the Ferris wheel is a million miles long!\" complained my brother, Leo.",
+          "isCorrect": true
+        },
+        {
+          "text": "(6) He was always a grumpy bear in the morning.",
+          "isCorrect": false
         }
       ]
     },
-    "assessment": {
-      "title": "Assessment: Character, Conflict, and Setting in 'Barren Bluffs'",
-      "standard": "ELA.4.AOR.1.1: Explain how setting and conflict cause characters to change and how conflict(s) contributes to plot development.",
-      "passingScore": 7,
-      "questions": [
+    {
+      "type": "Hot-Text",
+      "dok": 2,
+      "skill": "Identifying Figurative Language (Imagery)",
+      "stem": "Read the paragraph below. Then, click on the sentence that uses imagery to appeal to the reader's sense of smell.",
+      "maxSelections": 1,
+      "sentences": [
         {
-          "type": "Multiple-Choice",
-          "dok": 1,
-          "skill": "Identifying Setting",
-          "stimulus": "Elara sighed, kicking a puff of red dust from the path. She lived in a town called Barren Bluffs, and the name was certainly accurate. The ground was hard-packed, reddish clay, and the few plants that survived were thorny, drab bushes. Elara longed for the vibrant, colorful gardens she saw in her library books, but everyone said the same thing: \"You can't grow anything in the Bluffs, child. The soil is just too stubborn.\" \n\nOne sweltering afternoon, while exploring a dry creek bed, Elara spotted something impossible. Tucked in the shadow of a large boulder, a single, brilliant blue wildflower was thriving. It wasn't just surviving; it was beautiful. She knelt, studying it. Its roots weren't in the clay at all, but in a tiny pocket of dark, rich soil trapped in a crack in the rock.\n\nA new idea, small and bright as the flower, sparked in her mind. \"If the soil won't come to the garden,\" she whispered, \"then the garden must come to the soil.\"\n\nHer new project began the next day, not with a shovel, but with a wagon. She went to the town's \"Fix-it-Field,\" a polite name for the dump. The other townsfolk saw rusted-out buckets, cracked pots, a wheelbarrow with a broken wheel, and even a pair of leaky old work boots. Elara saw a garden.\n\nShe hauled her treasures back to her small yard, right under the nose of her grumpy neighbor, Mr. Hemlock. \"Wasting your time, girl,\" he grumbled from his porch. \"You can't fix that junk, and you certainly can't grow nothin' in it.\"\n\nElara didn't argue. Her hands ached as she scrubbed the rust and dirt. Her arms burned as she hauled buckets of good, dark soil from the creek bed to fill her strange collection of containers. She traded her last comic book for a small pouch of \"Tough Tomato\" and \"Marigold\" seeds from the general store. She planted them, watered them, and waited.\n\nFor two weeks, nothing happened. The clay ground of her yard seemed to mock her. Mr. Hemlock just shook his head, looking smug. Elara felt a familiar frustration creeping in. Maybe they were all right. Maybe nothing good could grow here.\n\nShe was about to give up when she saw it. Poking through the dark soil in the old work boot was a tiny, perfect loop of green.\n\nWeeks later, Elara's yard was an explosion of life. A bright red tomato peeked out of a tin can. A cascade of orange marigolds spilled from the broken wheelbarrow. Green bean vines twisted their way up the leg of a wobbly old chair. It was the strangest, most beautiful garden Barren Bluffs had ever seen.\n\nOne evening, Mr. Hemlock stood at her fence. He wasn't grumbling. He stared for a long time at the tomato in the can. \"Never would have thought...\" he said, his voice quiet. \"You made something from nothing.\"\n\nElara smiled, handing him a bright red, perfectly ripe tomato. She looked at her wonderful, weird garden, born from junk and stubbornness. She hadn't just grown plants; she had grown a new idea in a place that had forgotten how.",
-          "stem": "What is the main setting of the story?",
-          "options": [
-            "A. A town called Barren Bluffs with hard, clay soil",
-            "B. A bright, colorful garden in a library book",
-            "C. A city with a large 'Fix-it-Field'",
-            "D. A dry creek bed with a large boulder"
-          ],
-          "correctAnswerIndex": 0
+          "text": "(1) The town fair was a tornado of color and sound.",
+          "isCorrect": false
         },
         {
-          "type": "Multiple-Choice",
-          "dok": 1,
-          "skill": "Identifying Conflict",
-          "stimulus": "Elara sighed, kicking a puff of red dust from the path. She lived in a town called Barren Bluffs, and the name was certainly accurate. The ground was hard-packed, reddish clay, and the few plants that survived were thorny, drab bushes. Elara longed for the vibrant, colorful gardens she saw in her library books, but everyone said the same thing: \"You can't grow anything in the Bluffs, child. The soil is just too stubborn.\" \n\nOne sweltering afternoon, while exploring a dry creek bed, Elara spotted something impossible. Tucked in the shadow of a large boulder, a single, brilliant blue wildflower was thriving. It wasn't just surviving; it was beautiful. She knelt, studying it. Its roots weren't in the clay at all, but in a tiny pocket of dark, rich soil trapped in a crack in the rock.\n\nA new idea, small and bright as the flower, sparked in her mind. \"If the soil won't come to the garden,\" she whispered, \"then the garden must come to the soil.\"\n\nHer new project began the next day, not with a shovel, but with a wagon. She went to the town's \"Fix-it-Field,\" a polite name for the dump. The other townsfolk saw rusted-out buckets, cracked pots, a wheelbarrow with a broken wheel, and even a pair of leaky old work boots. Elara saw a garden.\n\nShe hauled her treasures back to her small yard, right under the nose of her grumpy neighbor, Mr. Hemlock. \"Wasting your time, girl,\" he grumbled from his porch. \"You can't fix that junk, and you certainly can't grow nothin' in it.\"\n\nElara didn't argue. Her hands ached as she scrubbed the rust and dirt. Her arms burned as she hauled buckets of good, dark soil from the creek bed to fill her strange collection of containers. She traded her last comic book for a small pouch of \"Tough Tomato\" and \"Marigold\" seeds from the general store. She planted them, watered them, and waited.\n\nFor two weeks, nothing happened. The clay ground of her yard seemed to mock her. Mr. Hemlock just shook his head, looking smug. Elara felt a familiar frustration creeping in. Maybe they were all right. Maybe nothing good could grow here.\n\nShe was about to give up when she saw it. Poking through the dark soil in the old work boot was a tiny, perfect loop of green.\n\nWeeks later, Elara's yard was an explosion of life. A bright red tomato peeked out of a tin can. A cascade of orange marigolds spilled from the broken wheelbarrow. Green bean vines twisted their way up the leg of a wobbly old chair. It was the strangest, most beautiful garden Barren Bluffs had ever seen.\n\nOne evening, Mr. Hemlock stood at her fence. He wasn't grumbling. He stared for a long time at the tomato in the can. \"Never would have thought...\" he said, his voice quiet. \"You made something from nothing.\"\n\nElara smiled, handing him a bright red, perfectly ripe tomato. She looked at her wonderful, weird garden, born from junk and stubbornness. She hadn't just grown plants; she had grown a new idea in a place that had forgotten how.",
-          "stem": "What is the main conflict, or problem, Elara faces at the *beginning* of the story?",
-          "options": [
-            "A. Her neighbor, Mr. Hemlock, is grumpy.",
-            "B. She cannot find any good junk at the 'Fix-it-Field'.",
-            "C. Everyone believes you cannot grow a garden in the stubborn soil of Barren Bluffs.",
-            "D. She is angry about trading her last comic book."
-          ],
-          "correctAnswerIndex": 2
+          "text": "(2) Banners snapped in the wind like giant, colorful birds.",
+          "isCorrect": false
         },
         {
-          "type": "Multiple-Choice",
-          "dok": 2,
-          "skill": "Analyzing Setting's Effect on Character",
-          "stimulus": "Elara sighed, kicking a puff of red dust from the path. She lived in a town called Barren Bluffs, and the name was certainly accurate. The ground was hard-packed, reddish clay, and the few plants that survived were thorny, drab bushes. Elara longed for the vibrant, colorful gardens she saw in her library books, but everyone said the same thing: \"You can't grow anything in the Bluffs, child. The soil is just too stubborn.\" \n\nOne sweltering afternoon, while exploring a dry creek bed, Elara spotted something impossible. Tucked in the shadow of a large boulder, a single, brilliant blue wildflower was thriving. It wasn't just surviving; it was beautiful. She knelt, studying it. Its roots weren't in the clay at all, but in a tiny pocket of dark, rich soil trapped in a crack in the rock.\n\nA new idea, small and bright as the flower, sparked in her mind. \"If the soil won't come to the garden,\" she whispered, \"then the garden must come to the soil.\"\n\nHer new project began the next day, not with a shovel, but with a wagon. She went to the town's \"Fix-it-Field,\" a polite name for the dump. The other townsfolk saw rusted-out buckets, cracked pots, a wheelbarrow with a broken wheel, and even a pair of leaky old work boots. Elara saw a garden.\n\nShe hauled her treasures back to her small yard, right under the nose of her grumpy neighbor, Mr. Hemlock. \"Wasting your time, girl,\" he grumbled from his porch. \"You can't fix that junk, and you certainly can't grow nothin' in it.\"\n\nElara didn't argue. Her hands ached as she scrubbed the rust and dirt. Her arms burned as she hauled buckets of good, dark soil from the creek bed to fill her strange collection of containers. She traded her last comic book for a small pouch of \"Tough Tomato\" and \"Marigold\" seeds from the general store. She planted them, watered them, and waited.\n\nFor two weeks, nothing happened. The clay ground of her yard seemed to mock her. Mr. Hemlock just shook his head, looking smug. Elara felt a familiar frustration creeping in. Maybe they were all right. Maybe nothing good could grow here.\n\nShe was about to give up when she saw it. Poking through the dark soil in the old work boot was a tiny, perfect loop of green.\n\nWeeks later, Elara's yard was an explosion of life. A bright red tomato peeked out of a tin can. A cascade of orange marigolds spilled from the broken wheelbarrow. Green bean vines twisted their way up the leg of a wobbly old chair. It was the strangest, most beautiful garden Barren Bluffs had ever seen.\n\nOne evening, Mr. Hemlock stood at her fence. He wasn't grumbling. He stared for a long time at the tomato in the can. \"Never would have thought...\" he said, his voice quiet. \"You made something from nothing.\"\n\nElara smiled, handing him a bright red, perfectly ripe tomato. She looked at her wonderful, weird garden, born from junk and stubbornness. She hadn't just grown plants; she had grown a new idea in a place that had forgotten how.",
-          "stem": "How does the setting of Barren Bluffs make Elara feel at the beginning of the story?",
-          "options": [
-            "A. She feels happy because she loves the red dust.",
-            "B. She feels frustrated because the setting stops her from having the gardens she wants.",
-            "C. She feels scared of the thorny, drab bushes and Mr. Hemlock.",
-            "D. She feels curious about why the soil is hard-packed."
-          ],
-          "correctAnswerIndex": 1
+          "text": "(3) The smell of popcorn and cotton candy hung in the air, a sweet, sugary blanket.",
+          "isCorrect": true
         },
         {
-          "type": "Multiple-Choice",
-          "dok": 2,
-          "skill": "Analyzing Conflict's Role in Plot",
-          "stimulus": "Elara sighed, kicking a puff of red dust from the path. She lived in a town called Barren Bluffs, and the name was certainly accurate. The ground was hard-packed, reddish clay, and the few plants that survived were thorny, drab bushes. Elara longed for the vibrant, colorful gardens she saw in her library books, but everyone said the same thing: \"You can't grow anything in the Bluffs, child. The soil is just too stubborn.\" \n\nOne sweltering afternoon, while exploring a dry creek bed, Elara spotted something impossible. Tucked in the shadow of a large boulder, a single, brilliant blue wildflower was thriving. It wasn't just surviving; it was beautiful. She knelt, studying it. Its roots weren't in the clay at all, but in a tiny pocket of dark, rich soil trapped in a crack in the rock.\n\nA new idea, small and bright as the flower, sparked in her mind. \"If the soil won't come to the garden,\" she whispered, \"then the garden must come to the soil.\"\n\nHer new project began the next day, not with a shovel, but with a wagon. She went to the town's \"Fix-it-Field,\" a polite name for the dump. The other townsfolk saw rusted-out buckets, cracked pots, a wheelbarrow with a broken wheel, and even a pair of leaky old work boots. Elara saw a garden.\n\nShe hauled her treasures back to her small yard, right under the nose of her grumpy neighbor, Mr. Hemlock. \"Wasting your time, girl,\" he grumbled from his porch. \"You can't fix that junk, and you certainly can't grow nothin' in it.\"\n\nElara didn't argue. Her hands ached as she scrubbed the rust and dirt. Her arms burned as she hauled buckets of good, dark soil from the creek bed to fill her strange collection of containers. She traded her last comic book for a small pouch of \"Tough Tomato\" and \"Marigold\" seeds from the general store. She planted them, watered them, and waited.\n\nFor two weeks, nothing happened. The clay ground of her yard seemed to mock her. Mr. Hemlock just shook his head, looking smug. Elara felt a familiar frustration creeping in. Maybe they were all right. Maybe nothing good could grow here.\n\nShe was about to give up when she saw it. Poking through the dark soil in the old work boot was a tiny, perfect loop of green.\n\nWeeks later, Elara's yard was an explosion of life. A bright red tomato peeked out of a tin can. A cascade of orange marigolds spilled from the broken wheelbarrow. Green bean vines twisted their way up the leg of a wobbly old chair. It was the strangest, most beautiful garden Barren Bluffs had ever seen.\n\nOne evening, Mr. Hemlock stood at her fence. He wasn't grumbling. He stared for a long time at the tomato in the can. \"Never would have thought...\" he said, his voice quiet. \"You made something from nothing.\"\n\nElara smiled, handing him a bright red, perfectly ripe tomato. She looked at her wonderful, weird garden, born from junk and stubbornness. She hadn't just grown plants; she had grown a new idea in a place that had forgotten how.",
-          "stem": "Which event is the turning point that gives Elara an idea to solve her conflict?",
-          "options": [
-            "A. Mr. Hemlock grumbles at her from his porch.",
-            "B. She trades her comic book for seeds.",
-            "C. She finds a blue wildflower thriving in a small pocket of good soil.",
-            "D. Her hands ache from scrubbing rust and dirt."
-          ],
-          "correctAnswerIndex": 2
+          "text": "(4) Kids laughed on the carousel, their voices ringing like bells.",
+          "isCorrect": false
         },
         {
-          "type": "EBSR",
-          "dok": 3,
-          "skill": "Explaining Character Change",
-          "stimulus": "Elara sighed, kicking a puff of red dust from the path. She lived in a town called Barren Bluffs, and the name was certainly accurate. The ground was hard-packed, reddish clay, and the few plants that survived were thorny, drab bushes. Elara longed for the vibrant, colorful gardens she saw in her library books, but everyone said the same thing: \"You can't grow anything in the Bluffs, child. The soil is just too stubborn.\" \n\nOne sweltering afternoon, while exploring a dry creek bed, Elara spotted something impossible. Tucked in the shadow of a large boulder, a single, brilliant blue wildflower was thriving. It wasn't just surviving; it was beautiful. She knelt, studying it. Its roots weren't in the clay at all, but in a tiny pocket of dark, rich soil trapped in a crack in the rock.\n\nA new idea, small and bright as the flower, sparked in her mind. \"If the soil won't come to the garden,\" she whispered, \"then the garden must come to the soil.\"\n\nHer new project began the next day, not with a shovel, but with a wagon. She went to the town's \"Fix-it-Field,\" a polite name for the dump. The other townsfolk saw rusted-out buckets, cracked pots, a wheelbarrow with a broken wheel, and even a pair of leaky old work boots. Elara saw a garden.\n\nShe hauled her treasures back to her small yard, right under the nose of her grumpy neighbor, Mr. Hemlock. \"Wasting your time, girl,\" he grumbled from his porch. \"You can't fix that junk, and you certainly can't grow nothin' in it.\"\n\nElara didn't argue. Her hands ached as she scrubbed the rust and dirt. Her arms burned as she hauled buckets of good, dark soil from the creek bed to fill her strange collection of containers. She traded her last comic book for a small pouch of \"Tough Tomato\" and \"Marigold\" seeds from the general store. She planted them, watered them, and waited.\n\nFor two weeks, nothing happened. The clay ground of her yard seemed to mock her. Mr. Hemlock just shook his head, looking smug. Elara felt a familiar frustration creeping in. Maybe they were all right. Maybe nothing good could grow here.\n\nShe was about to give up when she saw it. Poking through the dark soil in the old work boot was a tiny, perfect loop of green.\n\nWeeks later, Elara's yard was an explosion of life. A bright red tomato peeked out of a tin can. A cascade of orange marigolds spilled from the broken wheelbarrow. Green bean vines twisted their way up the leg of a wobbly old chair. It was the strangest, most beautiful garden Barren Bluffs had ever seen.\n\nOne evening, Mr. Hemlock stood at her fence. He wasn't grumbling. He stared for a long time at the tomato in the can. \"Never would have thought...\" he said, his voice quiet. \"You made something from nothing.\"\n\nElara smiled, handing him a bright red, perfectly ripe tomato. She looked at her wonderful, weird garden, born from junk and stubbornness. She hadn't just grown plants; she had grown a new idea in a place that had forgotten how.",
-          "part1": {
-            "stem": "How does Elara's character change from the beginning of the story to the end?",
-            "options": [
-              "A. She changes from a grumpy person to a happy person.",
-              "B. She changes from a hopeful dreamer to someone who gives up.",
-              "C. She changes from a girl who is frustrated by problems to a girl who creatively solves them.",
-              "D. She changes from a lonely girl who reads books to a girl who dislikes reading."
-            ],
-            "correctAnswerIndex": 2
-          },
-          "part2": {
-            "stem": "Which sentence from the text best supports the answer to Part 1?",
-            "options": [
-              "A. 'Elara sighed, kicking a puff of red dust from the path.'",
-              "B. 'Her hands ached as she scrubbed the rust and dirt.'",
-              "C. 'She looked at her wonderful, weird garden, born from junk and stubbornness.'",
-              "D. 'Elara smiled, handing him a bright red, perfectly ripe tomato.'"
-            ],
-            "correctAnswerIndex": 2
-          }
+          "text": "(5) \"This line for the Ferris wheel is a million miles long!\" complained my brother, Leo.",
+          "isCorrect": false
         },
         {
-          "type": "EBSR",
-          "dok": 3,
-          "skill": "Analyzing Setting/Conflict's Effect",
-          "stimulus": "Elara sighed, kicking a puff of red dust from the path. She lived in a town called Barren Bluffs, and the name was certainly accurate. The ground was hard-packed, reddish clay, and the few plants that survived were thorny, drab bushes. Elara longed for the vibrant, colorful gardens she saw in her library books, but everyone said the same thing: \"You can't grow anything in the Bluffs, child. The soil is just too stubborn.\" \n\nOne sweltering afternoon, while exploring a dry creek bed, Elara spotted something impossible. Tucked in the shadow of a large boulder, a single, brilliant blue wildflower was thriving. It wasn't just surviving; it was beautiful. She knelt, studying it. Its roots weren't in the clay at all, but in a tiny pocket of dark, rich soil trapped in a crack in the rock.\n\nA new idea, small and bright as the flower, sparked in her mind. \"If the soil won't come to the garden,\" she whispered, \"then the garden must come to the soil.\"\n\nHer new project began the next day, not with a shovel, but with a wagon. She went to the town's \"Fix-it-Field,\" a polite name for the dump. The other townsfolk saw rusted-out buckets, cracked pots, a wheelbarrow with a broken wheel, and even a pair of leaky old work boots. Elara saw a garden.\n\nShe hauled her treasures back to her small yard, right under the nose of her grumpy neighbor, Mr. Hemlock. \"Wasting your time, girl,\" he grumbled from his porch. \"You can't fix that junk, and you certainly can't grow nothin' in it.\"\n\nElara didn't argue. Her hands ached as she scrubbed the rust and dirt. Her arms burned as she hauled buckets of good, dark soil from the creek bed to fill her strange collection of containers. She traded her last comic book for a small pouch of \"Tough Tomato\" and \"Marigold\" seeds from the general store. She planted them, watered them, and waited.\n\nFor two weeks, nothing happened. The clay ground of her yard seemed to mock her. Mr. Hemlock just shook his head, looking smug. Elara felt a familiar frustration creeping in. Maybe they were all right. Maybe nothing good could grow here.\n\nShe was about to give up when she saw it. Poking through the dark soil in the old work boot was a tiny, perfect loop of green.\n\nWeeks later, Elara's yard was an explosion of life. A bright red tomato peeked out of a tin can. A cascade of orange marigolds spilled from the broken wheelbarrow. Green bean vines twisted their way up the leg of a wobbly old chair. It was the strangest, most beautiful garden Barren Bluffs had ever seen.\n\nOne evening, Mr. Hemlock stood at her fence. He wasn't grumbling. He stared for a long time at the tomato in the can. \"Never would have thought...\" he said, his voice quiet. \"You made something from nothing.\"\n\nElara smiled, handing him a bright red, perfectly ripe tomato. She looked at her wonderful, weird garden, born from junk and stubbornness. She hadn't just grown plants; she had grown a new idea in a place that had forgotten how.",
-          "part1": {
-            "stem": "How did the conflict with the 'stubborn' setting of Barren Bluffs *cause* Elara to change her way of thinking?",
-            "options": [
-              "A. It made her give up on gardening and read books instead.",
-              "B. It made her decide to move to a new town with better soil.",
-              "C. It forced her to stop complaining and just be happy with the bushes.",
-              "D. It forced her to be creative and find a new way to solve her problem."
-            ],
-            "correctAnswerIndex": 3
-          },
-          "part2": {
-            "stem": "Which sentence from the text best shows Elara's change in thinking?",
-            "options": [
-              "A. '...everyone said the same thing: \"You can't grow anything in the Bluffs, child. The soil is just too stubborn.\"'",
-              "B. '\"If the soil won't come to the garden,\" she whispered, \"then the garden must come to the soil.\"'",
-              "C. 'She traded her last comic book for a small pouch of \"Tough Tomato\" and \"Marigold\" seeds...'",
-              "D. 'Elara felt a familiar frustration creeping in. Maybe they were all right.'"
-            ],
-            "correctAnswerIndex": 1
-          }
-        },
-        {
-          "type": "Multi-Select",
-          "dok": 2,
-          "skill": "Identifying Plot Development",
-          "stimulus": "Elara sighed, kicking a puff of red dust from the path. She lived in a town called Barren Bluffs, and the name was certainly accurate. The ground was hard-packed, reddish clay, and the few plants that survived were thorny, drab bushes. Elara longed for the vibrant, colorful gardens she saw in her library books, but everyone said the same thing: \"You can't grow anything in the Bluffs, child. The soil is just too stubborn.\" \n\nOne sweltering afternoon, while exploring a dry creek bed, Elara spotted something impossible. Tucked in the shadow of a large boulder, a single, brilliant blue wildflower was thriving. It wasn't just surviving; it was beautiful. She knelt, studying it. Its roots weren't in the clay at all, but in a tiny pocket of dark, rich soil trapped in a crack in the rock.\n\nA new idea, small and bright as the flower, sparked in her mind. \"If the soil won't come to the garden,\" she whispered, \"then the garden must come to the soil.\"\n\nHer new project began the next day, not with a shovel, but with a wagon. She went to the town's \"Fix-it-Field,\" a polite name for the dump. The other townsfolk saw rusted-out buckets, cracked pots, a wheelbarrow with a broken wheel, and even a pair of leaky old work boots. Elara saw a garden.\n\nShe hauled her treasures back to her small yard, right under the nose of her grumpy neighbor, Mr. Hemlock. \"Wasting your time, girl,\" he grumbled from his porch. \"You can't fix that junk, and you certainly can't grow nothin' in it.\"\n\nElara didn't argue. Her hands ached as she scrubbed the rust and dirt. Her arms burned as she hauled buckets of good, dark soil from the creek bed to fill her strange collection of containers. She traded her last comic book for a small pouch of \"Tough Tomato\" and \"Marigold\" seeds from the general store. She planted them, watered them, and waited.\n\nFor two weeks, nothing happened. The clay ground of her yard seemed to mock her. Mr. Hemlock just shook his head, looking smug. Elara felt a familiar frustration creeping in. Maybe they were all right. Maybe nothing good could grow here.\n\nShe was about to give up when she saw it. Poking through the dark soil in the old work boot was a tiny, perfect loop of green.\n\nWeeks later, Elara's yard was an explosion of life. A bright red tomato peeked out of a tin can. A cascade of orange marigolds spilled from the broken wheelbarrow. Green bean vines twisted their way up the leg of a wobbly old chair. It was the strangest, most beautiful garden Barren Bluffs had ever seen.\n\nOne evening, Mr. Hemlock stood at her fence. He wasn't grumbling. He stared for a long time at the tomato in the can. \"Never would have thought...\" he said, his voice quiet. \"You made something from nothing.\"\n\nElara smiled, handing him a bright red, perfectly ripe tomato. She looked at her wonderful, weird garden, born from junk and stubbornness. She hadn't just grown plants; she had grown a new idea in a place that had forgotten how.",
-          "stem": "Which TWO events are most important to the development of the plot?",
-          "options": [
-            "A. Elara reads about colorful gardens in her library books.",
-            "B. Elara finds the blue wildflower growing in a crack in the rock.",
-            "C. Elara's hands get sore from scrubbing the junk.",
-            "D. Elara collects old junk from the 'Fix-it-Field' to use as containers.",
-            "E. Mr. Hemlock stands at the fence and talks to Elara."
-          ],
-          "correctAnswerIndexes": [
-            1,
-            3
-          ]
-        },
-        {
-          "type": "Hot-Text",
-          "dok": 3,
-          "skill": "Citing Evidence of Conflict",
-          "stimulus": "Elara sighed, kicking a puff of red dust from the path. She lived in a town called Barren Bluffs, and the name was certainly accurate. The ground was hard-packed, reddish clay, and the few plants that survived were thorny, drab bushes. Elara longed for the vibrant, colorful gardens she saw in her library books, but everyone said the same thing: \"You can't grow anything in the Bluffs, child. The soil is just too stubborn.\"",
-          "stem": "Click on the two sentences in the paragraph that best show the conflict between Elara's desires and her setting.",
-          "text": "(1) Elara sighed, kicking a puff of red dust from the path. (2) She lived in a town called Barren Bluffs, and the name was certainly accurate. (3) The ground was hard-packed, reddish clay, and the few plants that survived were thorny, drab bushes. (4) Elara longed for the vibrant, colorful gardens she saw in her library books, but everyone said the same thing: (5) \"You can't grow anything in the Bluffs, child. The soil is just too stubborn.\"",
-          "correctAnswerIndexes": [
-            3,
-            4
-          ]
-        },
-        {
-          "type": "Drag-and-Drop",
-          "dok": 2,
-          "skill": "Sequencing Plot",
-          "stimulus": "Elara sighed, kicking a puff of red dust from the path. She lived in a town called Barren Bluffs, and the name was certainly accurate. The ground was hard-packed, reddish clay, and the few plants that survived were thorny, drab bushes. Elara longed for the vibrant, colorful gardens she saw in her library books, but everyone said the same thing: \"You can't grow anything in the Bluffs, child. The soil is just too stubborn.\" \n\nOne sweltering afternoon, while exploring a dry creek bed, Elara spotted something impossible. Tucked in the shadow of a large boulder, a single, brilliant blue wildflower was thriving. It wasn't just surviving; it was beautiful. She knelt, studying it. Its roots weren't in the clay at all, but in a tiny pocket of dark, rich soil trapped in a crack in the rock.\n\nA new idea, small and bright as the flower, sparked in her mind. \"If the soil won't come to the garden,\" she whispered, \"then the garden must come to the soil.\"\n\nHer new project began the next day, not with a shovel, but with a wagon. She went to the town's \"Fix-it-Field,\" a polite name for the dump. The other townsfolk saw rusted-out buckets, cracked pots, a wheelbarrow with a broken wheel, and even a pair of leaky old work boots. Elara saw a garden.\n\nShe hauled her treasures back to her small yard, right under the nose of her grumpy neighbor, Mr. Hemlock. \"Wasting your time, girl,\" he grumbled from his porch. \"You can't fix that junk, and you certainly can't grow nothin' in it.\"\n\nElara didn't argue. Her hands ached as she scrubbed the rust and dirt. Her arms burned as she hauled buckets of good, dark soil from the creek bed to fill her strange collection of containers. She traded her last comic book for a small pouch of \"Tough Tomato\" and \"Marigold\" seeds from the general store. She planted them, watered them, and waited.\n\nFor two weeks, nothing happened. The clay ground of her yard seemed to mock her. Mr. Hemlock just shook his head, looking smug. Elara felt a familiar frustration creeping in. Maybe they were all right. Maybe nothing good could grow here.\n\nShe was about to give up when she saw it. Poking through the dark soil in the old work boot was a tiny, perfect loop of green.\n\nWeeks later, Elara's yard was an explosion of life. A bright red tomato peeked out of a tin can. A cascade of orange marigolds spilled from the broken wheelbarrow. Green bean vines twisted their way up the leg of a wobbly old chair. It was the strangest, most beautiful garden Barren Bluffs had ever seen.\n\nOne evening, Mr. Hemlock stood at her fence. He wasn't grumbling. He stared for a long time at the tomato in the can. \"Never would have thought...\" he said, his voice quiet. \"You made something from nothing.\"\n\nElara smiled, handing him a bright red, perfectly ripe tomato. She looked at her wonderful, weird garden, born from junk and stubbornness. She hadn't just grown plants; she had grown a new idea in a place that had forgotten how.",
-          "stem": "The plot is the order of events in the story. Drag the events into the correct order as they happened in the plot.",
-          "categories": [
-            "First",
-            "Next",
-            "Then",
-            "Finally"
-          ],
-          "draggables": [
-            {
-              "text": "Elara's garden becomes an explosion of life with tomatoes and marigolds.",
-              "correctCategory": 3
-            },
-            {
-              "text": "Elara feels frustrated because she lives in the 'stubborn' setting of Barren Bluffs.",
-              "correctCategory": 0
-            },
-            {
-              "text": "Elara finds a single blue wildflower in a pocket of good soil.",
-              "correctCategory": 1
-            },
-            {
-              "text": "Elara collects old junk from the 'Fix-it-Field' to use as pots.",
-              "correctCategory": 2
-            }
-          ]
-        },
-        {
-          "type": "Constructed-Response",
-          "dok": 3,
-          "skill": "Explaining How Setting Causes Character Change",
-          "stimulus": "Elara sighed, kicking a puff of red dust from the path. She lived in a town called Barren Bluffs, and the name was certainly accurate. The ground was hard-packed, reddish clay, and the few plants that survived were thorny, drab bushes. Elara longed for the vibrant, colorful gardens she saw in her library books, but everyone said the same thing: \"You can't grow anything in the Bluffs, child. The soil is just too stubborn.\" \n\nOne sweltering afternoon, while exploring a dry creek bed, Elara spotted something impossible. Tucked in the shadow of a large boulder, a single, brilliant blue wildflower was thriving. It wasn't just surviving; it was beautiful. She knelt, studying it. Its roots weren't in the clay at all, but in a tiny pocket of dark, rich soil trapped in a crack in the rock.\n\nA new idea, small and bright as the flower, sparked in her mind. \"If the soil won't come to the garden,\" she whispered, \"then the garden must come to the soil.\"\n\nHer new project began the next day, not with a shovel, but with a wagon. She went to the town's \"Fix-it-Field,\" a polite name for the dump. The other townsfolk saw rusted-out buckets, cracked pots, a wheelbarrow with a broken wheel, and even a pair of leaky old work boots. Elara saw a garden.\n\nShe hauled her treasures back to her small yard, right under the nose of her grumpy neighbor, Mr. Hemlock. \"Wasting your time, girl,\" he grumbled from his porch. \"You can't fix that junk, and you certainly can't grow nothin' in it.\"\n\nElara didn't argue. Her hands ached as she scrubbed the rust and dirt. Her arms burned as she hauled buckets of good, dark soil from the creek bed to fill her strange collection of containers. She traded her last comic book for a small pouch of \"Tough Tomato\" and \"Marigold\" seeds from the general store. She planted them, watered them, and waited.\n\nFor two weeks, nothing happened. The clay ground of her yard seemed to mock her. Mr. Hemlock just shook his head, looking smug. Elara felt a familiar frustration creeping in. Maybe they were all right. Maybe nothing good could grow here.\n\nShe was about to give up when she saw it. Poking through the dark soil in the old work boot was a tiny, perfect loop of green.\n\nWeeks later, Elara's yard was an explosion of life. A bright red tomato peeked out of a tin can. A cascade of orange marigolds spilled from the broken wheelbarrow. Green bean vines twisted their way up the leg of a wobbly old chair. It was the strangest, most beautiful garden Barren Bluffs had ever seen.\n\nOne evening, Mr. Hemlock stood at her fence. He wasn't grumbling. He stared for a long time at the tomato in the can. \"Never would have thought...\" he said, his voice quiet. \"You made something from nothing.\"\n\nElara smiled, handing him a bright red, perfectly ripe tomato. She looked at her wonderful, weird garden, born from junk and stubbornness. She hadn't just grown plants; she had grown a new idea in a place that had forgotten how.",
-          "stem": "Explain how the difficult setting of Barren Bluffs *caused* Elara to change. Use at least two details from the story to support your answer.",
-          "lines": 6
+          "text": "(6) He was always a grumpy bear in the morning.",
+          "isCorrect": false
         }
       ]
+    },
+    {
+      "type": "Constructed-Response",
+      "dok": 3,
+      "skill": "Explaining Impact on Meaning and Experience",
+      "stimulus": "<p>(1) The town fair was a tornado of color and sound. (2) Banners snapped in the wind like giant, colorful birds. (3) The smell of popcorn and cotton candy hung in the air, a sweet, sugary blanket. (4) Kids laughed on the carousel, their voices ringing like bells. (5) \"This line for the Ferris wheel is a million miles long!\" complained my brother, Leo. (6) He was always a grumpy bear in theL morning.</p>",
+      "stem": "Read sentence 1: \"The town fair was a tornado of color and sound.\"\n\nExplain what this metaphor means and how it contributes to the reader's experience of the fair."
+    },
+    {
+      "type": "Multiple-Choice",
+      "dok": 2,
+      "skill": "Determining Meaning (Simile)",
+      "stimulus": "<p>(1) The town fair was a tornado of color and sound. (2) Banners snapped in the wind like giant, colorful birds. (3) The smell of popcorn and cotton candy hung in the air, a sweet, sugary blanket. (4) Kids laughed on the carousel, their voices ringing like bells. (5) \"This line for the Ferris wheel is a million miles long!\" complained my brother, Leo. (6) He was always a grumpy bear in the morning.</p>",
+      "stem": "In sentence 4, what does the simile \"their voices ringing like bells\" help the reader understand?",
+      "options": [
+        "The kids were holding bells.",
+        "The kids' laughter was loud and annoying.",
+        "The kids' laughter was clear and happy.",
+        "The kids were singing a song."
+      ],
+      "correctAnswerIndex": 2
     }
-  }
+  ]
 }
