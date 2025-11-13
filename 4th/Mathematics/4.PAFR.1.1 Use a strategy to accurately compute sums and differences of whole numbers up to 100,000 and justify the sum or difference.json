@@ -146,36 +146,20 @@
       ],
       "correctAnswerIndex": 2
     },
-    {
-      "type": "Matching",
+   {
+      "type": "Multiple-Choice",
       "dok": 2,
       "skill": "Compute differences between whole numbers.",
       "stimulus": "The Palmetto City Zoo tracks its visitor attendance every year. The table below shows the total number of visitors for the last four years. The zoo also has a goal to reach 100,000 visitors in a single year.\n\n| Year | Total Visitors |\n| :--- | :--- |\n| Year 1 | 45,820 |\n| Year 2 | 51,065 |\n| Year 3 | 49,118 |\n| Year 4 | 53,709 |",
-      "stem": "Match the pair of years to the correct difference in their visitor numbers.",
-      "prompts": [
-        "Difference between Year 4 and Year 1",
-        "Difference between Year 2 and Year 3",
-        "Difference between Year 4 and Year 3"
-      ],
+      "stem": "What is the difference in the number of visitors between Year 4 and Year 1?",
       "options": [
-        "7,889",
-        "1,947",
-        "4,591",
-        "5,245"
+        "A. 1,947",
+        "B. 4,591",
+        "C. 7,889",
+        "D. 8,129"
       ],
-      "correctMapping": [
-        {
-          "promptIndex": 0,
-          "optionIndex": 0
-        },
-        {
-          "promptIndex": 1,
-          "optionIndex": 1
-        },
-        {
-          "promptIndex": 2,
-          "optionIndex": 2
-        }
+      "correctAnswerIndex": 2
+    }
       ]
     }
   ]
