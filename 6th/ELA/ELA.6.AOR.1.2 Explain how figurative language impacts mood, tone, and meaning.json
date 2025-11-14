@@ -1,0 +1,193 @@
+{
+  "title": "Grade 6 Assessment: Figurative Language",
+  "standard": "ELA.6.AOR.1.2",
+  "passingScore": 7,
+  "questions": [
+    {
+      "type": "Multiple-Choice",
+      "dok": 2,
+      "skill": "Explaining how figurative language impacts meaning.",
+      "stimulus": "<p>(1) The Whispering Woods had always been a dare. (2) Leo, who thought he was brave as a lion, nudged me. (3) \"Don't be a chicken, Maya,\" he grinned, but his smile was a flickering candle in the gloom. (4) I looked at the woods. (5) The trees stood like silent, skeletal guards at a forgotten gate. (6) Above us, a sliver of moon, pale as bone, peeked through the canopy. (7) We stepped inside, and the fog was a creeping gray blanket, instantly swallowing the path. (8) The wind whispered secrets through the high branches, and every fallen leaf seemed to hold its breath. (9) \"I have a million butterflies in my stomach,\" I mumbled. (10) A twig <i>snapped</i> nearby. (11) Leo jumped, his bravado vanishing like smoke. (12) \"What was that?\" he hissed, his voice a dry leaf skittering on pavement. (13) \"This place is an icebox,\" he shivered, though the night was mild. (14) We were prisoners of our own fear, rooted to the spot. (15) We both knew this was a bad idea; it was written all over Leo's face.</p>",
+      "stem": "In sentence 2, the author uses the simile \"brave as a lion\" to describe Leo. What does this figurative language mean?",
+      "options": [
+        "Leo is loud and likes to roar.",
+        "Leo is very courageous or acts like he is.",
+        "Leo has sharp claws and teeth.",
+        "Leo is the leader of the group."
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "type": "Multiple-Choice",
+      "dok": 2,
+      "skill": "Explaining how figurative language impacts mood.",
+      "stimulus": "<p>(1) The Whispering Woods had always been a dare. (2) Leo, who thought he was brave as a lion, nudged me. (3) \"Don't be a chicken, Maya,\" he grinned, but his smile was a flickering candle in the gloom. (4) I looked at the woods. (5) The trees stood like silent, skeletal guards at a forgotten gate. (6) Above us, a sliver of moon, pale as bone, peeked through the canopy. (7) We stepped inside, and the fog was a creeping gray blanket, instantly swallowing the path. (8) The wind whispered secrets through the high branches, and every fallen leaf seemed to hold its breath. (9) \"I have a million butterflies in my stomach,\" I mumbled. (10) A twig <i>snapped</i> nearby. (11) Leo jumped, his bravado vanishing like smoke. (12) \"What was that?\" he hissed, his voice a dry leaf skittering on pavement. (13) \"This place is an icebox,\" he shivered, though the night was mild. (14) We were prisoners of our own fear, rooted to the spot. (15) We both knew this was a bad idea; it was written all over Leo's face.</p>",
+      "stem": "In sentence 8, the author states, \"The wind whispered secrets through the high branches.\" How does this use of personification impact the mood of the story?",
+      "options": [
+        "It creates a joyful mood by suggesting the wind is playful.",
+        "It creates a mysterious and uneasy mood, as if the woods are alive and hiding things.",
+        "It creates a peaceful mood by describing the gentle sound of the wind.",
+        "It creates an angry mood, as if the wind is yelling at the children."
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "type": "EBSR",
+      "dok": 3,
+      "skill": "Analyzing how figurative language impacts tone and meaning.",
+      "stimulus": "<p>(1) The Whispering Woods had always been a dare. (2) Leo, who thought he was brave as a lion, nudged me. (3) \"Don't be a chicken, Maya,\" he grinned, but his smile was a flickering candle in the gloom. (4) I looked at the woods. (5) The trees stood like silent, skeletal guards at a forgotten gate. (6) Above us, a sliver of moon, pale as bone, peeked through the canopy. (7) We stepped inside, and the fog was a creeping gray blanket, instantly swallowing the path. (8) The wind whispered secrets through the high branches, and every fallen leaf seemed to hold its breath. (9) \"I have a million butterflies in my stomach,\" I mumbled. (10) A twig <i>snapped</i> nearby. (11) Leo jumped, his bravado vanishing like smoke. (12) \"What was that?\" he hissed, his voice a dry leaf skittering on pavement. (13) \"This place is an icebox,\" he shivered, though the night was mild. (14) We were prisoners of our own fear, rooted to the spot. (15) We both knew this was a bad idea; it was written all over Leo's face.</p>",
+      "part1": {
+        "stem": "In sentence 3, what is the meaning of the metaphor that describes Leo's grin as \"a flickering candle in the gloom\"?",
+        "options": [
+          "His smile was bright and cheerful, lighting up the dark woods.",
+          "His smile was weak and uncertain, showing he was also nervous.",
+          "His smile was warm and comforting to Maya.",
+          "He was actually holding a candle while he was smiling."
+        ],
+        "correctAnswerIndex": 1
+      },
+      "part2": {
+        "stem": "Which detail from the text best supports the idea that Leo was nervous despite his smile?",
+        "options": [
+          "\"Leo, who thought he was brave as a lion, nudged me.\" (Sentence 2)",
+          "\"Don't be a chicken, Maya...\" (Sentence 3)",
+          "\"Leo jumped, his bravado vanishing like smoke.\" (Sentence 11)",
+          "\"We both knew this was a bad idea...\" (Sentence 15)"
+        ],
+        "correctAnswerIndex": 2
+      }
+    },
+    {
+      "type": "EBSR",
+      "dok": 3,
+      "skill": "Analyzing how figurative language contributes to tone.",
+      "stimulus": "<p>(1) The Whispering Woods had always been a dare. (2) Leo, who thought he was brave as a lion, nudged me. (3) \"Don't be a chicken, Maya,\" he grinned, but his smile was a flickering candle in the gloom. (4) I looked at the woods. (5) The trees stood like silent, skeletal guards at a forgotten gate. (6) Above us, a sliver of moon, pale as bone, peeked through the canopy. (7) We stepped inside, and the fog was a creeping gray blanket, instantly swallowing the path. (8) The wind whispered secrets through the high branches, and every fallen leaf seemed to hold its breath. (9) \"I have a million butterflies in my stomach,\" I mumbled. (10) A twig <i>snapped</i> nearby. (11) Leo jumped, his bravado vanishing like smoke. (12) \"What was that?\" he hissed, his voice a dry leaf skittering on pavement. (13) \"This place is an icebox,\" he shivered, though the night was mild. (14) We were prisoners of our own fear, rooted to the spot. (15) We both knew this was a bad idea; it was written all over Leo's face.</p>",
+      "part1": {
+        "stem": "Which word best describes the author's tone in paragraph 3 (sentences 10-15)?",
+        "options": [
+          "Humorous",
+          "Tense",
+          "Joyful",
+          "Bored"
+        ],
+        "correctAnswerIndex": 1
+      },
+      "part2": {
+        "stem": "Which example of figurative language from paragraph 3 most strongly contributes to the tone selected in Part 1?",
+        "options": [
+          "...his bravado vanishing like smoke.\" (Sentence 11)",
+          "...his voice a dry leaf skittering on pavement.\" (Sentence 12)",
+          "\"This place is an icebox...\" (Sentence 13)",
+          "...it was written all over Leo's face.\" (Sentence 15)"
+        ],
+        "correctAnswerIndex": 1
+      }
+    },
+    {
+      "type": "Multi-Select",
+      "dok": 2,
+      "skill": "Explaining how figurative language impacts mood.",
+      "stimulus": "<p>(1) The Whispering Woods had always been a dare. (2) Leo, who thought he was brave as a lion, nudged me. (3) \"Don't be a chicken, Maya,\" he grinned, but his smile was a flickering candle in the gloom. (4) I looked at the woods. (5) The trees stood like silent, skeletal guards at a forgotten gate. (6) Above us, a sliver of moon, pale as bone, peeked through the canopy. (7) We stepped inside, and the fog was a creeping gray blanket, instantly swallowing the path. (8) The wind whispered secrets through the high branches, and every fallen leaf seemed to hold its breath. (9) \"I have a million butterflies in my stomach,\" I mumbled. (10) A twig <i>snapped</i> nearby. (11) Leo jumped, his bravado vanishing like smoke. (12) \"What was that?\" he hissed, his voice a dry leaf skittering on pavement. (13) \"This place is an icebox,\" he shivered, though the night was mild. (14) We were prisoners of our own fear, rooted to the spot. (15) We both knew this was a bad idea; it was written all over Leo's face.</p>",
+      "stem": "Which <b>two</b> examples of figurative language from the text best help create a <b>mood</b> of fear or unease?",
+      "options": [
+        "...brave as a lion..." (Sentence 2)",
+        "...like silent, skeletal guards..." (Sentence 5)",
+        "...a sliver of moon, pale as bone..." (Sentence 6)",
+        "...his bravado vanishing like smoke.\" (Sentence 11)",
+        "...it was written all over Leo's face.\" (Sentence 15)"
+      ],
+      "correctAnswerIndexes": [
+        1,
+        2
+      ]
+    },
+    {
+      "type": "Hot-Text",
+      "dok": 1,
+      "skill": "Identifying figurative language (hyperbole).",
+      "stimulus": "<p>(1) The Whispering Woods had always been a dare. (2) Leo, who thought he was brave as a lion, nudged me. (3) \"Don't be a chicken, Maya,\" he grinned, but his smile was a flickering candle in the gloom. (4) I looked at the woods. (5) The trees stood like silent, skeletal guards at a forgotten gate. (6) Above us, a sliver of moon, pale as bone, peeked through the canopy. (7) We stepped inside, and the fog was a creeping gray blanket, instantly swallowing the path. (8) The wind whispered secrets through the high branches, and every fallen leaf seemed to hold its breath. (9) \"I have a million butterflies in my stomach,\" I mumbled. (10) A twig <i>snapped</i> nearby. (11) Leo jumped, his bravado vanishing like smoke. (12) \"What was that?\" he hissed, his voice a dry leaf skittering on pavement. (13) \"This place is an icebox,\" he shivered, though the night was mild. (14) We were prisoners of our own fear, rooted to the spot. (15) We both knew this was a bad idea; it was written all over Leo's face.</p>",
+      "stem": "Read the text. Click on the sentence that contains an example of hyperbole.",
+      "maxSelections": 1,
+      "sentences": [
+        {
+          "text": "(7) We stepped inside, and the fog was a creeping gray blanket, instantly swallowing the path.",
+          "isCorrect": false
+        },
+        {
+          "text": "(8) The wind whispered secrets through the high branches, and every fallen leaf seemed to hold its breath.",
+          "isCorrect": false
+        },
+        {
+          "text": "(9) \"I have a million butterflies in my stomach,\" I mumbled.",
+          "isCorrect": true
+        },
+        {
+          "text": "(10) A twig <i>snapped</i> nearby.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "type": "Drag-and-Drop",
+      "dok": 2,
+      "skill": "Classifying figurative language.",
+      "stimulus": "<p>(1) The Whispering Woods had always been a dare. (2) Leo, who thought he was brave as a lion, nudged me. (3) \"Don't be a chicken, Maya,\" he grinned, but his smile was a flickering candle in the gloom. (4) I looked at the woods. (5) The trees stood like silent, skeletal guards at a forgotten gate. (6) Above us, a sliver of moon, pale as bone, peeked through the canopy. (7) We stepped inside, and the fog was a creeping gray blanket, instantly swallowing the path. (8) The wind whispered secrets through the high branches, and every fallen leaf seemed to hold its breath. (9) \"I have a million butterflies in my stomach,\" I mumbled. (10) A twig <i>snapped</i> nearby. (11) Leo jumped, his bravado vanishing like smoke. (12) \"What was that?\" he hissed, his voice a dry leaf skittering on pavement. (13) \"This place is an icebox,\" he shivered, though the night was mild. (14) We were prisoners of our own fear, rooted to the spot. (15) We both knew this was a bad idea; it was written all over Leo's face.</p>",
+      "stem": "Read the examples of figurative language from the text. Drag each one to the correct category.",
+      "categories": [
+        "Simile",
+        "Metaphor",
+        "Personification"
+      ],
+      "draggables": [
+        {
+          "text": "\"...the fog was a creeping gray blanket...\" (Sentence 7)",
+          "correctCategory": 1
+        },
+        {
+          "text": "\"...every fallen leaf seemed to hold its breath.\" (Sentence 8)",
+          "correctCategory": 2
+        },
+        {
+          "text": "\"...like silent, skeletal guards...\" (Sentence 5)",
+          "correctCategory": 0
+        },
+        {
+          "text": "\"...his bravado vanishing like smoke.\" (Sentence 11)",
+          "correctCategory": 0
+        },
+        {
+          "text": "\"...his voice a dry leaf skittering on pavement.\" (Sentence 12)",
+          "correctCategory": 1
+        }
+      ]
+    },
+    {
+      "type": "Multiple-Choice",
+      "dok": 2,
+      "skill": "Explaining how figurative language impacts meaning (idiom).",
+      "stimulus": "<p>(1) The Whispering Woods had always been a dare. (2) Leo, who thought he was brave as a lion, nudged me. (3) \"Don't be a chicken, Maya,\" he grinned, but his smile was a flickering candle in the gloom. (4) I looked at the woods. (5) The trees stood like silent, skeletal guards at a forgotten gate. (6) Above us, a sliver of moon, pale as bone, peeked through the canopy. (7) We stepped inside, and the fog was a creeping gray blanket, instantly swallowing the path. (8) The wind whispered secrets through the high branches, and every fallen leaf seemed to hold its breath. (9) \"I have a million butterflies in my stomach,\" I mumbled. (10) A twig <i>snapped</i> nearby. (11) Leo jumped, his bravado vanishing like smoke. (12) \"What was that?\" he hissed, his voice a dry leaf skittering on pavement. (13) \"This place is an icebox,\" he shivered, though the night was mild. (14) We were prisoners of our own fear, rooted to the spot. (15) We both knew this was a bad idea; it was written all over Leo's face.</p>",
+      "stem": "In sentence 15, what does the idiom \"it was written all over Leo's face\" mean?",
+      "options": [
+        "Leo had actually written words on his face.",
+        "Leo's expression clearly showed his fear.",
+        "Leo was trying to hide his feelings from Maya.",
+        "A map of the woods was on Leo's face."
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "type": "Constructed-Response",
+      "dok": 3,
+      "skill": "Explaining how figurative language impacts mood and meaning.",
+      "stimulus": "<p>(7) We stepped inside, and the fog was a creeping gray blanket, instantly swallowing the path.</p>",
+      "stem": "Read sentence 7 from the text:\n\n\"We stepped inside, and the fog was a creeping gray blanket, instantly swallowing the path.\"\n\nExplain the meaning of the metaphor \"the fog was a creeping gray blanket\" and how it impacts the mood of the story."
+    },
+    {
+      "type": "Constructed-Response",
+      "dok": 3,
+      "skill": "Explaining how figurative language impacts meaning (character).",
+      "stimulus": "<p>(11) Leo jumped, his bravado vanishing like smoke. (12) \"What was that?\" he hissed, his voice a dry leaf skittering on pavement.</p>",
+      "stem": "Read sentences 11 and 12 from the text.\n\nExplain how the metaphor in sentence 12, \"his voice a dry leaf skittering on pavement,\" helps the reader understand the change in Leo's character from the beginning of the story."
+    }
+  ]
+}
