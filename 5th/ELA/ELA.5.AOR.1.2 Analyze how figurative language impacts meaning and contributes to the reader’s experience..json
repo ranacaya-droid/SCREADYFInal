@@ -1,0 +1,173 @@
+{
+  "title": "Grade 5 Assessment: Figurative Language",
+  "standard": "ELA.5.AOR.1.2",
+  "passingScore": 7,
+  "questions": [
+    {
+      "type": "Multiple-Choice",
+      "dok": 2,
+      "skill": "Analyzing how figurative language impacts meaning.",
+      "stimulus": "<p>(1) The attic door groaned like a grumpy old man waking from a nap. (2) \"Go on up, Mia,\" Grandpa said, his voice a warm blanket. (3) Mia looked up into the darkness. (4) The stairs were a steep mountain, and she felt like a tiny explorer. (5) When she finally poked her head into the attic, her jaw dropped. (6) There were a million boxes stacked to the ceiling. (7) Large dust bunnies skittered away from the light. (8) Sunlight streamed through a single, circular window, cutting a golden sword through the dusty air. (9) Old furniture slept under white sheets, looking like a silent gathering of ghosts. (10) \"Wow,\" Mia whispered. (11) In one corner, an old record player sat, its horn a giant, silent flower. (12) \"This place is a time capsule,\" she said, running her fingers over a wooden chest. (13) \"It's been waiting forever for someone to visit.\" (14) Grandpa chuckled. (15) \"Well, the treasures are all yours to discover.\"</p>",
+      "stem": "In sentence 1, what does the simile \"groaned like a grumpy old man waking from a nap\" mean?",
+      "options": [
+        "The door was very old and valuable.",
+        "The door made a low, complaining sound when it opened.",
+        "An old man was hiding behind the door.",
+        "The door was telling Mia to go away."
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "type": "Multiple-Choice",
+      "dok": 2,
+      "skill": "Analyzing how figurative language contributes to the reader's experience.",
+      "stimulus": "<p>(1) The attic door groaned like a grumpy old man waking from a nap. (2) \"Go on up, Mia,\" Grandpa said, his voice a warm blanket. (3) Mia looked up into the darkness. (4) The stairs were a steep mountain, and she felt like a tiny explorer. (5) When she finally poked her head into the attic, her jaw dropped. (6) There were a million boxes stacked to the ceiling. (7) Large dust bunnies skittered away from the light. (8) Sunlight streamed through a single, circular window, cutting a golden sword through the dusty air. (9) Old furniture slept under white sheets, looking like a silent gathering of ghosts. (10) \"Wow,\" Mia whispered. (11) In one corner, an old record player sat, its horn a giant, silent flower. (12) \"This place is a time capsule,\" she said, running her fingers over a wooden chest. (13) \"It's been waiting forever for someone to visit.\" (14) Grandpa chuckled. (15) \"Well, the treasures are all yours to discover.\"</p>",
+      "stem": "In sentence 9, the author writes that old furniture \"slept under white sheets, looking like a silent gathering of ghosts.\" How does this description contribute to the reader's experience of the attic?",
+      "options": [
+        "It makes the attic seem busy and loud.",
+        "It makes the attic seem modern and clean.",
+        "It makes the attic seem mysterious, quiet, and a little spooky.",
+        "It makes the reader feel tired and want to go to sleep."
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "type": "EBSR",
+      "dok": 3,
+      "skill": "Analyzing how figurative language impacts meaning.",
+      "stimulus": "<p>(1) The attic door groaned like a grumpy old man waking from a nap. (2) \"Go on up, Mia,\" Grandpa said, his voice a warm blanket. (3) Mia looked up into the darkness. (4) The stairs were a steep mountain, and she felt like a tiny explorer. (5) When she finally poked her head into the attic, her jaw dropped. (6) There were a million boxes stacked to the ceiling. (7) Large dust bunnies skittered away from the light. (8) Sunlight streamed through a single, circular window, cutting a golden sword through the dusty air. (9) Old furniture slept under white sheets, looking like a silent gathering of ghosts. (10) \"Wow,\" Mia whispered. (11) In one corner, an old record player sat, its horn a giant, silent flower. (12) \"This place is a time capsule,\" she said, running her fingers over a wooden chest. (13) \"It's been waiting forever for someone to visit.\" (14) Grandpa chuckled. (15) \"Well, the treasures are all yours to discover.\"</p>",
+      "part1": {
+        "stem": "In sentence 8, what is the meaning of the metaphor \"cutting a golden sword through the dusty air\"?",
+        "options": [
+          "The sunlight was sharp and dangerous.",
+          "A real sword was hanging in the window.",
+          "The beam of light was bright, straight, and clearly defined.",
+          "The window was broken into a sharp shape."
+        ],
+        "correctAnswerIndex": 2
+      },
+      "part2": {
+        "stem": "Which detail from the text best supports the answer to Part 1?",
+        "options": [
+          "...her jaw dropped.\" (Sentence 5)",
+          "Large dust bunnies skittered away...\" (Sentence 7)",
+          "Sunlight streamed through a single, circular window...\" (Sentence 8)",
+          "Old furniture slept under white sheets...\" (Sentence 9)"
+        ],
+        "correctAnswerIndex": 2
+      }
+    },
+    {
+      "type": "EBSR",
+      "dok": 3,
+      "skill": "Analyzing how figurative language contributes to the reader's experience.",
+      "stimulus": "<p>(1) The attic door groaned like a grumpy old man waking from a nap. (2) \"Go on up, Mia,\" Grandpa said, his voice a warm blanket. (3) Mia looked up into the darkness. (4) The stairs were a steep mountain, and she felt like a tiny explorer. (5) When she finally poked her head into the attic, her jaw dropped. (6) There were a million boxes stacked to the ceiling. (7) Large dust bunnies skittered away from the light. (8) Sunlight streamed through a single, circular window, cutting a golden sword through the dusty air. (9) Old furniture slept under white sheets, looking like a silent gathering of ghosts. (10) \"Wow,\" Mia whispered. (11) In one corner, an old record player sat, its horn a giant, silent flower. (12) \"This place is a time capsule,\" she said, running her fingers over a wooden chest. (13) \"It's been waiting forever for someone to visit.\" (14) Grandpa chuckled. (15) \"Well, the treasures are all yours to discover.\"</p>",
+      "part1": {
+        "stem": "In sentence 4, the author describes the stairs as \"a steep mountain\" and Mia as \"a tiny explorer.\" How does this figurative language contribute to the reader's experience?",
+        "options": [
+          "It shows that Mia is complaining about having to go upstairs.",
+          "It makes Mia's journey to the attic seem like a big and exciting challenge.",
+          "It suggests that Mia is a professional mountain climber.",
+          "It shows that the stairs are dangerously broken and unsafe."
+        ],
+        "correctAnswerIndex": 1
+      },
+      "part2": {
+        "stem": "Which detail from the text best supports the answer to Part 1?",
+        "options": [
+          "...groaned like a grumpy old man...\" (Sentence 1)",
+          "Mia looked up into the darkness.\" (Sentence 3)",
+          "...her jaw dropped.\" (Sentence 5)",
+          "Grandpa chuckled.\" (Sentence 14)"
+        ],
+        "correctAnswerIndex": 1
+      }
+    },
+    {
+      "type": "Multi-Select",
+      "dok": 2,
+      "skill": "Analyzing how figurative language contributes to the reader's experience.",
+      "stimulus": "<p>(1) The attic door groaned like a grumpy old man waking from a nap. (2) \"Go on up, Mia,\" Grandpa said, his voice a warm blanket. (3) Mia looked up into the darkness. (4) The stairs were a steep mountain, and she felt like a tiny explorer. (5) When she finally poked her head into the attic, her jaw dropped. (6) There were a million boxes stacked to the ceiling. (7) Large dust bunnies skittered away from the light. (8) Sunlight streamed through a single, circular window, cutting a golden sword through the dusty air. (9) Old furniture slept under white sheets, looking like a silent gathering of ghosts. (10) \"Wow,\" Mia whispered. (11) In one corner, an old record player sat, its horn a giant, silent flower. (12) \"This place is a time capsule,\" she said, running her fingers over a wooden chest. (13) \"It's been waiting forever for someone to visit.\" (14) Grandpa chuckled. (15) \"Well, the treasures are all yours to discover.\"</p>",
+      "stem": "Which <b>two</b> phrases from the text use figurative language to help the reader experience Mia's sense of wonder and discovery?",
+      "options": [
+        "...groaned like a grumpy old man...\" (Sentence 1)",
+        "...cutting a golden sword...\" (Sentence 8)",
+        "...a silent gathering of ghosts.\" (Sentence 9)",
+        "...its horn a giant, silent flower.\" (Sentence 11)",
+        "\"It's been waiting forever...\" (Sentence 13)"
+      ],
+      "correctAnswerIndexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "type": "Hot-Text",
+      "dok": 2,
+      "skill": "Analyzing how figurative language impacts meaning (Hyperbole).",
+      "stimulus": "<p>(1) The attic door groaned like a grumpy old man waking from a nap. (2) \"Go on up, Mia,\" Grandpa said, his voice a warm blanket. (3) Mia looked up into the darkness. (4) The stairs were a steep mountain, and she felt like a tiny explorer. (5) When she finally poked her head into the attic, her jaw dropped. (6) There were a million boxes stacked to the ceiling. (7) Large dust bunnies skittered away from the light. (8) Sunlight streamed through a single, circular window, cutting a golden sword through the dusty air. (9) Old furniture slept under white sheets, looking like a silent gathering of ghosts. (10) \"Wow,\" Mia whispered. (11) In one corner, an old record player sat, its horn a giant, silent flower. (12) \"This place is a time capsule,\" she said, running her fingers over a wooden chest. (13) \"It's been waiting forever for someone to visit.\" (14) Grandpa chuckled. (15) \"Well, the treasures are all yours to discover.\"</p>",
+      "stem": "Read sentences 4-7 from the text. Click on the sentence that contains an example of hyperbole.",
+      "maxSelections": 1,
+      "sentences": [
+        {
+          "text": "(4) The stairs were a steep mountain, and she felt like a tiny explorer.",
+          "isCorrect": false
+        },
+        {
+          "text": "(5) When she finally poked her head into the attic, her jaw dropped.",
+          "isCorrect": false
+        },
+        {
+          "text": "(6) There were a million boxes stacked to the ceiling.",
+          "isCorrect": true
+        },
+        {
+          "text": "(7) Large dust bunnies skittered away from the light.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "type": "Multiple-Choice",
+      "dok": 2,
+      "skill": "Analyzing how figurative language impacts meaning.",
+      "stimulus": "<p>(1) The attic door groaned like a grumpy old man waking from a nap. (2) \"Go on up, Mia,\" Grandpa said, his voice a warm blanket. (3) Mia looked up into the darkness. (4) The stairs were a steep mountain, and she felt like a tiny explorer. (5) When she finally poked her head into the attic, her jaw dropped. (6) There were a million boxes stacked to the ceiling. (7) Large dust bunnies skittered away from the light. (8) Sunlight streamed through a single, circular window, cutting a golden sword through the dusty air. (9) Old furniture slept under white sheets, looking like a silent gathering of ghosts. (10) \"Wow,\" Mia whispered. (11) In one corner, an old record player sat, its horn a giant, silent flower. (12) \"This place is a time capsule,\" she said, running her fingers over a wooden chest. (13) \"It's been waiting forever for someone to visit.\" (14) Grandpa chuckled. (15) \"Well, the treasures are all yours to discover.\"</p>",
+      "stem": "In sentence 2, what does the metaphor \"his voice a warm blanket\" tell the reader about Grandpa?",
+      "options": [
+        "His voice was muffled and hard to hear.",
+        "His voice was loud and scratchy.",
+        "His voice was comforting and made Mia feel safe.",
+        "His voice made Mia feel very hot."
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "type": "Multiple-Choice",
+      "dok": 2,
+      "skill": "Analyzing how figurative language impacts meaning.",
+      "stimulus": "<p>(1) The attic door groaned like a grumpy old man waking from a nap. (2) \"Go on up, Mia,\" Grandpa said, his voice a warm blanket. (3) Mia looked up into the darkness. (4) The stairs were a steep mountain, and she felt like a tiny explorer. (5) When she finally poked her head into the attic, her jaw dropped. (6) There were a million boxes stacked to the ceiling. (7) Large dust bunnies skittered away from the light. (8) Sunlight streamed through a single, circular window, cutting a golden sword through the dusty air. (9) Old furniture slept under white sheets, looking like a silent gathering of ghosts. (10) \"Wow,\" Mia whispered. (11) In one corner, an old record player sat, its horn a giant, silent flower. (12) \"This place is a time capsule,\" she said, running her fingers over a wooden chest. (13) \"It's been waiting forever for someone to visit.\" (14) Grandpa chuckled. (15) \"Well, the treasures are all yours to discover.\"</p>",
+      "stem": "In sentence 12, Mia says, \"This place is a time capsule.\" What does she mean by this metaphor?",
+      "options": [
+        "She found a real time capsule in one of the boxes.",
+        "The attic is full of old, preserved items from the past.",
+        "The attic is small and round like a capsule.",
+        "The attic is a good place to hide and tell time."
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "type": "Constructed-Response",
+      "dok": 3,
+      "skill": "Analyzing how figurative language contributes to the reader's experience.",
+      "stimulus": "<p>(9) Old furniture slept under white sheets, looking like a silent gathering of ghosts.</p>",
+      "stem": "Read sentence 9 from the text:\n\n\"Old furniture slept under white sheets, looking like a silent gathering of ghosts.\"\n\nExplain how the author's use of personification (\"slept\") and a simile (\"like a silent gathering of ghosts\") work together to create a specific feeling, or experience, for the reader."
+    },
+    {
+      "type": "Constructed-Response",
+      "dok": 3,
+      "skill": "Analyzing how figurative language impacts meaning.",
+      "stimulus": "<p>(13) \"It's been waiting forever for someone to visit.\"</p>",
+      "stem": "Read sentence 13 from the text:\n\n\"It's been waiting forever for someone to visit.\"\n\nThis sentence contains both hyperbole (\"waiting forever\") and personification (\"waiting\"). Explain what this figurative language reveals about the attic and how Mia feels about it."
+    }
+  ]
+}
