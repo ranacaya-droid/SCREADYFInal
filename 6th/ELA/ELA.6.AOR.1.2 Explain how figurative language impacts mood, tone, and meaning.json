@@ -1,193 +1,192 @@
 {
-  "title": "Grade 6 Assessment: Figurative Language",
+  "title": "Grade 6 Assessment: Figurative Language in the Workshop",
   "standard": "ELA.6.AOR.1.2",
   "passingScore": 7,
   "questions": [
     {
       "type": "Multiple-Choice",
       "dok": 2,
-      "skill": "Explaining how figurative language impacts meaning.",
-      "stimulus": "<p>(1) The Whispering Woods had always been a dare. (2) Leo, who thought he was brave as a lion, nudged me. (3) \"Don't be a chicken, Maya,\" he grinned, but his smile was a flickering candle in the gloom. (4) I looked at the woods. (5) The trees stood like silent, skeletal guards at a forgotten gate. (6) Above us, a sliver of moon, pale as bone, peeked through the canopy. (7) We stepped inside, and the fog was a creeping gray blanket, instantly swallowing the path. (8) The wind whispered secrets through the high branches, and every fallen leaf seemed to hold its breath. (9) \"I have a million butterflies in my stomach,\" I mumbled. (10) A twig <i>snapped</i> nearby. (11) Leo jumped, his bravado vanishing like smoke. (12) \"What was that?\" he hissed, his voice a dry leaf skittering on pavement. (13) \"This place is an icebox,\" he shivered, though the night was mild. (14) We were prisoners of our own fear, rooted to the spot. (15) We both knew this was a bad idea; it was written all over Leo's face.</p>",
-      "stem": "In sentence 2, the author uses the simile \"brave as a lion\" to describe Leo. What does this figurative language mean?",
+      "skill": "Explain how figurative language impacts meaning.",
+      "stimulus": "<p>(1) The old workshop was his grandfather’s forbidden kingdom. (2) Liam pushed open the creaking door, a sound like a rusty hinge complaining. (3) Dust motes danced in the single beam of light, a golden ladder climbing to a high, cobwebbed window. (4) The air was thick with the ghosts of old projects—the smell of sawdust, oil, and forgotten time. (5) In the center of the room, under a dropcloth, sat a large, lumpy shadow. (6) Liam’s heart was a drum against his ribs. (7) He pulled back the cloth, and a cloud of dust erupted, a miniature gray explosion. (8) It was a machine. (9) An automaton, a clockwork man, sat slumped in a wooden chair. (10) Its metal skin was a patchwork of tarnish and rust. (11) One of its glass eyes was cracked, a spider's web of fractures. (12) Its gears were silent, its metal fingers frozen in a grasping pose. (13) \"He's a broken soldier,\" Liam whispered, touching the cold metal. (14) He found a large brass key on the workbench. (15) His curiosity was a burning fire. (16) He fitted the key into a slot in the automaton's back and turned. (17) A *groan* of metal, a <i>shudder</i>, and then a faint *tick-tock-tick* began. (18) The sound was the heartbeat of a thing brought back to life. (19) The automaton’s head swiveled. (20) Its single good eye, a polished blue marble, focused on Liam. (21) Liam felt a jolt of fear, but it was quickly replaced by a wave of pure wonder. (22) The workshop, once a tomb, now felt like a stage set for magic.</p>",
+      "stem": "In sentence 4, what is the meaning of the metaphor \"The air was thick with the ghosts of old projects\"?",
       "options": [
-        "Leo is loud and likes to roar.",
-        "Leo is very courageous or acts like he is.",
-        "Leo has sharp claws and teeth.",
-        "Leo is the leader of the group."
+        "The workshop was haunted by actual ghosts.",
+        "The workshop was messy and filled with trash.",
+        "The workshop smelled strongly of the work that used to happen there.",
+        "The workshop was dark and Liam could not see clearly."
       ],
-      "correctAnswerIndex": 1
+      "correctAnswerIndex": 2
     },
     {
       "type": "Multiple-Choice",
-      "dok": 2,
-      "skill": "Explaining how figurative language impacts mood.",
-      "stimulus": "<p>(1) The Whispering Woods had always been a dare. (2) Leo, who thought he was brave as a lion, nudged me. (3) \"Don't be a chicken, Maya,\" he grinned, but his smile was a flickering candle in the gloom. (4) I looked at the woods. (5) The trees stood like silent, skeletal guards at a forgotten gate. (6) Above us, a sliver of moon, pale as bone, peeked through the canopy. (7) We stepped inside, and the fog was a creeping gray blanket, instantly swallowing the path. (8) The wind whispered secrets through the high branches, and every fallen leaf seemed to hold its breath. (9) \"I have a million butterflies in my stomach,\" I mumbled. (10) A twig <i>snapped</i> nearby. (11) Leo jumped, his bravado vanishing like smoke. (12) \"What was that?\" he hissed, his voice a dry leaf skittering on pavement. (13) \"This place is an icebox,\" he shivered, though the night was mild. (14) We were prisoners of our own fear, rooted to the spot. (15) We both knew this was a bad idea; it was written all over Leo's face.</p>",
-      "stem": "In sentence 8, the author states, \"The wind whispered secrets through the high branches.\" How does this use of personification impact the mood of the story?",
+      "dok": 3,
+      "skill": "Explain how figurative language impacts mood.",
+      "stimulus": "<p>(1) The old workshop was his grandfather’s forbidden kingdom. (2) Liam pushed open the creaking door, a sound like a rusty hinge complaining. (3) Dust motes danced in the single beam of light, a golden ladder climbing to a high, cobwebbed window. (4) The air was thick with the ghosts of old projects—the smell of sawdust, oil, and forgotten time. (5) In the center of the room, under a dropcloth, sat a large, lumpy shadow. (6) Liam’s heart was a drum against his ribs. (7) He pulled back the cloth, and a cloud of dust erupted, a miniature gray explosion. (8) It was a machine. (9) An automaton, a clockwork man, sat slumped in a wooden chair. (10) Its metal skin was a patchwork of tarnish and rust. (11) One of its glass eyes was cracked, a spider's web of fractures. (12) Its gears were silent, its metal fingers frozen in a grasping pose. (13) \"He's a broken soldier,\" Liam whispered, touching the cold metal. (14) He found a large brass key on the workbench. (15) His curiosity was a burning fire. (16) He fitted the key into a slot in the automaton's back and turned. (17) A *groan* of metal, a <i>shudder</i>, and then a faint *tick-tock-tick* began. (18) The sound was the heartbeat of a thing brought back to life. (19) The automaton’s head swiveled. (20) Its single good eye, a polished blue marble, focused on Liam. (21) Liam felt a jolt of fear, but it was quickly replaced by a wave of pure wonder. (22) The workshop, once a tomb, now felt like a stage set for magic.</p>",
+      "stem": "How does the author's choice of the metaphor \"a golden ladder\" in sentence 3 impact the mood of the description?",
       "options": [
-        "It creates a joyful mood by suggesting the wind is playful.",
-        "It creates a mysterious and uneasy mood, as if the woods are alive and hiding things.",
-        "It creates a peaceful mood by describing the gentle sound of the wind.",
-        "It creates an angry mood, as if the wind is yelling at the children."
+        "It creates a dangerous mood by implying the light is weak and might break.",
+        "It creates a magical and hopeful mood, suggesting a path to something special.",
+        "It creates a sad mood by showing how dirty and old the workshop is.",
+        "It creates a plain mood, simply stating that the light was yellow."
       ],
       "correctAnswerIndex": 1
     },
     {
       "type": "EBSR",
       "dok": 3,
-      "skill": "Analyzing how figurative language impacts tone and meaning.",
-      "stimulus": "<p>(1) The Whispering Woods had always been a dare. (2) Leo, who thought he was brave as a lion, nudged me. (3) \"Don't be a chicken, Maya,\" he grinned, but his smile was a flickering candle in the gloom. (4) I looked at the woods. (5) The trees stood like silent, skeletal guards at a forgotten gate. (6) Above us, a sliver of moon, pale as bone, peeked through the canopy. (7) We stepped inside, and the fog was a creeping gray blanket, instantly swallowing the path. (8) The wind whispered secrets through the high branches, and every fallen leaf seemed to hold its breath. (9) \"I have a million butterflies in my stomach,\" I mumbled. (10) A twig <i>snapped</i> nearby. (11) Leo jumped, his bravado vanishing like smoke. (12) \"What was that?\" he hissed, his voice a dry leaf skittering on pavement. (13) \"This place is an icebox,\" he shivered, though the night was mild. (14) We were prisoners of our own fear, rooted to the spot. (15) We both knew this was a bad idea; it was written all over Leo's face.</p>",
+      "skill": "Explain how figurative language impacts meaning and tone.",
+      "stimulus": "<p>(1) The old workshop was his grandfather’s forbidden kingdom. (2) Liam pushed open the creaking door, a sound like a rusty hinge complaining. (3) Dust motes danced in the single beam of light, a golden ladder climbing to a high, cobwebbed window. (4) The air was thick with the ghosts of old projects—the smell of sawdust, oil, and forgotten time. (5) In the center of the room, under a dropcloth, sat a large, lumpy shadow. (6) Liam’s heart was a drum against his ribs. (7) He pulled back the cloth, and a cloud of dust erupted, a miniature gray explosion. (8) It was a machine. (9) An automaton, a clockwork man, sat slumped in a wooden chair. (10) Its metal skin was a patchwork of tarnish and rust. (11) One of its glass eyes was cracked, a spider's web of fractures. (12) Its gears were silent, its metal fingers frozen in a grasping pose. (13) \"He's a broken soldier,\" Liam whispered, touching the cold metal. (14) He found a large brass key on the workbench. (15) His curiosity was a burning fire. (16) He fitted the key into a slot in the automaton's back and turned. (17) A *groan* of metal, a <i>shudder</i>, and then a faint *tick-tock-tick* began. (18) The sound was the heartbeat of a thing brought back to life. (19) The automaton’s head swiveled. (20) Its single good eye, a polished blue marble, focused on Liam. (21) Liam felt a jolt of fear, but it was quickly replaced by a wave of pure wonder. (22) The workshop, once a tomb, now felt like a stage set for magic.</p>",
       "part1": {
-        "stem": "In sentence 3, what is the meaning of the metaphor that describes Leo's grin as \"a flickering candle in the gloom\"?",
+        "stem": "In sentence 13, Liam calls the automaton a \"broken soldier.\" What is the meaning of this metaphor?",
         "options": [
-          "His smile was bright and cheerful, lighting up the dark woods.",
-          "His smile was weak and uncertain, showing he was also nervous.",
-          "His smile was warm and comforting to Maya.",
-          "He was actually holding a candle while he was smiling."
-        ],
-        "correctAnswerIndex": 1
-      },
-      "part2": {
-        "stem": "Which detail from the text best supports the idea that Leo was nervous despite his smile?",
-        "options": [
-          "\"Leo, who thought he was brave as a lion, nudged me.\" (Sentence 2)",
-          "\"Don't be a chicken, Maya...\" (Sentence 3)",
-          "\"Leo jumped, his bravado vanishing like smoke.\" (Sentence 11)",
-          "\"We both knew this was a bad idea...\" (Sentence 15)"
+          "The machine was used in a war and was damaged in battle.",
+          "The machine is made of strong metal, like a soldier's armor.",
+          "The machine looks damaged, abandoned, and forgotten after a long period of service.",
+          "The machine is standing at attention, waiting for orders from Liam."
         ],
         "correctAnswerIndex": 2
+      },
+      "part2": {
+        "stem": "Which detail from the text best supports the meaning of the \"broken soldier\" metaphor?",
+        "options": [
+          "...sat slumped in a wooden chair.\" (Sentence 9)",
+          "...a patchwork of tarnish and rust.\" (Sentence 10)",
+          "He found a large brass key on the workbench.\" (Sentence 14)",
+          "Its single good eye, a polished blue marble...\" (Sentence 20)"
+        ],
+        "correctAnswerIndex": 1
       }
     },
     {
       "type": "EBSR",
       "dok": 3,
-      "skill": "Analyzing how figurative language contributes to tone.",
-      "stimulus": "<p>(1) The Whispering Woods had always been a dare. (2) Leo, who thought he was brave as a lion, nudged me. (3) \"Don't be a chicken, Maya,\" he grinned, but his smile was a flickering candle in the gloom. (4) I looked at the woods. (5) The trees stood like silent, skeletal guards at a forgotten gate. (6) Above us, a sliver of moon, pale as bone, peeked through the canopy. (7) We stepped inside, and the fog was a creeping gray blanket, instantly swallowing the path. (8) The wind whispered secrets through the high branches, and every fallen leaf seemed to hold its breath. (9) \"I have a million butterflies in my stomach,\" I mumbled. (10) A twig <i>snapped</i> nearby. (11) Leo jumped, his bravado vanishing like smoke. (12) \"What was that?\" he hissed, his voice a dry leaf skittering on pavement. (13) \"This place is an icebox,\" he shivered, though the night was mild. (14) We were prisoners of our own fear, rooted to the spot. (15) We both knew this was a bad idea; it was written all over Leo's face.</p>",
+      "skill": "Explain how figurative language impacts mood and tone.",
+      "stimulus": "<p>(1) The old workshop was his grandfather’s forbidden kingdom. (2) Liam pushed open the creaking door, a sound like a rusty hinge complaining. (3) Dust motes danced in the single beam of light, a golden ladder climbing to a high, cobwebbed window. (4) The air was thick with the ghosts of old projects—the smell of sawdust, oil, and forgotten time. (5) In the center of the room, under a dropcloth, sat a large, lumpy shadow. (6) Liam’s heart was a drum against his ribs. (7) He pulled back the cloth, and a cloud of dust erupted, a miniature gray explosion. (8) It was a machine. (9) An automaton, a clockwork man, sat slumped in a wooden chair. (10) Its metal skin was a patchwork of tarnish and rust. (11) One of its glass eyes was cracked, a spider's web of fractures. (12) Its gears were silent, its metal fingers frozen in a grasping pose. (13) \"He's a broken soldier,\" Liam whispered, touching the cold metal. (14) He found a large brass key on the workbench. (15) His curiosity was a burning fire. (16) He fitted the key into a slot in the automaton's back and turned. (17) A *groan* of metal, a <i>shudder</i>, and then a faint *tick-tock-tick* began. (18) The sound was the heartbeat of a thing brought back to life. (19) The automaton’s head swiveled. (20) Its single good eye, a polished blue marble, focused on Liam. (21) Liam felt a jolt of fear, but it was quickly replaced by a wave of pure wonder. (22) The workshop, once a tomb, now felt like a stage set for magic.</p>",
       "part1": {
-        "stem": "Which word best describes the author's tone in paragraph 3 (sentences 10-15)?",
+        "stem": "In sentence 18, how does the metaphor \"The sound was the heartbeat of a thing brought back to life\" impact the tone of the story?",
         "options": [
-          "Humorous",
-          "Tense",
-          "Joyful",
-          "Bored"
+          "It creates a frightening tone, suggesting a monster is waking up.",
+          "It creates a technical tone, explaining how the machine's engine works.",
+          "It creates a sad tone, reminding the reader that the machine is not truly alive.",
+          "It creates a wondrous and dramatic tone, shifting from stillness to life."
         ],
-        "correctAnswerIndex": 1
+        "correctAnswerIndex": 3
       },
       "part2": {
-        "stem": "Which example of figurative language from paragraph 3 most strongly contributes to the tone selected in Part 1?",
+        "stem": "Which other sentence from the text best shows this shift in tone?",
         "options": [
-          "...his bravado vanishing like smoke.\" (Sentence 11)",
-          "...his voice a dry leaf skittering on pavement.\" (Sentence 12)",
-          "\"This place is an icebox...\" (Sentence 13)",
-          "...it was written all over Leo's face.\" (Sentence 15)"
+          "Liam’s heart was a drum against his ribs.\" (Sentence 6)",
+          "Its metal skin was a patchwork of tarnish and rust.\" (Sentence 10)",
+          "Its gears were silent, its metal fingers frozen...\" (Sentence 12)",
+          "The workshop, once a tomb, now felt like a stage set for magic.\" (Sentence 22)"
         ],
-        "correctAnswerIndex": 1
+        "correctAnswerIndex": 3
       }
     },
     {
       "type": "Multi-Select",
       "dok": 2,
-      "skill": "Explaining how figurative language impacts mood.",
-      "stimulus": "<p>(1) The Whispering Woods had always been a dare. (2) Leo, who thought he was brave as a lion, nudged me. (3) \"Don't be a chicken, Maya,\" he grinned, but his smile was a flickering candle in the gloom. (4) I looked at the woods. (5) The trees stood like silent, skeletal guards at a forgotten gate. (6) Above us, a sliver of moon, pale as bone, peeked through the canopy. (7) We stepped inside, and the fog was a creeping gray blanket, instantly swallowing the path. (8) The wind whispered secrets through the high branches, and every fallen leaf seemed to hold its breath. (9) \"I have a million butterflies in my stomach,\" I mumbled. (10) A twig <i>snapped</i> nearby. (11) Leo jumped, his bravado vanishing like smoke. (12) \"What was that?\" he hissed, his voice a dry leaf skittering on pavement. (13) \"This place is an icebox,\" he shivered, though the night was mild. (14) We were prisoners of our own fear, rooted to the spot. (15) We both knew this was a bad idea; it was written all over Leo's face.</p>",
-      "stem": "Which <b>two</b> examples of figurative language from the text best help create a <b>mood</b> of fear or unease?",
+      "skill": "Explain how figurative language impacts mood.",
+      "stimulus": "<p>(1) The old workshop was his grandfather’s forbidden kingdom. (2) Liam pushed open the creaking door, a sound like a rusty hinge complaining. (3) Dust motes danced in the single beam of light, a golden ladder climbing to a high, cobwebbed window. (4) The air was thick with the ghosts of old projects—the smell of sawdust, oil, and forgotten time. (5) In the center of the room, under a dropcloth, sat a large, lumpy shadow. (6) Liam’s heart was a drum against his ribs. (7) He pulled back the cloth, and a cloud of dust erupted, a miniature gray explosion. (8) It was a machine. (9) An automaton, a clockwork man, sat slumped in a wooden chair. (10) Its metal skin was a patchwork of tarnish and rust. (11) One of its glass eyes was cracked, a spider's web of fractures. (12) Its gears were silent, its metal fingers frozen in a grasping pose. (13) \"He's a broken soldier,\" Liam whispered, touching the cold metal. (14) He found a large brass key on the workbench. (15) His curiosity was a burning fire. (16) He fitted the key into a slot in the automaton's back and turned. (17) A *groan* of metal, a <i>shudder</i>, and then a faint *tick-tock-tick* began. (18) The sound was the heartbeat of a thing brought back to life. (19) The automaton’s head swiveled. (20) Its single good eye, a polished blue marble, focused on Liam. (21) Liam felt a jolt of fear, but it was quickly replaced by a wave of pure wonder. (22) The workshop, once a tomb, now felt like a stage set for magic.</p>",
+      "stem": "Which <b>two</b> examples of figurative language best help to create a <b>mood</b> of abandonment and decay *before* Liam uses the key?",
       "options": [
-        "...brave as a lion..." (Sentence 2)",
-        "...like silent, skeletal guards..." (Sentence 5)",
-        "...a sliver of moon, pale as bone..." (Sentence 6)",
-        "...his bravado vanishing like smoke.\" (Sentence 11)",
-        "...it was written all over Leo's face.\" (Sentence 15)"
+        "...a golden ladder...\" (Sentence 3)",
+        "...the ghosts of old projects...\" (Sentence 4)",
+        "...a lumpy shadow.\" (Sentence 5)",
+        "...a spider's web of fractures.\" (Sentence 11)",
+        "...a burning fire.\" (Sentence 15)"
       ],
       "correctAnswerIndexes": [
         1,
-        2
+        3
       ]
     },
     {
       "type": "Hot-Text",
-      "dok": 1,
-      "skill": "Identifying figurative language (hyperbole).",
-      "stimulus": "<p>(1) The Whispering Woods had always been a dare. (2) Leo, who thought he was brave as a lion, nudged me. (3) \"Don't be a chicken, Maya,\" he grinned, but his smile was a flickering candle in the gloom. (4) I looked at the woods. (5) The trees stood like silent, skeletal guards at a forgotten gate. (6) Above us, a sliver of moon, pale as bone, peeked through the canopy. (7) We stepped inside, and the fog was a creeping gray blanket, instantly swallowing the path. (8) The wind whispered secrets through the high branches, and every fallen leaf seemed to hold its breath. (9) \"I have a million butterflies in my stomach,\" I mumbled. (10) A twig <i>snapped</i> nearby. (11) Leo jumped, his bravado vanishing like smoke. (12) \"What was that?\" he hissed, his voice a dry leaf skittering on pavement. (13) \"This place is an icebox,\" he shivered, though the night was mild. (14) We were prisoners of our own fear, rooted to the spot. (15) We both knew this was a bad idea; it was written all over Leo's face.</p>",
-      "stem": "Read the text. Click on the sentence that contains an example of hyperbole.",
+      "dok": 2,
+      "skill": "Explain how figurative language impacts meaning.",
+      "stimulus": "<p>(1) The old workshop was his grandfather’s forbidden kingdom. (2) Liam pushed open the creaking door, a sound like a rusty hinge complaining. (3) Dust motes danced in the single beam of light, a golden ladder climbing to a high, cobwebbed window. (4) The air was thick with the ghosts of old projects—the smell of sawdust, oil, and forgotten time. (5) In the center of the room, under a dropcloth, sat a large, lumpy shadow. (6) Liam’s heart was a drum against his ribs. (7) He pulled back the cloth, and a cloud of dust erupted, a miniature gray explosion. (8) It was a machine. (9) An automaton, a clockwork man, sat slumped in a wooden chair. (10) Its metal skin was a patchwork of tarnish and rust. (11) One of its glass eyes was cracked, a spider's web of fractures. (12) Its gears were silent, its metal fingers frozen in a grasping pose. (13) \"He's a broken soldier,\" Liam whispered, touching the cold metal. (14) He found a large brass key on the workbench. (15) His curiosity was a burning fire. (16) He fitted the key into a slot in the automaton's back and turned. (17) A *groan* of metal, a <i>shudder</i>, and then a faint *tick-tock-tick* began. (18) The sound was the heartbeat of a thing brought back to life. (19) The automaton’s head swiveled. (20) Its single good eye, a polished blue marble, focused on Liam. (21) Liam felt a jolt of fear, but it was quickly replaced by a wave of pure wonder. (22) The workshop, once a tomb, now felt like a stage set for magic.</p>",
+      "stem": "Read sentences 13-15. Click on the metaphor that explains the powerful feeling that motivated Liam to turn the key.",
       "maxSelections": 1,
       "sentences": [
         {
-          "text": "(7) We stepped inside, and the fog was a creeping gray blanket, instantly swallowing the path.",
+          "text": "(13) \"He's a broken soldier,\" Liam whispered, touching the cold metal.",
           "isCorrect": false
         },
         {
-          "text": "(8) The wind whispered secrets through the high branches, and every fallen leaf seemed to hold its breath.",
+          "text": "(14) He found a large brass key on the workbench.",
           "isCorrect": false
         },
         {
-          "text": "(9) \"I have a million butterflies in my stomach,\" I mumbled.",
+          "text": "(15) His curiosity was a burning fire.",
           "isCorrect": true
-        },
-        {
-          "text": "(10) A twig <i>snapped</i> nearby.",
-          "isCorrect": false
         }
       ]
     },
     {
       "type": "Drag-and-Drop",
       "dok": 2,
-      "skill": "Classifying figurative language.",
-      "stimulus": "<p>(1) The Whispering Woods had always been a dare. (2) Leo, who thought he was brave as a lion, nudged me. (3) \"Don't be a chicken, Maya,\" he grinned, but his smile was a flickering candle in the gloom. (4) I looked at the woods. (5) The trees stood like silent, skeletal guards at a forgotten gate. (6) Above us, a sliver of moon, pale as bone, peeked through the canopy. (7) We stepped inside, and the fog was a creeping gray blanket, instantly swallowing the path. (8) The wind whispered secrets through the high branches, and every fallen leaf seemed to hold its breath. (9) \"I have a million butterflies in my stomach,\" I mumbled. (10) A twig <i>snapped</i> nearby. (11) Leo jumped, his bravado vanishing like smoke. (12) \"What was that?\" he hissed, his voice a dry leaf skittering on pavement. (13) \"This place is an icebox,\" he shivered, though the night was mild. (14) We were prisoners of our own fear, rooted to the spot. (15) We both knew this was a bad idea; it was written all over Leo's face.</p>",
-      "stem": "Read the examples of figurative language from the text. Drag each one to the correct category.",
+      "skill": "Explain how figurative language impacts meaning.",
+      "stimulus": "<p>(1) The old workshop was his grandfather’s forbidden kingdom. (2) Liam pushed open the creaking door, a sound like a rusty hinge complaining. (3) Dust motes danced in the single beam of light, a golden ladder climbing to a high, cobwebbed window. (4) The air was thick with the ghosts of old projects—the smell of sawdust, oil, and forgotten time. (5) In the center of the room, under a dropcloth, sat a large, lumpy shadow. (6) Liam’s heart was a drum against his ribs. (7) He pulled back the cloth, and a cloud of dust erupted, a miniature gray explosion. (8) It was a machine. (9) An automaton, a clockwork man, sat slumped in a wooden chair. (10) Its metal skin was a patchwork of tarnish and rust. (11) One of its glass eyes was cracked, a spider's web of fractures. (12) Its gears were silent, its metal fingers frozen in a grasping pose. (13) \"He's a broken soldier,\" Liam whispered, touching the cold metal. (14) He found a large brass key on the workbench. (15) His curiosity was a burning fire. (16) He fitted the key into a slot in the automaton's back and turned. (17) A *groan* of metal, a <i>shudder</i>, and then a faint *tick-tock-tick* began. (18) The sound was the heartbeat of a thing brought back to life. (19) The automaton’s head swiveled. (20) Its single good eye, a polished blue marble, focused on Liam. (21) Liam felt a jolt of fear, but it was quickly replaced by a wave of pure wonder. (22) The workshop, once a tomb, now felt like a stage set for magic.</p>",
+      "stem": "The author uses figurative language to describe both the setting and Liam's feelings. Drag each example to the correct category.",
       "categories": [
-        "Simile",
-        "Metaphor",
-        "Personification"
+        "Describes the Workshop (Setting)",
+        "Describes Liam's Feelings or Actions"
       ],
       "draggables": [
         {
-          "text": "\"...the fog was a creeping gray blanket...\" (Sentence 7)",
-          "correctCategory": 1
-        },
-        {
-          "text": "\"...every fallen leaf seemed to hold its breath.\" (Sentence 8)",
-          "correctCategory": 2
-        },
-        {
-          "text": "\"...like silent, skeletal guards...\" (Sentence 5)",
+          "text": "\"...a golden ladder climbing to a high... window.\" (Sentence 3)",
           "correctCategory": 0
         },
         {
-          "text": "\"...his bravado vanishing like smoke.\" (Sentence 11)",
+          "text": "\"...the ghosts of old projects...\" (Sentence 4)",
           "correctCategory": 0
         },
         {
-          "text": "\"...his voice a dry leaf skittering on pavement.\" (Sentence 12)",
+          "text": "\"...Liam’s heart was a drum against his ribs.\" (Sentence 6)",
           "correctCategory": 1
+        },
+        {
+          "text": "\"...a miniature gray explosion.\" (Sentence 7)",
+          "correctCategory": 1
+        },
+        {
+          "text": "\"...His curiosity was a burning fire.\" (Sentence 15)",
+          "correctCategory": 1
+        },
+        {
+          "text": "\"...once a tomb...\" (Sentence 22)",
+          "correctCategory": 0
         }
       ]
     },
     {
       "type": "Multiple-Choice",
-      "dok": 2,
-      "skill": "Explaining how figurative language impacts meaning (idiom).",
-      "stimulus": "<p>(1) The Whispering Woods had always been a dare. (2) Leo, who thought he was brave as a lion, nudged me. (3) \"Don't be a chicken, Maya,\" he grinned, but his smile was a flickering candle in the gloom. (4) I looked at the woods. (5) The trees stood like silent, skeletal guards at a forgotten gate. (6) Above us, a sliver of moon, pale as bone, peeked through the canopy. (7) We stepped inside, and the fog was a creeping gray blanket, instantly swallowing the path. (8) The wind whispered secrets through the high branches, and every fallen leaf seemed to hold its breath. (9) \"I have a million butterflies in my stomach,\" I mumbled. (10) A twig <i>snapped</i> nearby. (11) Leo jumped, his bravado vanishing like smoke. (12) \"What was that?\" he hissed, his voice a dry leaf skittering on pavement. (13) \"This place is an icebox,\" he shivered, though the night was mild. (14) We were prisoners of our own fear, rooted to the spot. (15) We both knew this was a bad idea; it was written all over Leo's face.</p>",
-      "stem": "In sentence 15, what does the idiom \"it was written all over Leo's face\" mean?",
+      "dok": 3,
+      "skill": "Explain how figurative language impacts meaning.",
+      "stimulus": "<p>(1) The old workshop was his grandfather’s forbidden kingdom. (2) Liam pushed open the creaking door, a sound like a rusty hinge complaining. (3) Dust motes danced in the single beam of light, a golden ladder climbing to a high, cobwebbed window. (4) The air was thick with the ghosts of old projects—the smell of sawdust, oil, and forgotten time. (5) In the center of the room, under a dropcloth, sat a large, lumpy shadow. (6) Liam’s heart was a drum against his ribs. (7) He pulled back the cloth, and a cloud of dust erupted, a miniature gray explosion. (8) It was a machine. (9) An automaton, a clockwork man, sat slumped in a wooden chair. (10) Its metal skin was a patchwork of tarnish and rust. (11) One of its glass eyes was cracked, a spider's web of fractures. (12) Its gears were silent, its metal fingers frozen in a grasping pose. (13) \"He's a broken soldier,\" Liam whispered, touching the cold metal. (14) He found a large brass key on the workbench. (15) His curiosity was a burning fire. (16) He fitted the key into a slot in the automaton's back and turned. (17) A *groan* of metal, a <i>shudder</i>, and then a faint *tick-tock-tick* began. (18) The sound was the heartbeat of a thing brought back to life. (19) The automaton’s head swiveled. (20) Its single good eye, a polished blue marble, focused on Liam. (21) Liam felt a jolt of fear, but it was quickly replaced by a wave of pure wonder. (22) The workshop, once a tomb, now felt like a stage set for magic.</p>",
+      "stem": "In the last sentence, the author uses the metaphor \"The workshop, once a tomb, now felt like a stage set for magic.\" What does this shift in metaphors reveal about the story's meaning?",
       "options": [
-        "Leo had actually written words on his face.",
-        "Leo's expression clearly showed his fear.",
-        "Leo was trying to hide his feelings from Maya.",
-        "A map of the woods was on Leo's face."
+        "It reveals that Liam is an actor and is pretending to be in a play.",
+        "It reveals that Liam's actions have transformed a dead, forgotten place into one of possibility and wonder.",
+        "It reveals that the workshop is dangerously unstable and the floor could collapse like a stage.",
+        "It reveals that the workshop is still a dark and frightening place, but now it is also magical."
       ],
       "correctAnswerIndex": 1
     },
     {
       "type": "Constructed-Response",
       "dok": 3,
-      "skill": "Explaining how figurative language impacts mood and meaning.",
-      "stimulus": "<p>(7) We stepped inside, and the fog was a creeping gray blanket, instantly swallowing the path.</p>",
-      "stem": "Read sentence 7 from the text:\n\n\"We stepped inside, and the fog was a creeping gray blanket, instantly swallowing the path.\"\n\nExplain the meaning of the metaphor \"the fog was a creeping gray blanket\" and how it impacts the mood of the story."
+      "skill": "Explain how figurative language impacts meaning.",
+      "stimulus": "<p>(10) Its metal skin was a patchwork of tarnish and rust. (11) One of its glass eyes was cracked, a spider's web of fractures.</p>",
+      "stem": "Read sentences 10 and 11.\n\nExplain the meaning of the metaphors \"a patchwork of tarnish and rust\" and \"a spider's web of fractures.\" What do these two phrases together help the reader understand about the automaton's condition?"
     },
     {
       "type": "Constructed-Response",
       "dok": 3,
-      "skill": "Explaining how figurative language impacts meaning (character).",
-      "stimulus": "<p>(11) Leo jumped, his bravado vanishing like smoke. (12) \"What was that?\" he hissed, his voice a dry leaf skittering on pavement.</p>",
-      "stem": "Read sentences 11 and 12 from the text.\n\nExplain how the metaphor in sentence 12, \"his voice a dry leaf skittering on pavement,\" helps the reader understand the change in Leo's character from the beginning of the story."
+      "skill": "Explain how figurative language impacts mood.",
+      "stimulus": "<p>(3) Dust motes danced in the single beam of light... (17) A *groan* of metal, a <i>shudder</i>, and then a faint *tick-tock-tick* began. (18) The sound was the heartbeat of a thing brought back to life.</p>",
+      "stem": "The author uses personification (\"danced\") in sentence 3 and onomatopoeia (\"groan,\" \"shudder,\" \"tick-tock-tick\") in sentence 17.\n\nExplain how the *feeling* (mood) created by the personification in sentence 3 is different from the mood created by the onomatopoeia in sentence 17."
     }
   ]
 }
